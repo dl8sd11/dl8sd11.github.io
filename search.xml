@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>109 清大資工特殊選才</title>
+      <link href="/2019/11/30/109-%E6%B8%85%E5%A4%A7%E8%B3%87%E5%B7%A5%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/"/>
+      <url>/2019/11/30/109-%E6%B8%85%E5%A4%A7%E8%B3%87%E5%B7%A5%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="資料審查"><a href="#資料審查" class="headerlink" title="資料審查"></a>資料審查</h2><p>備審資料我總共做了大五頁，拿到了滿分，據我的了解進過選訊營 1! 都有滿分。</p><h2 id="面試紀錄"><a href="#面試紀錄" class="headerlink" title="面試紀錄"></a>面試紀錄</h2><p>面試跟以往一樣分兩個階段，第一個階段是口頭報告，第二個階段是演算法口試。</p><h3 id="口頭報告"><a href="#口頭報告" class="headerlink" title="口頭報告"></a>口頭報告</h3><p>我因為是新竹人，所以排在第一個面試。其實時間有點抓太緊，一到現場沒過多久就開始面試了。一開始有一點緊張，不過看評審好像都邊聽邊點頭，就變得比較輕鬆、開心的講。</p><p>問題:</p><h4 id="高三有參加黑豹旗嗎"><a href="#高三有參加黑豹旗嗎" class="headerlink" title="高三有參加黑豹旗嗎"></a>高三有參加黑豹旗嗎</h4><p>有，成績沒有高二那麼好XD</p><h4 id="你好像有社團也有競賽，大學如何分配"><a href="#你好像有社團也有競賽，大學如何分配" class="headerlink" title="你好像有社團也有競賽，大學如何分配"></a>你好像有社團也有競賽，大學如何分配</h4><p>競賽我認為高中有很多收穫了，大學競賽想要當興趣，時間可以有其他安排。</p><h4 id="競賽有除了成績以外有趣的故事嗎"><a href="#競賽有除了成績以外有趣的故事嗎" class="headerlink" title="競賽有除了成績以外有趣的故事嗎"></a>競賽有除了成績以外有趣的故事嗎</h4><p>… 大概是參加很多有趣的團體賽吧</p><h4 id="團體賽隊友都找誰"><a href="#團體賽隊友都找誰" class="headerlink" title="團體賽隊友都找誰"></a>團體賽隊友都找誰</h4><p>固定隊友是同界的朋友，第三個人有時候找學長有時候找學弟。</p><h3 id="演算法轟炸時間"><a href="#演算法轟炸時間" class="headerlink" title="演算法轟炸時間"></a>演算法轟炸時間</h3><p>演算法有分兩個難度的題目，{A,C}，我抽到的應該是比較簡單的 A。題目是問小括號字串判斷合法。</p><h4 id="所以你會嗎"><a href="#所以你會嗎" class="headerlink" title="所以你會嗎"></a>所以你會嗎</h4><p>我稍微想了一下，預測了一下他之後的問題。最後決定回答用 stack 解決。</p><h4 id="如果括號有很多種"><a href="#如果括號有很多種" class="headerlink" title="如果括號有很多種"></a>如果括號有很多種</h4><p>啊哈，被我猜中了&gt;&lt;。我就跟教授說其實我的方法可以延伸，直接解決，如果只是小括號其實開一個變數就好。</p><h4 id="stack-如何實做"><a href="#stack-如何實做" class="headerlink" title="stack 如何實做"></a>stack 如何實做</h4><p>有兩種: C++ STL stack, Array with pointer</p><h4 id="Array-想隨著需求增加怎麼辦"><a href="#Array-想隨著需求增加怎麼辦" class="headerlink" title="Array 想隨著需求增加怎麼辦"></a>Array 想隨著需求增加怎麼辦</h4><p>用完的時候，allocate 兩倍複製過去。</p><h4 id="記憶體怎麼釋放"><a href="#記憶體怎麼釋放" class="headerlink" title="記憶體怎麼釋放"></a>記憶體怎麼釋放</h4><p>演算法跑完之後把他 delete</p><h4 id="如果過程中不想要多出那麼多沒用到的記憶體怎麼辦"><a href="#如果過程中不想要多出那麼多沒用到的記憶體怎麼辦" class="headerlink" title="如果過程中不想要多出那麼多沒用到的記憶體怎麼辦"></a>如果過程中不想要多出那麼多沒用到的記憶體怎麼辦</h4><p>那不要複製兩倍，把常數改小一點。</p><h4 id="有沒有其他方法"><a href="#有沒有其他方法" class="headerlink" title="有沒有其他方法"></a>有沒有其他方法</h4><p>OS: 慘! 我不知道他想要我講什麼</p><p>我: 讓我想看看…………..</p><p>經過了一陣子，教授也自己聊起來XD</p><p>我: 開一個常數倍的 buffer</p><p>教授覺得滿意(?) 結束這回合</p><h4 id="長度-n-括號匹配有幾種"><a href="#長度-n-括號匹配有幾種" class="headerlink" title="長度 n 括號匹配有幾種"></a>長度 n 括號匹配有幾種</h4><p>OS: 不敢回答卡特蘭數，因為我沒學過</p><p>我: dp!!</p><p>時間到!!!</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>之後再說</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 高中 </tag>
+            
+            <tag> 大學 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TIOJ 1921 吐鈔機2 CDQ 分治</title>
+      <link href="/2019/11/28/TIOJ-1921-%E5%90%90%E9%88%94%E6%A9%9F2-CDQ%E5%88%86%E6%B2%BB/"/>
+      <url>/2019/11/28/TIOJ-1921-%E5%90%90%E9%88%94%E6%A9%9F2-CDQ%E5%88%86%E6%B2%BB/</url>
+      
+        <content type="html"><![CDATA[<h2 id="問題"><a href="#問題" class="headerlink" title="問題"></a>問題</h2><p>原題就在 TIOJ 偷懶只打 dp 轉移式</p><p>$dp[i]$ 代表第 i 台機器購買日之前最多持有金額<br>$$dp[i] = \max_{dp[j]\geq P[j]}(dp[j]-P[j]+R[j]+G[j]\cdot(D[i]-D[j]))$$</p><h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>可以看出這是一題 dp 斜率優化，G[j] 是斜率，查詢點單調。</p><p>對於斜率不單調的問題，我平常的作法是動態凸包，不過這題 Memory Limit 有點緊，所以我就突然想到了一個 CDQ 分治的作法。</p><p>概念就是凸包可以拆成子集合再取極值，細節有點不好說明，我就用 pseudocode 表示好了:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">void main () &#123;</span><br><span class="line">    sortMachinesByTime();</span><br><span class="line">    solve(0, n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void solve (l, r) &#123; </span><br><span class="line">    m = (l + r) / 2;</span><br><span class="line">    solve(l, m);</span><br><span class="line"></span><br><span class="line">    buildConvexHull(l, m);</span><br><span class="line">    updateDp(m, r);</span><br><span class="line"></span><br><span class="line">    solve(m, r);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>至於 <code>buildConvexHull</code> 因為是一次建一個區間，所以可以先把斜率排序，用單調隊列維護，<code>updateDp</code>本來就遞增所以也可以均攤O(1) 更新 dp。</p><h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>利用離線，可以把直線照斜率排序好在維護凸包，雖然有犧牲一些時間複雜度，不過實做上比起動態凸包簡單的多。時間複雜度是 $O(Nlog^2N)$ 一個 log 是 CDQ，另一個是做凸包的排序，不過我也不太會估，可能有高估也說不定。空間就是好好的$O(N)$。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HP 2019</title>
+      <link href="/2019/11/06/HP-2019/"/>
+      <url>/2019/11/06/HP-2019/</url>
+      
+        <content type="html"><![CDATA[<h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><p>這次比賽策略是一開始我單開水題，由隊友餵題目。進度還算順利，除了 pE 複雜度估錯所以 TLE 停滯以外都有 AC，也沒有 debug 超時的題目。不過最後一小時效率有下降，首先是 string 由 balbit 寫 hasing 方法，遇到了型態轉換的 bug。後來他接著解 pD 的時候，好像是題目敘述不清楚和 Floyd 寫錯，花了比較多的時間。</p><p>但事實上，我們最後一小時解出來的題目幾乎沒有。pF 礙於語法和輸入，沒有辦法在最後十幾分鐘搞定，pO 聽說可作，但是因為分數不多就沒有開了。</p><h2 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h2><table><thead><tr><th>prob</th><th>type</th><th>writer</th><th>solver</th></tr></thead><tbody><tr><td>pA</td><td>graph</td><td>TMD</td><td>TMD</td></tr><tr><td>pB</td><td>dp</td><td>TMD</td><td>BAL</td></tr><tr><td>pC</td><td>math</td><td>TMD</td><td>C66</td></tr><tr><td>pD</td><td>graph</td><td>BAL</td><td>?</td></tr><tr><td>pE</td><td>string</td><td>BAL</td><td>C66</td></tr><tr><td>pF</td><td>math</td><td>X</td><td>X</td></tr><tr><td>pG</td><td>implemnt</td><td>TMD</td><td>C66</td></tr><tr><td>pH</td><td>implement</td><td>TMD</td><td>BAL</td></tr><tr><td>pI</td><td>implement</td><td>X</td><td>X</td></tr><tr><td>pJ</td><td>geometry</td><td>TMD</td><td>TMD</td></tr><tr><td>pK</td><td>flow</td><td>X</td><td>X</td></tr><tr><td>pL</td><td>graph</td><td>TMD</td><td>C66</td></tr><tr><td>pM</td><td>?</td><td>X</td><td>X</td></tr><tr><td>pN</td><td>?</td><td>X</td><td>X</td></tr><tr><td>pO</td><td>graph</td><td>X</td><td>X</td></tr></tbody></table><h2 id="Not-Accepted"><a href="#Not-Accepted" class="headerlink" title="Not Accepted"></a>Not Accepted</h2><ul><li>pF $a/(b+c)+b/(a+c)+c/(a+b)=6$ minimize $a+b+c$<ul><li>看起來很數學</li></ul></li><li>pI string matching<ul><li>處理跳脫有點頭痛，有精神解</li></ul></li><li>pK minumum path cover on dag<ul><li>看過題目，但之前就不會了</li></ul></li><li>pM waiting for solution<ul><li>範圍很小，但不夠暴力</li></ul></li><li>pN encoding<ul><li>我沒讀題目，分數很少</li></ul></li><li>pO graph searching<ul><li>我沒讀題目，分數很少</li></ul></li></ul><h2 id="學習"><a href="#學習" class="headerlink" title="學習"></a>學習</h2><p>這次比賽學到的知識:</p><h3 id="raw-string"><a href="#raw-string" class="headerlink" title="raw string"></a>raw string</h3><p>跳脫免煩惱-&gt;pI</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> str1 = <span class="string">R"(\"'"</span>^&amp;*()))<span class="string">";</span></span><br></pre></td></tr></table></figure><h3 id="DAG-最小不重複路徑覆蓋"><a href="#DAG-最小不重複路徑覆蓋" class="headerlink" title="DAG 最小不重複路徑覆蓋"></a>DAG 最小不重複路徑覆蓋</h3><p>算是經典題，知識以前看了題目沒有解出來。</p><p>可以理解成每個點原先都是一條獨立路徑，我們要盡可能合併路徑。每個節點只能與自己連到的一個點合併，每個節點都只能被一個連到自己的點合併。所以就是二分圖批配，每個點的拆成進出兩個點集合，做最大匹配。</p><h3 id="split-string-by-comma"><a href="#split-string-by-comma" class="headerlink" title="split string by comma"></a>split string by comma</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> str = <span class="string">"asdf,a,asdf"</span>, sub;</span><br><span class="line"><span class="function"><span class="built_in">stringstream</span> <span class="title">ss</span><span class="params">(str)</span></span>;</span><br><span class="line"><span class="keyword">while</span> (getline(ss, sub, <span class="string">','</span>)) &#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; sub &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="比賽建議"><a href="#比賽建議" class="headerlink" title="比賽建議"></a>比賽建議</h2><p>整體來說，今年的題目精準度比去年好很多。大部分的測資範圍都有標示，也沒有出現題目有誤的狀況。難度有提昇，也讓我在比賽後學習新的程式技巧。對於競賽系統，我提供一個建議:</p><p>評測結果可以更精確一些，評測系統應該要在答案錯誤的情況下給出更精確的結果。提供我們的答案是 答案錯誤、超過時限、超過記憶體或Runtime Error2的資訊。並且提供比賽每筆測資能使用的時間與空間，讓參賽者可以更正確的分析方法。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>108北二區資訊學科能力競賽</title>
+      <link href="/2019/11/06/HCHSPC-2019/"/>
+      <url>/2019/11/06/HCHSPC-2019/</url>
+      
+        <content type="html"><![CDATA[<h2 id="題目和解"><a href="#題目和解" class="headerlink" title="題目和解"></a>題目和解</h2><p>大家期待的東西擺前面好了，解的部份不一定是對的大家看看就好，也可以跟我討論XD</p><h3 id="上午"><a href="#上午" class="headerlink" title="上午"></a>上午</h3><ul><li>pA 給你一個陣列 A[i] 構造 B[i] $\forall i$滿足 B[i] &gt; A[i]，並且B[i] 每個不連續位置不能 &lt; C 求最小B 總和<ul><li>$n &lt; 10^4 (10^6), c&lt;=n$ 值域忘了</li><li>$O(N^2)$ 就是一維 dp 把他想成是  B[i] 切成很多段，每段長度 &gt;= C 且值是 $max(A[l..r])$</li><li>O(NlgN) 感覺可以D&amp;C優化不確定</li></ul></li><li>pB N 位數 1A2B 猜數字，給定已知條件，剩餘可能總數<ul><li>條件 $\leq 10^6$ 個位數 $&lt;11$ </li><li>作法是考慮到可能解，隨著條件會遞減很快。所以就把條件 unique，再暴力實做 (有正解或會估複雜度可以教我)</li></ul></li><li>pC N 個點問有幾個點對曼哈頓距離 &lt; D<ul><li>$N \leq 10^5$ 值域 5e6(我提問問到的)</li><li>保證測資隨機，每個點答案不 &gt; 10 </li><li>我作法是對直域每 D*D 切一塊，每個人詢問鄰近九塊，沒有證明但我覺的隨機狀況複雜度應該不差。</li></ul></li><li>pD 給 M 個點，選取 N 個使的w*h 格子點中，距離任意一個被選取的位置曼哈頓距離 &lt; R 的數量最大。<ul><li>$h, w \leq 10^4, N\leq10, M\leq 20$</li><li>首先只考慮恰選10 點</li><li>枚舉所有選法，做曼哈頓版本矩形覆蓋面積</li><li>複雜度 $O(C(20,10)*10logC)$</li></ul></li><li>pE 給一張圖，每個邊定義W 最短距離必須經過此邊的點對數量，求最大的W。<ul><li>$N \leq 10^3, M \leq 2*10^5$</li><li>橋的答案才會 &gt; 0，枚舉所有橋</li><li>對於橋的兩邊 dfs 求大小，相乘即為 W</li></ul></li><li>pB-&gt;pC-&gt;pE-&gt;pA-&gt;pD</li></ul><h2 id="下午"><a href="#下午" class="headerlink" title="下午"></a>下午</h2><ul><li>pA 求經過最多點的直線<ul><li>$N \leq 10^3$</li><li>題目其他細節有點煩</li><li>對於每個點，枚舉所有經過他的直線，按照斜率排序找相同斜率的數量。</li></ul></li><li>pB 有 N 個物品價值為 V[i], 拿走價值 W，就不能拿 W-1, W+1，求能拿走得最大價值和<ul><li>$V[i] \leq 500$, $N \leq 10000$</li><li>dp bj4</li></ul></li><li>pC 一個N多項式f給你 N+1 個點值組，求f(t) mod prime<ul><li>$N \leq 1000$ 值 32bits</li><li>牛頓插值可以$N^3$，Lagrange Interpolation 可以 $N^2$</li></ul></li><li>pB-&gt;pA-&gt;pC</li></ul><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今年是最後一年的學科能力競賽，北二區可以派出 9 個，相對起來其實要晉級的壓力不是說很大。賽前我們實驗共同請了兩次假，沒有特別為北二區做準備。比賽前一天，睡前索性看一下比賽規則，原來可以帶參考資料。於是我趕快提醒群組和隔壁校朋友，也被迫準備了一下工具和資料晚了一些睡覺。今年比賽比較特別，取消了原有的筆試，變成上午下午各一場 (3+2)hr 上機考試。</p><h2 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h2><p>一進考場，教授說可以使用 USB 裡的程式碼，因為剛好有準備所以就用上了。 USB 內容如下:</p><ul><li>VSCode (雖然沒打算用)</li><li>Cpp-reference offline</li><li>Codes<ul><li>BiTCoin template</li><li><a href="https://github.com/spaghetti-source/algorithm" target="_blank" rel="noopener">spaghetti-source/algorithm</a></li><li><a href="https://github.com/dl8sd11/online-judge" target="_blank" rel="noopener">code_archive</a><br>只本是帶了 IONC 講義和 LYB template(之前跟BB同隊時印的)</li></ul></li></ul><p>早上的比賽，開題目的時候感覺一股涼意。pA 難度頗高，為了確認是不是每題都這樣，我決定先看完題目再開始想。結果意外的題目比去年平均難上不少，去年分配是四題水題、一題沒人會解，今年大概是 2 題中等，3 題需要思考。這次比賽有部份給分，但是沒有公佈子測資範圍，所以我開賽先對我覺的比較有挑戰的兩題 assert 測資。意外的是，其中一題 N 給 $10^6$ 結果 $10^4$ 包含 100%，另一題 $10^8$ 的 $10^3$ 也是 100% (後者最後半小時有公佈&lt;20)。結果我覺的有挑戰的其中一題，就順利的變成可解的題目。長度三個小時的比賽進行的還算順利，最後拿到 4+ 0.5。</p><p>下午的比賽，一開始很睏。題目一共三題，兩題覺得可以拿下，一題需要努力。原本分配是 10 pB, 20 pA, 70 pC，但狀況不太好，我原本排 20min 的 pA 花了我一個半小時。新竹中學今天在舉辦活動，播放吵鬧不優美的音樂，也多少有影響。最後剩下 15 分鐘，馬上想出最後一題的部份解。最後 6 分鐘，終於要上傳了，冷卻時間 180s。計畫是測試一次，修改一下，在最後的三分鐘上傳最後一次。沒想到送上去 CE，原本要送 pC.cpp 送成 pC.c (之前留的毒)。吃了 CE 只好摸摸鼻子，努力檢查，傳上去 15/20，加上兩題滿分收工。<br>(原本以為pA寫那麼久要8888，結果好像只有我過XD)</p><p>Rank1</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>先不要(x</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>智慧鐵人-2019-決賽 Ducky</title>
+      <link href="/2019/09/03/%E6%99%BA%E6%85%A7%E9%90%B5%E4%BA%BA-2019-%E6%B1%BA%E8%B3%BD-Ducky/"/>
+      <url>/2019/09/03/%E6%99%BA%E6%85%A7%E9%90%B5%E4%BA%BA-2019-%E6%B1%BA%E8%B3%BD-Ducky/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>我的心得視角比較窄，所以請了隊友幫我一起寫心得www 以下正文感謝 Ducky</p></blockquote><p>流水帳，就是流水帳。</p><p>我沒有想到我們會進決賽。</p><p>沒錯，進決賽的行李箱中裡面並非滿滿的零食泡麵，而是一本本高中學測複習的參考書。</p><p>一千多支隊伍最後選出的二十餘隊伍，講真，能進智慧鐵人決賽的高中生們不一定是全國最頂尖的，但絕對是最幸運的──知道這個比賽，同時過五關斬六將的進入決賽。</p><p>從新竹南下遙遠的屏東行，六天五夜。</p><p>雖說有榮幸參賽很幸運，但面對兩千多塊的車費其實還是有怨念，行程安排中的屏科大巡禮、打散各隊伍與國際生交流互動等更是令人提不起勁，都計劃要裝病留在宿舍讀書了。</p><p>身為一個對時間的掌管控制全國PR只有6的人，熬夜趕作業讀段考早已是常態。很了解自己的身體狀況──睡四小時隔天依然可以生龍活虎，睡小於四小時就要向未來借時間用雙倍甚至三四倍的時間睡回來，像72小時這種連續挑戰倒是不曾經歷過，刺激。(複賽經歷24小時其實就像假日隔天有份報告要交一樣，輕輕鬆鬆→是不是被抓到我都在躺分)</p><p>很幸運地，國際生交流被安排在中文全通的馬來西亞小組，另外協同的未來清交大高材生亦很友善，同隊伍J&amp;S又社交輕鬆上手無障礙的帶我飛；同時，屏科大巡禮被設計成尋寶遊戲激起了我玩遊戲的勝負欲(而且我真的從小就喜歡玩超大型捉迷藏鬼抓人尋寶這種遊戲)，前兩天過得很成功。為了不讓自己在72小時中瘋狂開睡，我每天固定讀書讀到2、3點(7起床)，把作息固定至少4hr/day，希望沒有干擾到室友睡覺。</p><p>72小時過得很快，比起複賽的24小時，自己好像貢獻的沒那麼多，唯一就是(自認為)把隊伍的一切看的很透徹。<br>自己是很直接真實的人，其實很多時候不爽就會直接表現出來，但畢竟是從國小就認識的一群朋友，好像總是5分鐘後又像沒事一樣(希望不只有我這麼認為啦)。</p><p>不知道是不是經過複賽──我們完成任務後還有約五小時的休息時間，大家這次剛開始非常悠閒，還有人信誓旦旦跟我說能夠只花24小時便完成所有道具(?)畢竟我也是從國小就開始玩機器人之類電子機械的老人了，這次競賽成品一知道要扯上arduino讓它動起來就知道不簡單，開始緊張餘進度的人好似只有我一個，甚至大家都陸續把睡袋攤開躺進去QAQ，當下我可是超緊張又崩潰……</p><p>幸好大家還是在第一天下午討論出了主軸，便可開始動工。「以生物為師」之於我，早就猜到要做甚麼，但我很早就表達聲明──我討厭這個題目，我真的一點都想不到，就算是學測作文出出來我也會空白交卷的那種無感題目。還好隊友們實凱瑞，不僅想出了一個能夠以arduino呈現的想法，想法還非常非常非常有創意，總之，我覺得教授們絕對會肯定我們的成品。</p><p>前48小時，我們的分工非常明確，說難聽點，就是責任制──做完你就可以睡，沒做完你就要負責把它完成。我沒辦法想像Dong一個人要負責所有關於arduino的機構，但說白了前幾個小時的確都只有他在弄；J和S負責與電子無關的其他道具布景。I負責任何文本中所需之文學性內容及最後翻譯為英文(因為可能參加國際賽)，我負責文本、報告的其他部分。N大概是在打雜，其實我沒有特別的印象QQ(真的不是故意的!!</p><p>很突然地插播一下，其實我們闖關普遍分數都算高(甚至有兩三關都在前2名)，可惜魔法卡那關剛好Bang，和沒闖特別多的關卡。各關卡真的都有夠有趣，很可惜沒有闖完全部的關卡這件事我約略說了不少於十遍，期望高三有機會提升自己到能同時闖關同時做主軸。</p><p>最後24小時，大家終於意識到問題──分工不均。我像老媽子般很欣慰地在這時終於聽見Dong突然向大家說：「我覺得我需要大家的幫忙。」前48小時我不知道催促了多少次他，他都完全無感@@，而在他請求大家的支援後，大家也都陸續完成自己的工作，開始瘋狂地幫助Dong(這裡使用“瘋狂”一詞是因為我原本真的預計大家會做不完，沒想到效率超乎我想像)。</p><p>只能說，回頭看這最後24小時，大家都如同打了雞血般，然最後關鍵的問題發生在我身上。<br>自以為可以，但就不小心睡著了。<br>我背稿的時間直接從兩個半小時變成20分鐘。<br>如同模擬考是因為考試期間睡著、智鐵出去六天才考爆炸一樣，<br>紅牛綠茶都喝完了──藉口。<br>需要一直盯著電腦螢幕做事結果把電腦活交給別人──藉口。<br>忘記帶server害我很緊張(Dong處變不驚非常完美的應對了問題)──藉口。<br>反正我睡著了，根本來不及準備→<br>沒背好稿→<br>人生中可能是數一數二失敗的報告(智鐵官方求你不要公布影片了!!!)</p><p>我對我們的題目非常有信心，<br>就算看了第一組那薛走40w的精湛演出後，<br>我依然認為我們的蜘蛛系統有創意及實際操作的結果能給我們大大加分。<br>結果<br>，<br>我的報告毀掉了。</p><p>還沒公佈我們其實第三名前，<br>其實我偷偷跑出建築物找地方大概爆哭了10分鐘，<br>(回來去洗臉時還剛好遇到我們小天使@@有夠尷尬，還好小天使可能也知道我不太喜歡講話就沒跟我說話ww)<br>總之，還好有第三名，不然我真的不知道怎麼提頭見我的隊友和給我兩千塊坐高鐵的爸媽(錯誤)。</p><p>雖然還是有懷疑過其實我們可以第二，<br>但最後人家國內第二名拿國際第三名有自我催眠其實我們不管怎樣就是國內第三(?<br>→→主要國內第二的表演一直都在我們前一組，還沒機會看到((雖然我真的跪求智鐵官方不要把我失敗的報告放出來啦orz</p><p>總之，謝謝我凱瑞及充滿包容心的隊友們</p><p>謝謝將來可能願意簽我一模成績單的爸媽</p><p>明年希望有機會再戰進決賽(換北部了對吧!!!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>智慧鐵人-2019-決賽</title>
+      <link href="/2019/08/06/%E6%99%BA%E6%85%A7%E9%90%B5%E4%BA%BA-2019-%E6%B1%BA%E8%B3%BD/"/>
+      <url>/2019/08/06/%E6%99%BA%E6%85%A7%E9%90%B5%E4%BA%BA-2019-%E6%B1%BA%E8%B3%BD/</url>
+      
+        <content type="html"><![CDATA[<h2 id="門票"><a href="#門票" class="headerlink" title="門票"></a>門票</h2><p>對，我們進決賽了。雖然闖關分數普通，但是主軸任務第二名 (是說第一名有5000$)，所以順利晉級決賽。<br>關於背景規則什麼的，請見 「智慧鐵人-2019-複賽」</p><h2 id="diff-決賽規則-複賽規則"><a href="#diff-決賽規則-複賽規則" class="headerlink" title="diff 決賽規則 複賽規則"></a>diff 決賽規則 複賽規則</h2><p>決賽規則和複賽規則差異簡單來說就是只有主軸任務列入評分，但闖關依然存在，闖關的目的除了拿特殊獎項($$)之外，就是賺取能購買主軸任務材料用的虛擬貨幣。評分有分成國內賽和國際賽，國內賽是台灣隊伍互相競爭，前三名晉級國際賽和國際邀請隊伍競爭。</p><h2 id="歷程"><a href="#歷程" class="headerlink" title="歷程"></a>歷程</h2><p>用歷程這個詞不知道恰不恰當，不過 72hr 真的經歷了好多過程。一開始拿到題目的時候，大致上的方向和我想的沒有差太多，不過剛從 IONCamp 回來的我，沒有花功夫預先處理構想，真的是用比賽中的時間去構想。題目是以「仿生科技，解決永續發展問題」，經過了大概三小時的構想，我們有了一個明確的方向: 林木保育系統。我們訂的方向是用多種仿生策略，解決一個林木保育問題，這種訂題方向我當時判斷是蠻適合的，也就準備開始動工了。</p><p>動工沒多久，我們就開始了闖關循環播放。 72hr 初期，我們的闖關策略算是稍微積極，結束闖關就會預約下一個關卡。不過剛好卡到一關當機，所以間隔了一餐的時間都沒有闖到關卡。因為可以借貸又加上我們有初始金額，所以對我們影響不算太大，可能某種程度上也削弱了後續打關卡的興趣。整體來說，我們的背景開始動工了，好像問題不大。而我是負責機械系統整合，但一切災難才剛開始。</p><blockquote><p>接下來這篇文章視角會比較靠近我，其他的細節可能來不及好好敘述了0w0</p></blockquote><p>首先介紹一下比賽的小規則，決賽比賽這幾年會要求自動化，劉老師對於自動化的敘述是不用手直接控制。因此大會會提供 Arduino * 2，一片是 Client 可以接馬達(伺服、步進)、LED，另一片是 Server 可以用 Bluetooth 控制 Client。 不過考慮到很多參賽者沒有程式設計能力，大會提供的 Server and Client 都有預先設計好的罐頭程式。內容是用 Serial 界面控制 Server，可以輸入每個腳位的參數 (比如說馬達轉幾度、LED 亮那幾顆之類的)，Client 則是有設計好的電路圖可以接。不過我自己使用上是有些問題的，那個程式界面操作上複雜 (因為指令太一般化，需要輸入很多參數)，而且操作只有單數次會有效(這我不確定是不是大家都有發生)。因此我一開始的決定是「修改」程式，維持電路。</p><p>修改程式這個方案原本是覺得有可行性的，畢竟我也不熟悉(甚至沒玩過幾次) Arduino，修改總是比較方便一些。結果我點開程式一看，原來是義大利麵阿(很醜的程式碼)，我複製了一份 code，想辦法讀懂了程式碼。開始改了幾行，就放棄了，原本程式亂的太離譜了無法忍受(我 coding 有點潔癖)。結果回頭一看， duck 我改到的是原本的程式碼阿。完了沒有回頭路了，我只好砍掉重練。我從 Arduino 的 sample code 中，學會了一些基本語法和技巧。寫了一兩行測試的程式碼，接了簡單的電路，為了保險起見，先測試看看。X! 還沒接上伺服馬達訊號線，馬達自己動了起來，喔原來是因為晚上了阿…才怪(X Ooooops 完全笑不出來，這下程式碼不見了，我們的機器也壞了，我可以回家了。我請了大會協助檢查，大會回覆是:「接觸不良，公平起見，不予補發」。</p><p>謝囉:) 我很好。</p><p>這下子好了，原本覺得 72hr 寫點程式 so 簡單，突然開始覺得壓力山大，無力更大。剛好其他關主在我們大本營喇賽XD，所以我也不好意思直接砸鍵盤(x，於是就排了關卡解解瘀(跟比賽一定要尿尿概念差不多吧)。其實不只解解淤，在我們闖關的路上我們遇到了 救世主A(其實也沒有B) 找我們宣傳關卡，順便跟我們喇賽，我隨口說了我們 Arduino 的狀況(原本只是抱怨一下)，沒想到關主是技職體系電神，也隨口回說「接地問題」吧。當時沒想太多，跟他說了謝謝之類的吧，也沒想太多，闖了一個關卡，當時有點無心闖關，懸著問題沒解決。</p><p>回到大本營繼續測試電路，一下子就暢通了，第一個觀察是電源直接 Arduino 上而不是電源供應器是好的，第二個觀察是vcc 接在電供也是好的，又想到的關主說的「接地」，突然想通了，原來是電供的接地好像沒有真的很穩，於是把 Arduino 和電供接地接在一起就解決了。woooooo~~~~，豁然開朗，不過已經是三點還四點了，就把這份喜悅先放在自己這XD 我順勢研究了 BT 的程式語法，也順勢的寫了自己的控制界面和程式。兩塊大石頭突然變成兩塊蛋糕，我終於解決了 Arduino 本身的問題，也安心的睡著了。</p><blockquote><p>puzzle 小心得: 如果 puzzle I 是敘述不清楚、 puzzle II 就是顏色不清楚 &gt;&lt;<br>隔天一早起床吃早餐，順便解了 puzzle II，就開始繼續想主軸。進入了新的主軸階段: 設計機械結構，機構是為了解決問題、提供功能。我們主要有四個機構要解決的問題:</p><ol><li>小蜘蛛要在線上滑動</li><li>大蜘蛛要在旋轉台上旋轉</li><li>大蜘蛛要可以噴水</li><li>控制水從存水罐流出</li></ol></blockquote><p>於是我開始玩起馬達，沒過多久我就發現「玩」馬達這個動詞是問題本身，大會提供的都是玩具馬達，特色是高轉速低扭力，根本沒辦法做稍微有點負擔的工作。仔細看一下我們要解決的問題 1, 2, 4 感覺都需要不少力量。所以我把問題轉化到「輸出更大力量」。首先第一個想到的解，就是問問看可不可以拿魔法卡買大扭力馬達，得到了一個拒絕，大概是劉老老發動魔法卡無效化吧(其實他是回覆馬達非單一材料，只能購買線圈之類的)。於是我想到的第二個解是齒輪組。當然我有考慮過直接魔法卡買齒輪組，但仔細想想我好像沒真的看過那種東西，擔心買到的不合用所以也放棄了。順著第二個解，我想要構造第三個解:「手做齒輪組」。不過我們可購買材料中沒有齒輪，所以我就想到了滑輪加橡皮筋。</p><p>有了想法之後開始實作，第一個重點是根據經驗齒輪組類的東西支架非常重要，所以我選擇用木工支架，雖然製作成本變高也變麻煩，但是卻提供穩定的支撐，也方便固定在最後作品上<del>外加私心覺得木工很美</del>，於是我就找了 N 一起幫我做木工。第二個重點是滑輪本身，要高速旋轉的東西對稱是重點，要平衡才會真的穩定，所以我花了不少時間調整，也請手比較穩定的 S 幫我固定用兩個瓶蓋組合成的滑輪。經過了半個下午，「超大扭力馬達 v1.0」終於完成。滑輪半徑比估計有1:10 ~ 1:20 左右，一個是直接用馬達軸，另一個是用奶茶大杯蓋，輸出的力量明顯強了好幾倍，經過測試足夠捲起蜘蛛的線，讓他在線上滑動。</p><p>離主軸完成更進一步，但還是有一段路要走。這時候時間大概是最後 30hr，前兩個問題透過大扭力馬達解決，但一直想不出控制水的方式。這時候剛好輪到我們洗澡時間，感覺時間排的恰到好處，剛好遇到需要思考的問題，就有了一個適合的時間(也是比賽尿尿概念)。30min 的洗澡時間，我大概用了 10min，剩下的時間自己坐在門口長椅，不擅長搭話的我也沒有跟帶隊天使聊天，閉上眼睛開始思考… 然後… 就… 睡著了(x 不是啦!!! 我很認真的在想(? 而且是真的有想出個結論，而且我覺得蓋棒蓋簡潔的(自己說)。噴水的部份是用類似在寶特瓶戳洞靠壓力噴水，加上用連通管原理控制開關組合成的，雖然合起來像是垃圾，但其實我還蠻喜歡這個垃圾的&gt;&lt; 實作上用了一個寶貴的伺服馬達，簡潔的解了這個問題。(伺服馬達珍貴是因為買不到，而步進馬達可以蠻便宜的取得)</p><p>最後一塊…吧 的拼圖是水罐流水，這我也是想很久。思考過程沒什麼特別，首先是看到商店有 BB 彈，感覺可以用他代表水。接著想怎麼把他倒出罐子，一開始想到是在罐子開洞。可是要設計開關，放出 BB 彈實作複雜，再加上沒有動力的話 BB 彈會卡在洞口。最後解法是用甩的，透過強力的旋轉，洞口的 BB 彈因為沒有支撐力所以會飛出，這時只要在停止的時候洞口對著擋板，啟動時讓他瘋狂亂轉就成功了。最後的成品穩定性和表演性大概都是我心目中的 top1， 光是自己看就覺得格外抒壓。</p><blockquote><p>這之中我製造了一個假議題，浪費了一些時間用焊接省去杜邦線，最後才發現不需要，過程先不講了QAQ</p></blockquote><p>原本其實到這邊結束，是倒數 15 小時，是時候把設計好的東西組裝到作品上。沒想到發生了悲劇，這個悲劇我是很有經驗的，就是凡是跟現實世界扯上關係的，「曾經是好的」都是假的。3, 4 裝到作品上是好的， 但 1, 2 重新測試後不能運作了。我當下做出取捨，我覺得 1 是我比較期待的 feature，因此決定剩下的時間投資 1， 2 請 I and S 幫忙看看可不可以解決。2 最後的結論是選轉的起始角度，有特定的範圍可以增加成功率，失敗主要是摩擦力太大，我也沒辦法解決。 1 根據我的觀察，捲線時有點隨機，如果捲的不夠整齊，線會纏到最後越纏越緊直到馬達力量不夠。我大概花了 6 個小時，沒有解決。花越多時間，付出越都努力的東西，越是放不下。給自己的 dealine 一直踩一直延，過程中解決了一些其他的事(上面說的假議題)，最後在6 點最後下單時間的前十分鐘，我們有了新作法，「用重力拉動繩子」，又是一個奇妙的解，簡潔的在半小時內解決了問題(雖然效果沒有本來好)。</p><p>等等剛剛說 6 點(?， 對時間被小偷偷走了，剩下兩小時，還沒練習表演，還沒統一測試。要說遺憾，大概也是這兩小時吧。不是遺憾兩小時裡做的事，而是兩小時裡來不急做的事。我們的作品好像還沒有設計好精細的行銷策略，隨著推車推上了舞台。</p><h2 id="表演-與-結果"><a href="#表演-與-結果" class="headerlink" title="表演 與 結果"></a>表演 與 結果</h2><p>表演是評分的主要依據，要在台上實際示範我們的作品。一大清早 8:00 我們結束了製作，搬運作品到了舞台準備區。東西有點多，我們分了兩趟搬運，不過第二趟好像不需要我，我就留在準備區睡覺。轉眼間，輪到我們的表演時間。一上了台看起來一切都準備好了，作品上的電線，硬體都是在初始狀態。直到要連線搖桿的時候，我突然發現，server 放在大本營。搞笑了，一個遙控汽車沒有遙控器的概念。那時候剩五分鐘，規則不允許我們殺回大本營拿。有點慌張，整個當機了兩三秒，好不容易做好了，卻什麼都沒有，真想逃回新竹。不過冷靜下來後，還是決定不要放棄，硬著頭皮上舞台。雖然沒有控制用的 server，但因為已經跟電路板和繼電器相處了 72hr，簡單的手動控制馬達好像是我支援的操作。於是我們的表演進行著，只是在後台遙控的我，變成要在舞台上躲在邊邊不停接線控制。經過了混亂之後，彷彿一切結束了。評審 Q&amp;A 丟給我們了一個水題，大概是想讓我們發揮爭取分數。我們也隨便畫了大餅，說下次他會自己動起來。誰知道還有沒有下次阿，表演結束之後我們沈重的走回待了 72hr 的大本營。行李都打包好了，包了被我遺忘的 server 當作紀念。當時我完全對前三名晉級國際賽不抱希望，心裡只有後悔。</p><p>我們回到會場睡覺，補回三天不足的睡眠。突然，我們被隊輔搖醒:「晉級了！晉級了！晉級了！」。從睡夢中起來的我，黑人問號，誰晉級了？完全預料之外的好消息，又補充了我們的精神。把塞進書包的 server 拿了出來，我們馬上開始準備英文報告。國際賽有了 server， 大家也沒那麼慌亂，算不上一個完美的演出，但解開了我們的遺憾。</p><p>最後我們得了國內的第三名，國內賽表演驚慌失措的我們竟然拿了第三名，真是不幸中的大幸。</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>/<em> 有點打太多幹話了，今天來不及寫完 </em>/<br>/<em> 可以先看歷程喔 </em>/</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 競賽 </tag>
+            
+            <tag> 智慧鐵人 </tag>
+            
+            <tag> 成長 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IONCamp 2019</title>
+      <link href="/2019/08/06/IONCamp-2019/"/>
+      <url>/2019/08/06/IONCamp-2019/</url>
+      
+        <content type="html"><![CDATA[<p>這個暑假是升高三的暑假，因為有暑輔的關係，所以沒有安排很多活動。暑輔的第二週，因為想多花些時間練習程式競賽，所以請假參加IONCamp。跟我同一屆的高二參加的人蠻少的，我認識的大概就是學長 UJ、同屆的崔OO、高一 joylintp、雙語部 Elliot &amp; Zane、高一學弟妹，HNO2、NJ都乖乖上暑輔去了。</p><p>雖然第一次看課表的時候，感覺多數的課程我都學過了，不過上課的時候我其實不太擅長多工練程式，所以多半還是乖乖聽課。</p><ul><li>第二天: 早上的課是真的基礎，下午我選了 DP 的初階課，主要是因為講師是 Jeffery Ho 學長，所以支持一下XD 講的很清楚，每題都堅持要現場 Code 標程ww 不過最後一題 permutation 真的本來就很難，最後 code 有 bug，但我實在是也看不出來QAQ</li><li>第三天: 早上我選了資料結構進階，內容真的非常喜歡，大概是最充實的課程前兩名。一開始教線段樹應用，帶了好幾題線段樹例題。很多題目都相當困難，需要一些觀察和技巧，處理、轉化成線段樹可以處理的問題。我突然發現自己資料結構技能可能還點太少了，要多花一些時間找題目練習。後來又教了一個回滾莫隊的技巧，雖然用到的機會不大，但也蠻有趣的。下午的圖論一開始被丟了一題很難的題目，其他跟去年差不多，最後講師才說那題目前沒有很好的解。</li><li>第四天: 這天的課都是 rareone 大大上的，早上的 string 有學到 suffix trie 的陣列版本，聽起來很好用要找機會實作。下午是計算幾何，計算幾何本身好像講的沒有很多，主要的 feature 是 Convex Hull Trick “s”， 加 s 是因為真的太多 Trick 了。聽起來超級精彩，集合拓展+時間線段樹可以作到 加線刪線凸包，超級炫泡的。</li><li>第五天: 早上是 greedy，跟去年好像差不多，大多在講證明。旁邊的睡了一片，我還是努力的把他聽完了XD。</li></ul><p>比賽總共比了五場，拿了4/5 rank1，掉的那天是 Day4。比賽狀況都不太記得了，真要回想的話:</p><ul><li>Day 1 唯一一次用 gedit + bash script 打的比賽</li><li>Day 2 印象 0</li><li>Day 3 贏很多，真的很多</li><li>Day 4 模板題很多，還直接送 code，但是 pB 實作題一直 0，最後好像 -20</li><li>Day 5 沒注意到有封版，最後以為大家都沒過，就也跟著耍廢，蠻驚險的(很餓)</li></ul><p>這次的營隊課程學到了不少，我也找到一些需要加強的地方。另外有一個建中的高一生還蠻厲害的，Scoreboard 一直看到他的名字，但我比較內向，最後一天才認出他。感覺非常有實力，明年有機會在選訓遇到。比賽的部份，前幾天 rank1 好像增加了一點點的信心，不過越到後面壓力越大，Day4 大概花了 1.5hr 砸一題其實蠻水的實作題，其實可以多花點時間打剩下幾題。結業式雙語部學弟跟我說覺得我變強很多，我自己的感覺是自己變穩定了。比賽除了實力之外，有一個很重要的是變異數，我其實花了很多功夫在縮小自己的變異數，看起來也是蠻有成效的。有機會再分享吧(最近有蠻多文章要打的XD)</p><blockquote><p>恭喜 BB and UT IOI 2019 Day 1 都 200+</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>智慧鐵人 2019 複賽</title>
+      <link href="/2019/07/12/%E6%99%BA%E6%85%A7%E9%90%B5%E4%BA%BA-2019-%E8%A4%87%E8%B3%BD/"/>
+      <url>/2019/07/12/%E6%99%BA%E6%85%A7%E9%90%B5%E4%BA%BA-2019-%E8%A4%87%E8%B3%BD/</url>
+      
+        <content type="html"><![CDATA[<h2 id="智慧鐵人介紹"><a href="#智慧鐵人介紹" class="headerlink" title="智慧鐵人介紹"></a>智慧鐵人介紹</h2><p>智鐵是一個高中生的團隊競賽，透過知識、推理、體能來解決問題。知識的部份範圍蠻廣的，文理時事都有。有一個大方向的規則就是，沒有說不行就是可以，希望我們可以發揮創意，合作解決問題。</p><h3 id="初賽"><a href="#初賽" class="headerlink" title="初賽"></a>初賽</h3><p>初賽是8hr，有三題分別是實作、文本、體能，實作的部份就是要你實做出一個滿足題目條件的裝置，文本就是用一堆知識性題目加上一些推理，體能就是製作道具用一些奇怪的肢體動作完成任務。</p><p>我們在初賽的時候，實作拿了全國最高分(100)，文本分數35 分，體能76 分。初賽有一張魔法卡，可以把單題 double，但要在作答開始之前使用。結果我們放在了文本，真的有夠慘，不過最後還是有進複賽ww</p><h3 id="複賽"><a href="#複賽" class="headerlink" title="複賽"></a>複賽</h3><p>複賽是 24hr，有主軸任務和闖關個占一半成績，闖關總共有六關，各30～40 分鐘，剩下時間就是主軸任務，通常都是要透過有限虛擬貨幣購買材料，實作一個裝置，錄製影片和製作 ppt 來評分。</p><h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><p>我們今年是第二次參加智鐵，我們其實總共有 12 個左右的人要參加最後分散到兩隊，不過今年剛好資優班的撞到成發，所以我們剩下的人就組了一對參加。我們隊比較算是業餘的，沒有什麼特別的準備，只是對這種活動有興趣就參加了。去年候補的我們，今年有稍微進(變)步(賽)一點，拿到順利晉級的門票。</p><h3 id="主軸任務"><a href="#主軸任務" class="headerlink" title="主軸任務"></a>主軸任務</h3><p>複賽今年的主軸是要透過光影呈現漢字流變，從兩個現有文字重構出一個新的文字，並以故事串連，由光影效果呈現在宣紙上錄製成影片。我們每隊會被分配到一間教室，要用 (24hr - 闖關時間)來完成。一開始我們進教室，先檢查了材料，發現電腦有很多問題，第一個是電腦會漏電，我被電了三次QAQ，第二個是喇叭完全都是雜訊。於是我們請大會處理，雖然花上一些時間，不過最後問題有被解決。之後我們開始構想我們要呈現的主題，我們找了「類」和「國」作為素材，原因是他們的部件很多，比較好發揮。大概經過了三小時的討論，我們的故事有了一個模型，對劇本和特效有初步規劃，於是趕緊開始訂購材料進行實作。</p><p>實作上因為這次是要用影子呈現，所以其實表面美觀並不是很重要(因為被打到宣紙上是平面又是黑白的)，所以實作上是以功能為主。進行了一陣子的實作，就到了我們的闖關時間，一回來就是半夜 2 點。隊員有些回來因為疲倦所以睡著了，剩我和隊長好像體力還行，就繼續施工不敢浪費任何時間。我趁著剛闖完關，有點混亂的時候列出了 TODO list。接著又是漫長的施工時間，一直到了日出的時間， TODO list 總算是勉強清空，大方向物件完成。</p><p>之後我們把大家叫起來，完成剩下的細節，我也排好了最後表演的人力時間表。分配了表演的工作後，我終於安心的趴在桌子上睡著了。一趴下去，是很深層的睡著，對於時間好像沒什麼感覺，畢竟從第一天早上 6 點起床趕車到第二天的 9 點，是我最久的連續不睡眠紀錄，對於我這種平常沒熬夜的人，真是非常的挑戰。醒來之後疲倦雖然沒有完全消除，但有減少了許多，根據他們的說法我睡了 30 分鐘XD。</p><p>最後是不斷的排練，我們一開始根本表演的非常凌亂，經過一次又一次的修改調整,我們終於有了順暢的表演。最後的錄製也還算成功，剩下的就是看評分囉。</p><h3 id="闖關"><a href="#闖關" class="headerlink" title="闖關"></a>闖關</h3><p>闖關從 21:00 ~ 2:00，總共有 6 個關。每一關一開始都會有規則介紹，接著進行闖關。第一關我們有點太亢奮，在一個黑暗的關卡，規則一聽完，還不是非常清楚就直接開始了闖關。結果真的非常悽慘，只拿了 50 分，跟當時最高分 960 有非常懸殊的差距，當然也有部份是因為那關的問題都是歷史相關，而我們這隊是純理組本來就有劣勢。</p><p>第二關我們有所調整，聽完規則說明後，在開始闖關前還是繼續理解題目，一起討論，才開始行動。雖然成績沒有特別高，但至少慢慢進入狀況。</p><p>第三關開始，我們的狀況就起飛了，每關都有中上的成績，甚至有一兩關拿到當前前三的成績。趣事: 其中有一關是中藥題，要透過關卡提供的線索，了解病人需要的湯藥，閱讀對各藥材的介紹，解出數學問題，配出湯藥。結果在評分時需要核對我們放的藥材是不是湯藥的正確藥材，結果關主沒有拿任何資料，轉了一圈藥材，就判斷每個湯裡放的要是不是正確，超猛的。後來透過其他關主才了解，原來那個關主是陽明的中藥大神。</p><p>每個關卡的佈置都非常的精美，聽說關主們場佈花了十天才完成。真的非常感謝那些關主設計出的關卡，每個都非常有趣用心。一開始很多關主有認出我們是第一次參加複賽，也都很熱心的指導我們如何改進。不過到後來可能是我們也有進步，所以就沒被認出來了XD</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>智慧鐵人蠻好玩的，每個關卡或是活動都需要思考蠻有挑戰的。複賽是免費的，還有提供餐點。而複賽的工作人員也大多是志工，非常的熱情，關主的關卡非常巧妙，小天使也很有善，提供我們協助。</p><p>參加智鐵對我來說，雖然我不在意獎金(因為很難得到)、也不一定會拿來當什麼特別經歷介紹，但對我來說蠻重要的。大家都說我很不一樣，光是在科學班就有點奇怪，而且在科學班又主要是在打競賽，更是怪中怪，隊友都說我的高中生活和他們是不同世界的。而我完全同意，不得不承認我平常關在的同溫層，跟平均高中生真的是完全不一樣的世界。參加智慧鐵人，讓我也有一點點的機會透透氣，學習和大家團隊合作，學習友善的溝通。</p><h2 id="後記-對呼"><a href="#後記-對呼" class="headerlink" title="後記: 對呼"></a>後記: 對呼</h2><p>我們有對呼比賽，每隊在開場要表演對呼。其中會被評審評分占 5 分，另外會有對呼人氣票選，最高的可以獲得獎金 2000 元。結果智鐵結束看到 Sean 的訊息，說 google form 的回應可以直接發一個 request 完成。於是可以暴力的重發，直接刷起來，誰叫智鐵沒有限制用 email 提交表單。如果有拿到獎金來請 Sean 吃飯好了XD</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 競賽 </tag>
+            
+            <tag> 智慧鐵人 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>APCS JUNE19</title>
+      <link href="/2019/06/15/APCS-JUNE19/"/>
+      <url>/2019/06/15/APCS-JUNE19/</url>
+      
+        <content type="html"><![CDATA[<p>因為上次沒考到筆試，所以我又來考了一次APCS….<br>上次考有點水，第四題是0-1背包問題。然後最近這幾場有變難的趨勢，所以也想說順便寫寫上機。<br>結果沒想到竟然是四個實作題，每次我好像都遇到比較簡單的上機QAQ</p><p>pA 給你兩場比賽兩籃球隊四節各自得分，輸出比數和勝負<br>pB 輸入一個二維陣列，要求從最小開始每次往四方向最小的走，不能走重複的格子，求路徑數字合<br>pC 給n 個集合，問有幾組互補集合 (n &lt;= 2e5 ? {元素} &lt;＝ 26)<br>pD 給一維長度為n 的陣列，元素集合大小是m， 求長度為m 包含所有元素的子區間數量 (n,m &lt;= 2e5)</p><p>====爆雷線====爆雷線====爆雷線====爆雷線====爆雷線====爆雷線====爆雷線====爆雷線=====</p><p>pA 實作<br>pB dfs<br>pC 我用 bitset 只用 20+ 行<br>pD 先離散化之後再枚舉右界，開一個陣列存個元素在長度為 m 的區間出現幾次，紀錄目前區間有幾種元素</p><blockquote><p>冷知識 apcs 環境 alias {各種指令}=”printf ‘’”</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+            <tag> APCS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>掉分有感</title>
+      <link href="/2019/06/12/%E6%8E%89%E5%88%86%E6%9C%89%E6%84%9F/"/>
+      <url>/2019/06/12/%E6%8E%89%E5%88%86%E6%9C%89%E6%84%9F/</url>
+      
+        <content type="html"><![CDATA[<p>這個禮拜連續參加了兩場 Codeforces， 一場掉 93 另一場掉了 122。掉分當然會有點失望，不過今天並不是想討拍，而是講講我從掉分體悟到的想法。連續掉了兩場大的，當下其實蠻難過得。也許會懷疑自己，覺得是不是沒救了，但我沒有就此停住，也沒有想要放棄。我抱持著希望，也對未來有信心，想要克服我遇到的困難。面對起伏，也許會失落，但是我應該要更勇敢去面對，繼續堅持和努力，想辦法改變、嘗試和突破。只要有人可以辦得到，就代表我也有一些機會。</p><p>其實，打比賽只是一個比喻。我所在乎的，比競賽更重要的，是我的家人。希望爺爺對生病的起伏，能夠有勇氣且自信的看待，用堅持和努力去突破，早點好起來。</p><blockquote><p>心情好複雜，跟競賽比較相關的事，之後再找機會寫</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 心情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Django deploy</title>
+      <link href="/2019/05/18/Django-deploy/"/>
+      <url>/2019/05/18/Django-deploy/</url>
+      
+        <content type="html"><![CDATA[<p>這是 django deploy 的小筆記，之前弄了很久，後來照著 digitalocean 的教學終於弄好了，紀錄一下。環境是 ubuntu 16.04 on gcp。用了 gunicorn 當作 nginx 與 django 的界面，psycopg2 當作 postgres 與 django 的界面。</p><h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><h3 id="install-packages"><a href="#install-packages" class="headerlink" title="install packages"></a>install packages</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib nginx</span><br></pre></td></tr></table></figure><h3 id="create-postgres-database-and-user"><a href="#create-postgres-database-and-user" class="headerlink" title="create postgres database and user"></a>create postgres database and user</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo -u postgres psql</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">CREATE DATABASE piweb;</span><br><span class="line">CREATE USER tommydong WITH PASSWORD &apos;********&apos;;</span><br><span class="line">ALTER ROLE tommydong SET client_encoding TO &apos;utf8&apos;;</span><br><span class="line">ALTER ROLE tommydong SET default_transaction_isolation TO &apos;read committed&apos;;</span><br><span class="line">ALTER ROLE tommydong SET timezone TO &apos;UTC&apos;;</span><br><span class="line">GRANT ALL PRIVILEGES ON DATABASE piweb TO tommydong;</span><br></pre></td></tr></table></figure><h3 id="install-python-package-in-virtualenv"><a href="#install-python-package-in-virtualenv" class="headerlink" title="install python package in virtualenv"></a>install python package in virtualenv</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install django gunicorn psycopg2</span><br></pre></td></tr></table></figure><h3 id="setting-py"><a href="#setting-py" class="headerlink" title="setting.py"></a>setting.py</h3><p>Add your pi to ALLOW_HOST</p><p>Then setup the database<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">DATABASES = &#123;</span><br><span class="line">    &apos;default&apos;: &#123;</span><br><span class="line">        &apos;ENGINE&apos;: &apos;django.db.backends.postgresql_psycopg2&apos;,</span><br><span class="line">        &apos;NAME&apos;: &apos;piweb&apos;,</span><br><span class="line">        &apos;USER&apos;: &apos;tommydong&apos;,</span><br><span class="line">        &apos;PASSWORD&apos;: &apos;********&apos;,</span><br><span class="line">        &apos;HOST&apos;: &apos;localhost&apos;,</span><br><span class="line">        &apos;PORT&apos;: &apos;&apos;,</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>Set the statics<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">STATIC_URL = &apos;/static/&apos;</span><br><span class="line">STATIC_ROOT = os.path.join(BASE_DIR, &apos;static/&apos;)</span><br></pre></td></tr></table></figure></p><h3 id="test-server"><a href="#test-server" class="headerlink" title="test server"></a>test server</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gunicorn --bind 0.0.0.0:8080 pi_official.wsgi</span><br></pre></td></tr></table></figure><h3 id="create-systemd-service-file"><a href="#create-systemd-service-file" class="headerlink" title="create systemd service file"></a>create systemd service file</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/systemd/system/gunicorn.service</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=gunicorn daemon</span><br><span class="line">After=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">User=tmd910607</span><br><span class="line">Group=www-data</span><br><span class="line">WorkingDirectory=/home/tmd910607/pi-official</span><br><span class="line">ExecStart=/home/tmd910607/pi-official/pienv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/tmd910607/pi-official/pi_official.sock pi_official.wsgi:application</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start gunicorn</span><br><span class="line">sudo systemctl enable gunicorn</span><br></pre></td></tr></table></figure><h3 id="configure-nginx"><a href="#configure-nginx" class="headerlink" title="configure nginx"></a>configure nginx</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/nginx/sites-available/piweb</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    server_name 35.231.102.215;</span><br><span class="line"></span><br><span class="line">    location = /favicon.ico &#123; access_log off; log_not_found off; &#125;</span><br><span class="line">    location /static/ &#123;</span><br><span class="line">        root /home/tmd910607/pi-official;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        include proxy_params;</span><br><span class="line">        proxy_pass http://unix:/home/tmd910607/pi-official/pi_official.sock;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ln -s /etc/nginx/sites-available/piweb /etc/nginx/sites-enabled</span><br></pre></td></tr></table></figure><h2 id="教學原文"><a href="#教學原文" class="headerlink" title="教學原文"></a>教學原文</h2><p><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04" target="_blank" rel="noopener">How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 16.04</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> server </tag>
+            
+            <tag> Django </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TOI2019 選訓營心得</title>
+      <link href="/2019/03/31/TOI2019-%E9%81%B8%E8%A8%93%E7%87%9F%E5%BF%83%E5%BE%97/"/>
+      <url>/2019/03/31/TOI2019-%E9%81%B8%E8%A8%93%E7%87%9F%E5%BF%83%E5%BE%97/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>TOI 是台灣的資訊奧林匹亞的選訓營，是為了培訓資訊競賽選手參加奧林匹亞比賽而設立的研習營。今年我透過海選取得了參加的資格，就踏入了師大體驗了兩個禮拜的選訓營生活。</p><h2 id="選訓營的生活"><a href="#選訓營的生活" class="headerlink" title="選訓營的生活"></a>選訓營的生活</h2><p>選訓營的作息很固定，幾乎每天早上下午各一堂課，晚上則是自習時間。</p><p>課程大部份其實是進入選訓營就必須具備的內容，不過教授們也都很了解，所以幾乎都允許我們可以依照自己需求自主練習。其中有一堂課令我印象深刻，交大資工系的蔡孟宗教授的 Graphs。不斷的丟出許多有趣的圖論題，引發我們熱烈的討論和思考。也教了蠻多理論，我學了很多，真想多聽個幾堂&gt;&lt;。</p><p>晚上比較休閒，都沒有排課，本來是打算每天揪團去跑步，不過沒想到跑了幾天就斷掉了。住宿是在師大本部的師大會館，每天都有公車接送，環境還不錯，比較慘的是浴巾一個禮拜才換一次，到最後有點溼。</p><p>參加選訓營還有一個很重要的活動-模考。模考其實就是選訓營的考試，決定著我們是否能前進下一個階段。一二階段各考兩次，大多在星期六，長四小時的比賽每場四題。難度上比入營考難，應該是選訓營中最刺激的時候了。</p><h2 id="競賽、學習"><a href="#競賽、學習" class="headerlink" title="競賽、學習"></a>競賽、學習</h2><p>選訓營是選手們切磋的地方，不過跟普遍認知的「比賽」卻不太一樣。一般比賽大概就是想辦法戰勝對手，取得自己最佳利益。但選訓營不是這樣運作的，大多的人都很樂於幫助其他的選手，或分享自己的知識。因為在選訓營並不是只有戰勝對手，而更重要的自己的學習成長，所以封閉自己就不是一個好策略。跟其他選手的交流，大概是選訓營中學習的主要來源吧。</p><h2 id="我的模考"><a href="#我的模考" class="headerlink" title="我的模考"></a>我的模考</h2><p>模考一共有兩次。第一次模考我花了大概一個半小時解了一題，之後看到了一題樹的題目，想到了兩個解法，選了一個開始寫。但賽中我並沒有發現自己是假解，TLE了好幾次以為自己是常數太大，不斷的壓常數。時間一下子就到了比賽末段，開始很慌張，沒有先拿好部份分的我，又陷入了部份分與這題的兩難情境。最後雖然選擇了繼續跟這題奮戰，但沒能拿下，排名16。</p><p>第二次模考我換了一點策略，以打部份分為優先，剩下時間在想辦法拼滿分。比賽一開始，翻了翻題目，發現看起來有些困難，甚至連部份分都拿的不是很多。其中有一題賽中想到一題解法的輪廓，但細節一直沒有好好整理出來，加上一模的經驗，最後沒有上傳任何一次QQ。到了最後一題都沒有解出來，悲慘，排名維持16，進不了二階。</p><p>之後在電神的貼文留言看到了教授的評論，說覺得很多人「患得患失」。感覺被說中了，我在比賽的壓力中，常常得失心很重。怕錯過機會，怕犯同樣的錯，怕輸。常常被這種心態限制，無法做出冷靜的選擇。不過兩次模考都維持在 16 名，或許今年的實力就差不多在這裡了吧！沒有打得很理想，但也不算太糟糕。</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>期待了一年半，終於參加了一次選訓營。從 2017 的 8 月到現在，我經歷了好多比賽，很多高興和失落，許多場的比賽的印象都還很深刻。去年的這個時候，因為入營考落選感到沮喪。今年順利的通過入營考，卻又停在一階，不過我已經不再沮喪了。我知道我努力了，所以我沒有後悔。我知道我能力還不夠，所以我有繼續學習的希望。</p><p>TOI 2019 完。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+            <tag> TOI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>英語話劇比賽</title>
+      <link href="/2019/03/17/%E8%8B%B1%E8%AA%9E%E8%A9%B1%E5%8A%87%E6%AF%94%E8%B3%BD/"/>
+      <url>/2019/03/17/%E8%8B%B1%E8%AA%9E%E8%A9%B1%E5%8A%87%E6%AF%94%E8%B3%BD/</url>
+      
+        <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>我們班在英語話劇比賽拿了第二名，在靠北實中引起一些爭論。有些人批評看不懂劇情，有些人批評我們的布幕使用投影片取代傳統壁報，共通點就是「覺得」我們不夠努力。對於這件事，我覺得批評者的邏輯有些瑕疵，但不好意思在靠北版上引戰的我，只好在這邊講講感想。</p><h2 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h2><p>我認為這些人邏輯共通的問題就是，他覺得我們沒他們努力卻取得第二名有失公正。首先努力從來就不跟得名完全劃上等號的，世界本來就不是這樣運作的。我認為比較多的情況是要把努力取得最佳效益，反而跟成功關聯性較大。況且，你要怎麼證明你們比我們努力呢？</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TOI 2019 入營考</title>
+      <link href="/2019/03/09/TOI-2019-PRE/"/>
+      <url>/2019/03/09/TOI-2019-PRE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>TOI 是台灣高中資訊競賽的選訓營，入營考就是進入選訓贏得資格考。今年我有拿到學校代表，二度再戰。</p><h2 id="比賽過程"><a href="#比賽過程" class="headerlink" title="比賽過程"></a>比賽過程</h2><p>今天一早我和 NJ 搭著高鐵前往台北，中午午餐篩選了 30 分鐘終於在北車二樓吃了其實有點貴的親子丼之後前往師大分部。測機總共兩題，第一題印度測資，RE 了兩三次才開了 map 過關，回想起來去年也發生過這種事。</p><p>比賽在測機後沒多久就開始了，這次我的計畫是開賽先看完全部的題目。題目明顯比去年更難，因此我沒有抱著破台的期望打題目。前一個小時拿了兩百分，雖然沒有到很順利，可是是很合理的時間。接著我觀察剩下三題，其中兩題沒什麼頭緒，就嘗試解一題 <a href="https://en.wikipedia.org/wiki/Chinese_remainder_theorem" target="_blank" rel="noopener">中國剩餘定理</a> 題目。幾個禮拜前的自習課才推導過一次，不過當時寫錯了之後馬上就要上課了，之後就被我放著了。賽中重新推導，成功推導出擴展歐幾里德，卻在中國剩餘定理不互質的情況卡了很久。時間一轉眼就過了一個小時，我的分數還是沒有變化。剩下大概一個多小時，我嘗試解剩下的其中一題，結果想了一個假解，而且實作上有些複雜，湊出答案之後才發現被範測打臉。</p><p>剩下 40 分鐘，我意識到自己掉出了錄取線外，決定採取喇分模式。盡可能快速的解了剩下題目的部份分，一共拿了 118 分。最後覺的中國剩餘定理那題最值得繼續投資時間，有想到解決不互質的方式，可是丟上去後錯了一些，比賽就差不多結束了。</p><p>終於過了 TOI 選訓一階<br>也恭喜 NJ, IB學弟 都過了入營考</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>這次的入營考其實壓力很大，因為特殊選才許多學校會以進入選訓營當作重要指標。換句話說如果我想特殊選才申請大學，這場比賽就有點像學測。早在幾個月前我就有所心理建設，如果我進選訓營就要轉移重心，認真讀書。如果有幸進入選訓營，就繼續努力打競賽。也就是說如果這場比賽失利，我的高中程式競賽可能就要劃上句點。</p><p>然而在發現這場比賽的重要性之後，一切就快樂不起來了。</p><p>比賽前一個禮拜，我請了假參與學校訓練。每天浸泡在程式的環境中，有相當充分的時間準備。然而我漸漸意識到我的思考力的下降，在禮拜三晚上我承認我被壓力壓倒了。我發現我持續的練習，沒有把我的連假訓練的手感留住，而是因為體力的下降與壓力的上升，使我變得遲鈍，甚至沒辦法專注想題目。難道這就是跟神經網路一樣的 <a href="https://en.wikipedia.org/wiki/Overfitting" target="_blank" rel="noopener">overfitting</a>?</p><p>我也發現了這個問題的嚴重性，再持續下去我大概會完全無法解題，更不用說通過海選了。那個時間點距離比賽兩天半，我趕緊找了家人討論，我也複習了學長何達睿所寫的書，得到的結論是我該適度的放鬆，挽救這個局面。結果是好的，雖然只有兩天的時間調整，但跟星期三的狀況相比，我最後狀態還是有恢復許多。</p><h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><p>最近偶爾聊大未來的規劃，其實我並沒有對台大資工系的堅持。我只是認為如果能有機會離開新竹讀書，也是不錯的選擇。如果有交大、清大或成大資工系讀，我是很開心的。既然最後是進了選訓營，大學我目前是打算以程式競賽經歷與社群社團和球隊的經歷申請特殊選才。而剩下的高中生活，就盡量的參加資訊競賽和運動吧。</p><p>總之，我又可以快樂的寫程式了 :)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+            <tag> TOI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo deploy</title>
+      <link href="/2019/02/03/Hexo-deploy/"/>
+      <url>/2019/02/03/Hexo-deploy/</url>
+      
+        <content type="html"><![CDATA[<h2 id="問題"><a href="#問題" class="headerlink" title="問題"></a>問題</h2><p>hexo deploy 後 Github page custom domain 會被重設</p><h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>在 /source 下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ echo mydomain.life &gt; CNAME</span><br></pre></td></tr></table></figure></p><p>就解決囉~</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IOICamp 2019</title>
+      <link href="/2019/02/03/IOICamp-2019/"/>
+      <url>/2019/02/03/IOICamp-2019/</url>
+      
+        <content type="html"><![CDATA[<p>這個禮拜我參加了五天四夜的 IOI Camp，IOI Camp 跟 ION Camp 一樣，是給想打程式競賽的學生參加的營隊，不是聯誼性質營隊(x)，不過不同的是，大學生比例高了不少。在停辦了一年後，今年IOI Camp 終於順利舉辦了，感謝現任總召王彥仁大大。禮拜一一早就和 NJ 搭高鐵趕往台北，路上還開箱了請 NJ 去日本用我北二區獎金買的 Filco 60% 鍵盤。</p><p>這次課程包含 game, math, graph, data structure, flow, dp, enumerate，還有 eddy 時間。會把艾迪時間說成 “課程” 其實我覺得很合理，那堂課沒談半行程式碼或任何演算法，卻對於程式競賽有很大的啟發性。而那些課程有都很棒，不會困於基礎的範圍，教的很深入。有幾堂課一些部份對我來說有點難沒有 catch 到，不過至少我了解了日後學習的方向，也是相當有用的啦XD</p><p>除了課程以外，每個晚上都有比賽，三天團體賽兩天個人賽。題目內容大概10% 水題，40% 中等題，剩下的很多出的相當困難。個人賽打第一場打的不錯 rank 4，第二場賽中遇到一個 LCA + Binary Search + Matching 的題目，雖然很快的想到解法不過就 TLE 了一筆，讓我從頭卡到尾，最後只完成了簽到題排名就輸光光了。團體賽是三人三機，所以蠻吃重隊友的。可惜我這隊的隊友好像都比較接近新手，打起來比較吃力。第一天的趣味賽就爆炸了，開場接近墊底大概在二十多名，雷到還被助教關注提示0w0。後來我不小心連續通靈了好幾題，才好不容易爬上了13 名。第二天隊友蠻給力的，有一起解掉一個聽說有點梗的水題，但只吃了一次WA。之後又幫我構造出一題 greedy 的解法，於是我們就在時間優勢和少少的 penalty 下贏得了 rank 5。最後一場隊友莫名其妙的有點崩潰，不管penalty 的傳了了一題好幾次沒過，就有點崩潰的一直抱怨。我就默默的寫了五題然後，默默的拿了慘兮兮的名次。</p><p>參加營隊重要的還是認識朋友，不過我屬於比較害羞的那種(?)，新認識的人只有隊友、室友然後…大概就沒有然後了。不過有室市友是 IBSH 的學弟，國三的他實力蠻強的。他學過許多演算法(fft,dinic…)，也很聰明能夠證明許多定理，codeforces 也有 1864 的 rating。剛好我和 NJ 目前是兩個人一隊，所以他就變成我們的隊友候選人XD</p><p>這次營隊感謝所有的工人，讓這個差點消失的營隊復活。雖然營隊的報名費噴掉了我大部分全國賽的獎金，不過我覺得很值得。也讓我看到了平常在網路上只看得到 ID 的大神，我也好想進台大資工，和他們一起討論學習。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Goodbye 2018</title>
+      <link href="/2019/01/17/Goodbye-2018/"/>
+      <url>/2019/01/17/Goodbye-2018/</url>
+      
+        <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>我覺得 2018 是價值連成的一年，回想起來，在這一年發生了很多事，在這邊紀錄一下 :)</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>今年一開始，我就參加了 IEYI 青少年發明展，展示的是我和兩位夥伴設計的 IOT 智慧家庭。發明展現場看到了很多有趣的發明，也和幾個人聊上幾句，最後又拿了銅牌，蠻有意義的活動。</p><p>後來我順利通過校內初選，取得了參加全國海選的資格。當時自己是懷抱著相對大的信心參加，但是卻撲了空。抱著信心是有憑有據的，達睿書中曾寫到在 Codeforces 上 rating &gt; 1600 基本上就能過海選，而我那時有著 1800+ 的 rating。那次爆炸的比賽對我來說影響蠻大的，失望和對未來的擔憂停留了好久。最後我並沒有選擇放棄，我還是熱愛程式。</p><p>接著我除了打比賽之外的主線任務就變成 INFAS 全國資訊年會，我是 2018 年的副召。INFAS 邁向第三年，在一路參與的過程中，我學習與成長了很多。對我來說，這是一個社群參與，也是幫助更多學生接觸資訊的空間。我也在之中開始懂的和大家合作，規劃一場好的研討會和一些比較真實的工作經驗。寒假時在學校辦了兩天一夜的 INFAS 寒訓，邀請了一些在社群中有經驗的分享者來演講，凝聚了工人們對 INFAS 的共識。而今年年會在交大舉辦，也成功的吸引了眾多的與會者，也首次在年會當日辦了 workshop，順利落幕。INFAS 有很多故事，有組長什麼都沒交待就不見的，也有一些吵架的，也有學校讓我很失望的故事。</p><p>高二的上學期我每週六都去台大參加了資訊之芽，在裡面學到了許多演算法的技能，也認識了很多厲害的同學和講師 (其實就是台大學生)。也因為認證考考得不錯，所以我雖然作業成績沒有最高，也拿了訊連獎(就是成績第一名會拿到 Cyberlink 贊助的獎項)。在某次上課的客運上，NJ跟我說他的資訊老師(現在變我的資訊老師XD)擅長 AI ，可以教我們，預備之後的專題研究。這是一個天降的好事，老師人超好的0w0。我開始認識 AI，學了一些神經網路、和強化學習的知識，真的非常感謝老師的教導。</p><p>暑假的時候是科學營，我們到苗栗開礦國小做志工，我的工作是隊輔。整個活動籌備也花上我們班許多時間努力，但我覺得很值得。(詳細心得見「2018 暑假科學營志工」)剩下來的暑假就是滿滿的程式競賽練習，也參加了兩個團體賽，兩場都跟了高三學長，在成大賽拿了第二名、ISSC第三名，是我第一次在實體比賽中得獎。</p><p>開學之後就是黑豹旗，黑豹旗是中信辦的高中棒球賽，大概 200 所學校參賽，我們是其中一所。我是指定打擊，也是隊長，所以到了建中抽晉級賽的籤。我那時候人品爆發，抽中了有實況轉播的比賽，而且是比較有勝算的小組中的種子。結果…「媽！我上電視了」，我們在第一場對上永豐高中拿下了勝利，之後卻敗給高雄高工(64強)。打棒球很愉快，也謝謝教練從國中以來一直指導我們，比起其他學校兇猛的教練，我們的教練更適合我們學校、我們球隊的氣氛，跟我們一起開心的打球。</p><p>記得十一月多有一場團體賽，我和 BB 學長和 NJ 同隊。我們展現了很好的默契，BB 也展現了他的電力，拿到了我第一次第一名加一台很普通電腦LoL。</p><p>進入秋天，學科競賽賽季就開始了。首先是北二區區賽，今年北二區名額被 buff 了，可以派 8 位。不過賽前一直有著「北二區題目很水要全對才有機會」的恐懼，直到同學心靈雞湯後，才找回好的比賽狀態。又靠著讀計概的加持，在北二區拿了個第二。隔了大概一個月的準備，就到了全國賽了。全國賽是一個蠻大的比賽，跟北二區一樣考計概筆試 and 上機實做，不過分成了兩天在交大舉辦。上機比賽的前半輸的很慘，海選失敗的畫面不斷浮現，兩個小時就不見了。後來重新整理後，提醒自己活在當下，才回過神追趕，在最後好不容易擠進二十名(三等獎線上)。</p><p>比完賽後我就讓自己放假了www</p><p>2018 的最後連假，我和好朋友一起去台北跨年，這也是我第一次跟好朋友出去跨年。我們在路上遇到我們超愛的 youtuber 呱吉 (和他的老婆XD)，也聽了博恩的脫口秀，跑去了 101 看煙火，最後沒訂旅館在麥噹噹度過了一夜，一大早又跑去總統府升旗。超級瘋狂。</p><h1 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h1><p>回想起來才發現今年做了好多事情，大概是我目前經歷過最精彩的一年吧。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>整體二分與CDQ</title>
+      <link href="/2018/12/05/%E6%95%B4%E9%AB%94%E4%BA%8C%E5%88%86%E8%88%87CDQ/"/>
+      <url>/2018/12/05/%E6%95%B4%E9%AB%94%E4%BA%8C%E5%88%86%E8%88%87CDQ/</url>
+      
+        <content type="html"><![CDATA[<h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>整體二分與 CDQ 分治是兩種離線的分治算法，經過學長 BB 的教學後，有比較理解，台灣這方面的文章好像蠻少的，來寫一篇吧。</p><h1 id="整體二分"><a href="#整體二分" class="headerlink" title="整體二分"></a>整體二分</h1><p>整體二分的概念是，一次處理多筆二分搜詢問。先看一個例題:<br>AtCoder Stamp Rally</p><p>題目可以看成詢問圖上多個點對，詢問最少存在前多少條邊時，連通塊大小和大於ki。首先可以明顯看出答案有單調性，在存在一定數量以上的邊時，就可以滿足條件條件。當只有一筆詢問時，當然可以對於邊依序建立並查集，O(N)解決。但本題有Q比詢問，所以這種方法複雜度是O(NQ)。這時候考慮二分搜的方法，對於多筆詢問仍可以維持O(NlgN)。方法如下:</p><p>整體二分就是每次考慮詢問範圍中點，再把詢問分入兩個區間。所以要考慮判斷每個詢問的答案是否大於中點。我們也可以由並查集維護這種判斷。起初的想法是遞迴處理答案在[L,R]之間的所有詢問，不過馬上會遇到一個問題，在跟新目前狀態的時候，會現因為並查集不能反向操作，因此當要拔邊的時候要O(M)歸零，這樣複雜度又爛掉了。於是想起 BB 在其他題給過我的提示: 可以用 BFS，恍然大悟。同樣深度(可以理解承原本遞迴的深度)的區間是連續遞增的，因此可以每層歸零一次均攤成本，總共O (logM) 層每層 O(N)。</p><p>實際上實做就看 Code 喔，用了比較好理解但常數有點大的寫法。<br><figure class="highlight objc"><figcaption><span>Stamp Rally</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#include <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line">using namespace std;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="keyword">typedef</span> pair&lt;ll, ll&gt; pii;</span><br><span class="line"><span class="meta">#define FOR(i, j, k, in) for (ll i=j ; i<span class="meta-string">&lt;k ; i+=in)</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">#define REP(i, j) FOR(i, 0, j, 1)</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">#define ALL(_a) _a.begin(),_a.end()</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">#define mp make_pair</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">#define eb emplace_back</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">#define X first</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">#define Y second</span></span></span><br><span class="line"><span class="meta"><span class="meta-string"></span></span></span><br><span class="line"><span class="meta"><span class="meta-string">const ll MOD=1000000007;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">const ll INF=0x3f3f3f3f3f3f3f3f;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">const ll MAXN=1e5+5;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">const ll MAXLG=__lg(MAXN)+2;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string"></span></span></span><br><span class="line"><span class="meta"><span class="meta-string">struct QUERY &#123;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">    ll x,y,z;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">&#125;;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string"></span></span></span><br><span class="line"><span class="meta"><span class="meta-string">struct SOLVER &#123;</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">    vector&lt;ll&gt;</span> qid;</span></span><br><span class="line">    ll L,R;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">ll n,m,q,ans[MAXN];</span><br><span class="line">vector&lt;pii&gt; edge;</span><br><span class="line">vector&lt;QUERY&gt; Q;</span><br><span class="line">ll djs[MAXN],sz[MAXN];</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> init() &#123;</span><br><span class="line">    REP (i,MAXN) &#123;</span><br><span class="line">        djs[i] = i;</span><br><span class="line">        sz[i] = <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ll fnd(ll x) &#123;</span><br><span class="line">    <span class="keyword">return</span> djs[x] == x ? x : djs[x] = fnd(djs[x]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> uni(ll x,ll y) &#123;</span><br><span class="line">    <span class="keyword">if</span> (sz[x=fnd(x)] &lt; sz[y=fnd(y)]) swap(x,y);</span><br><span class="line">    djs[y] = x;</span><br><span class="line">    sz[x] += sz[y];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/********** Good Luck :) **********/</span></span><br><span class="line"><span class="keyword">int</span> main()</span><br><span class="line">&#123;</span><br><span class="line">    ios_base::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">    cin.tie(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line"></span><br><span class="line">    edge.eb(<span class="number">-1</span>,<span class="number">-1</span>);</span><br><span class="line">    REP (i,m) &#123;</span><br><span class="line">        ll u,v;</span><br><span class="line">        cin &gt;&gt; u &gt;&gt; v;</span><br><span class="line">        edge.eb(u,v);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    cin &gt;&gt; q;</span><br><span class="line">    REP (i,q) &#123;</span><br><span class="line">        ll x,y,z;</span><br><span class="line">        cin &gt;&gt; x &gt;&gt; y &gt;&gt; z;</span><br><span class="line">        Q.push_back(&#123;x,y,z&#125;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    vector&lt;ll&gt; qid;</span><br><span class="line">    REP (i,q) &#123;</span><br><span class="line">        qid.eb(i);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    queue&lt;SOLVER&gt; BFS;</span><br><span class="line">    BFS.push(&#123;qid,<span class="number">0</span>,m+<span class="number">1</span>&#125;);</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">    ll state = INF;</span><br><span class="line">    <span class="keyword">while</span> (BFS.size()) &#123;</span><br><span class="line">        SOLVER cur = BFS.front();BFS.pop();</span><br><span class="line">        <span class="keyword">if</span> (cur.L == cur.R - <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">for</span> (auto v:cur.qid) &#123;</span><br><span class="line">                ans[v] = cur.L;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">continue</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ll mid = (cur.L + cur.R) / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span> (mid - <span class="number">1</span> &lt; state) &#123;</span><br><span class="line">            init();</span><br><span class="line">            state = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (state &lt; mid - <span class="number">1</span>) &#123;</span><br><span class="line">            state++;</span><br><span class="line">            <span class="keyword">if</span> (fnd(edge[state].X) != fnd(edge[state].Y)) &#123;</span><br><span class="line">                uni(edge[state].X,edge[state].Y);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        vector&lt;ll&gt; lV,rV;</span><br><span class="line">        <span class="keyword">for</span> (auto v:cur.qid) &#123;</span><br><span class="line">            ll siz = (fnd(Q[v].x) == fnd(Q[v].y) ? sz[fnd(Q[v].x)]:sz[fnd(Q[v].x)] + sz[fnd(Q[v].y)]);</span><br><span class="line">            <span class="keyword">if</span> (siz &gt;= Q[v].z) &#123;</span><br><span class="line">                lV.eb(v);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                rV.eb(v);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        BFS.push(&#123;lV,cur.L,mid&#125;);</span><br><span class="line">        BFS.push(&#123;rV,mid,cur.R&#125;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    REP (i,q) &#123;</span><br><span class="line">        cout &lt;&lt; ans[i] &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽, 演算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Educational Codeforces Round 54</title>
+      <link href="/2018/11/17/Educational-Codeforces-Round-54/"/>
+      <url>/2018/11/17/Educational-Codeforces-Round-54/</url>
+      
+        <content type="html"><![CDATA[<h1 id="題目狀況"><a href="#題目狀況" class="headerlink" title="題目狀況"></a>題目狀況</h1><p>pA: 我原本第一個想到greedy後來中邪用N^2沒注意到 pA N = 100000，就爆炸了…<br>pB: 梗梗的數學題，也錯了一次QQ<br>pC: 二元二次聯立，也是可以二分搜，不過我公式解XD<br>pD: 一個圖只能刪到剩下k條邊，求最多維持幾條最短路，一臉 Dijkstra<br>pE: 修改一些節點的k子樹，求結果，沒想太多就 DFS 配合 BIT 紀錄，首先發現我 BIT 模板沒開 long long (沒有錯我 BIT 竟然要模板)<br>pF: 一看到題目就有一個猜想，想說沒什麼好輸的，就試試看了ACACAC<br>pG: 看起來很 SG 定理，早上才正在學，但顯然沒學好QQ</p><h1 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h1><p>首先不可否認結局很圓滿6/7 rk:13，不過開賽真的有點雷。比賽一開始連 !AC 了四次，背了重重的 penalty，老實說非常想放棄，不過還是堅持繼續打了比賽。直到後來表現的越來越理想，一路追趕，從記分板底部往上爬。前五題打完，大致上已經會 +rating，後來想說試試看 pF，沒想到就被我猜中了。賽後看 pF tag 是dp,greedy，而我卻沒有 dp，原本以為是假解，卻意外的過了各種 test，不過也沒想到證明。</p><p>結果<br>我 Rating +197 上到了 Candidate Master : 2046，大概是我在 CF 打過最好的一場了吧，距離黃人又剩下 54 分，下次繼續加油囉!</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>107 北二區 資訊學科能力競賽</title>
+      <link href="/2018/11/07/107-%E5%8C%97%E4%BA%8C%E5%8D%80-%E8%B3%87%E8%A8%8A%E5%AD%B8%E7%A7%91%E8%83%BD%E5%8A%9B%E7%AB%B6%E8%B3%BD/"/>
+      <url>/2018/11/07/107-%E5%8C%97%E4%BA%8C%E5%8D%80-%E8%B3%87%E8%A8%8A%E5%AD%B8%E7%A7%91%E8%83%BD%E5%8A%9B%E7%AB%B6%E8%B3%BD/</url>
+      
+        <content type="html"><![CDATA[<h1 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h1><p>大概狀況是前兩小時解了1,2,3,5題，最後一小時喇了一些第4題 partial。很多人都說北二區很水，大概要破台才能進全國，事實上歷屆也有發生這樣的情況，但我覺的說真的也沒有到很水。今年沒有人破台，就連 NJ 也因為一個不小心只打了三題。我自己今天不算非常流暢，每題幾乎都有一些卡點，但都沒有 TLE 只是常數大了一點。</p><h1 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h1><p>第一題: 某種數列關係，要大數<br>第二題: Greedy，因為時間限制60s 所以 Ultaha O(N^2) 過了，我是 multiset O(NlgN)<br>第三題: 應該算賽局理論，我們是 DP，不過教授說法是 DP 不會過，我是 rolling dp 科科<br>第四題: 魔王題目前沒人 AC，我只是亂 greedt 拿了 2/5 partial<br>第五題: 原本以為是排組，結果不小心就看出是 dp 了，根據 NJ 說法很簡單。</p><h1 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h1><p>我認為北二區算是某種心理戰，首先不可否認，賽前估計下來，心裡大概就有底我們都會進全國，因為今年有八個名額。所以大致上策略方向就是穩穩打，把位置卡好，也不求什麼特殊表現。不過實際上我在刷歷屆題目的時候，其實還蠻障礙的，尤其是題目參雜許多 NP 問題，在 zj 上寫的心很慌。不過感謝同學 Howard＃跟我分享的雞湯，在這邊也跟大家分享: 他說他再打數學段考的時候，每當覺的題目簡單想要打好打滿，就容易在考試當下被一兩題困住，最後反而考得不理想，其實這完全說中了我的狀態阿!!!所以我也在策略和心態上有所調整，真的幫助很多&lt;( )&gt;</p><h1 id="結果"><a href="#結果" class="headerlink" title="結果"></a>結果</h1><p>阿!忘了說我們這次實驗在北二區資訊佔下了 1,2,3,4,6 名，我自己是拿下了第二名，不過大家其實都差不多，只是我手寫小贏了一些科科。這也算我個人最好成績吧，接下來就是十二月底的全國賽了。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HP CodeWars</title>
+      <link href="/2018/11/07/HP-CodeWars/"/>
+      <url>/2018/11/07/HP-CodeWars/</url>
+      
+        <content type="html"><![CDATA[<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>今年是我第一次參加 HP CodeWars，跟 BB Colder 一起拿了冠軍，比賽前期大概就是我和Colder 一直把題目解法 queue 給 BB 秒殺，最後大概剩下了 5 ~ 6 題，我想到了一個不錯的戰術，我和 Colder 先把剩下可以自己除裡的題目用那台電腦打完，給 BB 時間想最後幾題，最後 BB 又回來把那些題目打掉，就順利第一名了，賺了三台電腦，超過我們預期，第一次合作就很順利XD</p><h2 id="Feedback"><a href="#Feedback" class="headerlink" title="Feedback"></a>Feedback</h2><ol><li><p>題目需要標明數值限制: 比賽中有些題目沒有標示測試資料大小限制，會影響對解法可行性的判斷。</p></li><li><p>有幾題有點瑕疵: 第九題不算困難但沒有人解出，我們推測題目有誤、第十二題題目敘述錯誤，不過比賽期間有更正、第十三題題目標是 Graph 是單向的，但只有雙向的解答有通過測試。</p></li></ol><p>不過總體來說，比賽打起來是很開心的。首先場地是開放空間相對輕鬆，後面有餐盤、飲料、和一些活動也蠻吸引人的。題目的部份，總共有 20 題，我覺的難度分佈的還不錯，前面有許多題目比較基礎，打起來蠻有成就感的。最後幾題也有難度，其中有一題沒解開的，聽了其他對的解法也覺得很精彩。</p><p>對於參加對象是全高中生的比賽來說，我覺的題目難易出得很合適，可以涵蓋到很廣的範圍。不過細節的部份明年也可以稍微注意一下，或許可以找幾個測試人員在比賽前實際進入系統測試，可以比較有效提前排除那些問題。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>APCS 107.10.27 @NCTU</title>
+      <link href="/2018/10/17/APCS-107-12-27-NCTU/"/>
+      <url>/2018/10/17/APCS-107-12-27-NCTU/</url>
+      
+        <content type="html"><![CDATA[<h1 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h1><p>最近開始有點注意升學制度，得知了 APCS 比賽資訊，剛好我本來就有演算法、資料結構知識，所以報名看看了。這次我選在交大比，交大的電腦大概是放在腰部的抽屜了，系統灌在 USB 然後插在主機前板上，雖然感覺有機會撞掉，不過小心點就是了XD</p><p>系統的部份，統一使用 Lubuntu + LXDE，編輯器傳說中有gedit + vim，但我今天找不到 gedit，取代而之的是沒有 syntax highlight 的 leafpad。當然 vim 是有 syntax highlight 的，但由於 emacs 是好東西，所以我沒有考慮使用 vim (只有拿來改.bashrc)。對比賽環境有興趣的話，他有支援 C++、python、Java，IDE 有 Code::Block、Eclipse、Python IDLE ，不過 Code::Block 好像會閃退(?)所以我有沒有使用。</p><p>最後我選擇了 leafpad 寫 C++，弄清楚環境之後，掃視了一下所有題目(共四題)，都有馬上想到解法，就花了一些時間傳了四份平均長度 18.5 行的 code。寫完了之後，就開始用 C++ 寫 Typing Speed Test。大概就是輸入 abcdefghijklmnopqrstuvwxyz 然後幫你測秒數的小程式，後來使用上發現當我輸入錯誤的時候，只知道打錯，而不知道錯在哪有點不方便，所以就加上了錯誤顯示功能。但當在一開始就發生錯誤時，一個一個比對又無法找到錯誤的重點，所以就開始寫了Edit Distance，好像蠻有趣的，消磨了快兩小時的時間，反正我旁邊的人早就走光了，打 abcdefghijklmnopqrstuvwxyz 的噪音污染應該不是大問題(x)</p><h1 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h1><blockquote><p>不想被雷題目的就C-w 吧</p></blockquote><p>pA 大概就是判斷最大值，隨便 sort 一下也可以喔<br>pB 要找用到字元集最小中字典序最小的字串，把字元集大小用 unique 求出來放到 pair.first，字串本身放到 pair.second std::sort 就有熱騰騰的答案跑到前面<br>pC 某種 01 矩陣壓縮法，我是遞迴解，也沒什麼大問題<br>pD 給你 n 個數 f(i) 1&lt;=i&lt;=n，選總和大於等於 k 個，最小化這 k 個數總和。反過來想就是 01 背包問題 重量等於價值的狀況</p><h1 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h1><p>這場比賽本身難度相較其他場偏簡單，其他場有稍微難一些些的約瑟夫O(N)、Greedy、Tree 之類的，不過雖然題目簡單，但由於是賽後 Judge，所以基本人品值也要稍微點一些，希望我可以順利通過 main test，打這種比賽心蠻累的，11/7 的北二區不知道會不會也這樣。掰撲</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>三聲詞大師 with Tensorflow</title>
+      <link href="/2018/09/29/%E4%B8%89%E8%81%B2%E8%A9%9E%E5%A4%A7%E5%B8%AB-with-Tensorflow/"/>
+      <url>/2018/09/29/%E4%B8%89%E8%81%B2%E8%A9%9E%E5%A4%A7%E5%B8%AB-with-Tensorflow/</url>
+      
+        <content type="html"><![CDATA[<h2 id="喇賽時間"><a href="#喇賽時間" class="headerlink" title="喇賽時間"></a>喇賽時間</h2><p>好久沒更新了，最近剛打完校內賽，離北二區還有一個月。高二專題計畫做 Machine  Learning，剛好學校有資訊老師擅長 AI，又願意教我，我就點了一些 ML 技能。之前蒐集了三聲詞庫，一直想把他拿來運用，卻沒什麼頭緒。今天想說試試看用類神經網路學學看那個資料庫。</p><blockquote><p>對三聲詞不了解的人可以看看上一篇文章</p></blockquote><h2 id="網路模型"><a href="#網路模型" class="headerlink" title="網路模型"></a>網路模型</h2><p>我訂定的目標是輸入一個字，我可以預測後面適合放什麼字。首先我的資料都是中文的詞彙，為了把他轉成數字，我建立了一個 dictionay (Python的BST)，資料庫沒有很大，總共只有1037種字。接著我把每個詞彙拆成兩兩相鄰的 Tuples，比如說: 你好美好 拆成 (“你”,”好”),(“好”,”美”),(“美”,”好”)。接著把 Tuple 的第一項當作輸入，第二項當作 Label。 又把輸入輸出轉成 One Hot Vector，中間接著一層 Hidden Layer，套上 Gradient Descent Optimizer。把資料灌進去學。</p><h2 id="結果"><a href="#結果" class="headerlink" title="結果"></a>結果</h2><p>好了唬爛完了來看結果，隨手測試了幾個，大多取最大機率的幾個都是出現在字典庫的詞(我在 Output Layer 有取 Softmax)。想想這件事如果只是要預判一個字下一個接的字，或許直接用統計的比較精準又省資源，但也不代表神經網路輸光光。首先，無法否認套 Tensorflow 簡單又炫泡，再來我覺的神經網路也許可以找到兩個字有些想似之處，比如說兩個字的 Collocation 接近， 他們可能就會被綁再一起，比如說手跟腳的 Collocation 接近，手掌，腳掌之類的，也許就會找到其中的關係。也可能因此創造一些新字，比如說奶這個字我意外的發現的最大機率是”子”，我很本來很訝異教育部國語字典(資料庫的來源)竟然會有這種奇怪的詞，查了一下原始資料，竟然不在裡面LoL</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Machine-Learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>三聲詞大師</title>
+      <link href="/2018/08/09/%E4%B8%89%E8%81%B2%E8%A9%9E%E5%A4%A7%E5%B8%AB/"/>
+      <url>/2018/08/09/%E4%B8%89%E8%81%B2%E8%A9%9E%E5%A4%A7%E5%B8%AB/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>我是三聲詞大師</p></blockquote><h2 id="什麼事三聲詞"><a href="#什麼事三聲詞" class="headerlink" title="什麼事三聲詞"></a>什麼事三聲詞</h2><p>　　就是所有詞裡的字都是三聲，唸起來很怪ㄝ……</p><blockquote><p>並沒有</p></blockquote><p>　</p><h2 id="怎麼辦到的"><a href="#怎麼辦到的" class="headerlink" title="怎麼辦到的"></a>怎麼辦到的</h2><p>　　首先，教育部大大提供了辭典檔案<a href="http://resources.publicense.moe.edu.tw/dict_reviseddict_download.html" target="_blank" rel="noopener">下載</a>　<br>　　接著我用了　python　的　xlrd　套件，配上一點字串處理，就搞定了，最後把所有三聲詞輸出到　csv　檔。是說因為有些詞好難，所以我保留了所有的注音和意思。</p><h2 id="成果"><a href="#成果" class="headerlink" title="成果"></a>成果</h2><p>　　我蒐集到了2858個純的三聲詞，之後可能在寫個產生句子的程式吧，不過目前他們沒有詞性所以比較麻煩。或許拿解釋來做分類有機會，但我廢XD<br><img src="https://lh3.googleusercontent.com/s4gjgRM5v-hqpFElcWC37kYH8Du9Lda9vGCAS7oLBJxbcGyMu_CK3K2KTPTT98GMY6jNOO_QgcSjj15U964ezFohVh-axh6OqHW68-MjO4CvW_SoBjTuDKk8p6CpoIPajn8FeiqZVA=w1258-h944-no" alt="照片"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>心情小筆</title>
+      <link href="/2018/08/07/%E5%BF%83%E6%83%85%E5%B0%8F%E7%AD%86/"/>
+      <url>/2018/08/07/%E5%BF%83%E6%83%85%E5%B0%8F%E7%AD%86/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>一場不停對未來下注的賭博…什麼時候結束…</p></blockquote><p>　　如果能重來，我會再好好考慮要不要選擇打競賽。高中生打競賽對我來說從來不是一件輕鬆的事，同時面對課業與人際關係的壓力，努力埋頭在一個結果飄渺的方向。或許付出的努力越多，越不願意放棄。</p><p>　　我一直都很好勝，從小到大都喜歡各種挑戰。我想也是因為這樣，更是讓我無法離開程式競賽。對我而言程式競賽投入越多，我周遭的事物也失去越多。至今我已投入了一年多的時間，停下腳步，我完全無法退出。</p><p>　　之前家人常常提醒我要了解資訊競賽學習的本質，不要得失心太重。對的，我能夠了解種健康的心態。但是，要拋開得失真的很困難。</p><p>　　記得在當初好不容易代表學校參加海選前，每天都很輕鬆的在練習。好像是因為失敗過，而無法回到當初的傻。現在的我總是往前走一步，就回頭看著過去，在轉頭思考著未來，尷尬的在海選前的我前面十公尺煩惱著。</p><p>　　但程式競賽真的很吸引我，我也不會選擇放棄。雖然沒有像以前一樣自在，但每當我解題、學習時都會有一種發自內心的快感。沒關係，我就是想輸贏，但我不想在讓自己停在這裡，我要往前跑，讓我的賭注都有價值。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 心情小筆 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2018 暑假科學營志工</title>
+      <link href="/2018/08/05/2018-%E6%9A%91%E5%81%87%E7%A7%91%E5%AD%B8%E7%87%9F%E5%BF%97%E5%B7%A5/"/>
+      <url>/2018/08/05/2018-%E6%9A%91%E5%81%87%E7%A7%91%E5%AD%B8%E7%87%9F%E5%BF%97%E5%B7%A5/</url>
+      
+        <content type="html"><![CDATA[<h2 id="故事是這樣開始的……"><a href="#故事是這樣開始的……" class="headerlink" title="故事是這樣開始的……"></a>故事是這樣開始的……</h2><p>　　今年暑假我們全班到苗栗縣開礦國小，舉辦了科學營，當了四天的志工。不過當一個科學營志工其實不是只有四天的工作，工作從下學期就開始了。在一次的班會課中，我們分配了工作，或許是喜歡與人接觸，使我決定擔任對輔的工作，難忘的志工旅成就這麼開始了。</p><h2 id="我的小隊都是女生"><a href="#我的小隊都是女生" class="headerlink" title="我的小隊都是女生!!!"></a>我的小隊都是女生!!!</h2><p>　　第一天早晨我們搬著器材來到了開礦國小，我和我的對輔搭當坐在座位上等著迎接小隊員們到來。沒想到陸陸續續簽到的六個小隊員中，只有一個男生，這對一個升上高中一年後沒見過幾個女生的我來說，真是一個大挑戰。</p><h2 id="慢熱的小隊員們"><a href="#慢熱的小隊員們" class="headerlink" title="慢熱的小隊員們"></a>慢熱的小隊員們</h2><p>　　營隊剛開始，其他小隊們都很熱絡的聊天著。唯獨我們小隊氣氛偏冷，大家都靜靜的看著剛發下來的講義，而尷尬的我就介紹了自己和我的搭當，隨後請他們換了營服，打發了乾乾的十分鐘。接著開始破冰時間，我們帶了他們玩破冰遊戲，依照之前設定好的，我們準備跟他們完竹筍竹筍冒出來和廣州炒麵辣這兩個遊戲，不過他們大多是女生，我也有點不好意思訂輸的懲罰。結果他們很快的就秒殺、熟悉這兩個遊戲…….慘了這下又尷尬了，腦子一片空白，不知道該帶他們玩什麼其他的遊戲，找了同學硬是生了個遊戲出來，老實說遊戲挺無聊的，但沒想到他們卻都玩得很開心，十分鐘又過去了。<br>　　中午吃飯也忘記為什麼，我們終於神奇的搭上了一些話，開心的聊來。吃飽飯後，小隊員們熱情的邀請我們跟他們出去玩，我們跑到了操場後方的樹下。他們抓了幾個蟬蛻給我，這是竟然是我第一次看到蟬蛻，玩得很開心。回到教室後，我偷偷消費了一下怕蟲的總召。正中午，逐漸升溫，我安心的趴著睡午覺。</p><h2 id="教學"><a href="#教學" class="headerlink" title="教學"></a>教學</h2><p>　　比起許多”高中生”參加的營隊，我們的營隊教學豐富，幾乎都圍繞著課程進行。跟著小隊員上了幾堂課，發現他們其實都很聰明，有些實驗或知識其實他們本來就學過了。不過因為我們的年齡層很廣，因此有些低年級的小朋友就比較無法跟上課程進度。很多堂課我們隊輔們就擔任了助教的角色，也想辦法讓他們能一起參與我們的課程。</p><h2 id="溫暖"><a href="#溫暖" class="headerlink" title="溫暖"></a>溫暖</h2><p>　　或許是因為我們隊員幾乎都是女生，除了幾次協調偶爾小隊員之間的爭吵，幾乎沒嚴肅的對他們說話，隨著時間，我們越來越融洽。第三天某個小隊員送了我一個它自己做的吊飾，是一隻青蛙。不論是上課或下課，我們小隊混在一塊，都相處得很輕鬆歡樂。在聊天時，他們有時候也會靠在我們身上，感受到他們的熱情。</p><h2 id="一場四天的煙火"><a href="#一場四天的煙火" class="headerlink" title="一場四天的煙火"></a>一場四天的煙火</h2><p>　　時間也過得很快，一轉眼四天就結束了。他們問我什麼時候會在回去，我考慮了一陣子，決定跟他們說可能不會了。最後在應要求在他們名牌和獎狀上籤了名，與他們擁抱道別。看到他們回家時依然保持著笑容，使我相當感動。</p><h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>　　起初覺得科學班強制舉辦科學營是個不優良的傳統，但在經歷這四天的日子後，覺得一切都很值得。也許準備很辛苦，也許擔任對輔很勞累，但我們帶個了小朋友知識與快樂，也從他們那獲得了與人相處的感動。</p><h2 id="老樣子"><a href="#老樣子" class="headerlink" title="老樣子"></a>老樣子</h2><p>　　感謝所有與科學營相關的人們。</p><blockquote><p>是說忘記寫　INFAS　心得……</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>資訊枝芽心得</title>
+      <link href="/2018/07/11/%E8%B3%87%E8%A8%8A%E6%9E%9D%E8%8A%BD%E5%BF%83%E5%BE%97/"/>
+      <url>/2018/07/11/%E8%B3%87%E8%A8%8A%E6%9E%9D%E8%8A%BD%E5%BF%83%E5%BE%97/</url>
+      
+        <content type="html"><![CDATA[<h2 id="資芽1"><a href="#資芽1" class="headerlink" title="資芽1!"></a>資芽1!</h2><p>在參加資芽1!前，我就曾經把2017講義和題目當作訓練教材練習，所以其實1!大部分的上機作業我都已經完成了，這也讓我在1!過得很輕鬆。每週就開心的聽課，到了上課前幾天把手寫作業完成，就把分數拿好拿滿了(事實上手寫最後成績沒拿滿)。原本有點擔心每週的上課內容會過於簡單，結果其實不會，印象中除了第一個禮拜大家沒有課前投影片，把投影片的內容移到上課教，其他的課程對我來說都是新知識。每次上課講師都有許多挑戰性的題目，讓我們討論，也有介紹一些我原本不會的演算法。</p><p>一階的認證考其實打的不理想，除了水題pA以外，沒有完整的AC。那時後pB是併查集+DAG，其實賽中有想到正解，只是腦袋BUG了沒有AC。剩餘的分數都是亂打部份分，好像沒有什麼好的想法，題目難度我覺得算很高，NJ在賽後把除了最後一題都AC了，我望塵莫及XD。</p><p>上機作業部份我記得我一階因為有充裕的時間，所以Rank第二，GPA 4.3</p><h2 id="資芽2"><a href="#資芽2" class="headerlink" title="資芽2!"></a>資芽2!</h2><p>到了二階開始變得不容易，開始有些新的課程有我沒寫過得作業題目，加上我當時心情低落，其實寫作業的狀況不理想，慢慢的上機作業Rank掉到NJ後面。不過上課狀況感覺漸入佳境，上課內容我也越來越習慣，參與課堂討論也變多了些。雖然我最想聽的字串課狀到了INFAS籌備，請了假，不過其他的課我真的學到了非常多。也因為感受到課程難度增加，我開始和朋友們共筆筆記。也有許多次的放學，和講師一起吃飯，蠻開心的，也認識了一些同學。手寫作業除了最後一次 disjoint set 外，我剛好避開了幾個陷阱題，蠻高分的。</p><p>二階認證考我打的不差，雖然只打了一題AC，不過班上總共也只有3個AC，而且都是不同人不同題。我打的這題其實是一題背包大小是一個區間的背包問題(物品總重要在區間內)，一看輸入又發現類似講師上課提過得超大背包問題，套了線段樹加均攤複雜度，我AC了，結果賽後講師的正解少了logN，不過我的Runtime竟然沒有比標程慢很多。其他題目其實我沒有多打部份分，比賽就結束了。</p><p>2!我的作業都拿了GPA 4.3</p><h2 id="畢業"><a href="#畢業" class="headerlink" title="畢業"></a>畢業</h2><p>結果我達到標準拿到了優良結業證書，而且我作業平均GPA、和兩次認證考成績合，都達到了班上第一，所以我獲得了Cyber Link的特殊獎項，獎品其實我也不知道XD。拿到這些獎項其實蠻開心的，不過我更高興在資訊資芽中學到了這麼多知識。</p><h2 id="推薦"><a href="#推薦" class="headerlink" title="推薦"></a>推薦</h2><p>我想推薦所有想要學習程式解題的人參加資訊之芽，尤其是如果想打程式競賽，在高中參加資訊資芽可以學習到很大一部份程式競賽要用到的演算法。就算我住在新竹，需要每個禮拜上台北上課，都還是覺得到台北上課非常的值得。參加資芽除了可以學習演算法外，每週的上機測驗都可以練習到解題方法和實做能力。至於入芽考，就算沒有競賽經驗都可以嘗試，當時看那麼多人參加其實也很緊張，但只要掌握好基本分，過難的題目就可以跳過，等進了算法班慢慢磨練XD</p><h2 id="致謝"><a href="#致謝" class="headerlink" title="致謝"></a>致謝</h2><p>感謝所有付出時間教我們的講師，每個講師都很厲害，而且上課的方式我很喜歡，幾乎能聽懂。也感謝讓我問問題的講師，雖然我比較害羞XD很少問問題，問出來的問題有時候又很雷，但感謝講師們願意花時間協助我解決問題。也感謝帶我們一起出去吃晚餐的講師，我發現其實科技大樓附近蠻好吃的。</p><p>感謝NJ,CAT,HANWEN，陪我一起討論，一起共筆筆記。特別感謝NJ在2!常常凱瑞我，教我幾題比較難的上機。</p><p>感謝Cyber Link LoL，是說我猜獎品是威力導演，是時候該裝Windows摟(其實裝windows不是因為威力導演)</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2018成大賽</title>
+      <link href="/2018/07/11/2018%E6%88%90%E5%A4%A7%E8%B3%BD/"/>
+      <url>/2018/07/11/2018%E6%88%90%E5%A4%A7%E8%B3%BD/</url>
+      
+        <content type="html"><![CDATA[<h2 id="比賽日期-7-6-2018"><a href="#比賽日期-7-6-2018" class="headerlink" title="比賽日期 7/6 2018"></a>比賽日期 7/6 2018</h2><h2 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h2><p>這次比賽蠻精彩的，我和NJ原本想抱BB大腿，組成了一隊參加今年成大賽，但是比賽前一天，BB評估了一下狀況，決定放棄參加這場比賽，結果三年級的LF就決定來幫我們，和大會申請和BB交換，套用NJ的說法:</p><blockquote><p>我們隊友從一個電神變成一個電神</p></blockquote><p>一開始在測機的時候其實不太順利，第一題題目沒講清楚吃了好幾次WA。第二題是割點，本身不太好實做，我們也WA很多次，印象中最後拿了Rank18，我想那時候LF應該對要凱瑞兩個雷包感到懊惱吧?</p><p>一開賽，LF打模板，我分配題目給自己和NJ。一看題目發現很多題都沒給範圍，天阿，是什麼印度比賽。結果我看到了一題字串匹配題，正解是AC 自動機，我算了一算感覺可以 N^2 爆搜。於是就說自己可以AC這題。不過當時和隊友確認自己可以AC時，其實壓力很大，因為我們是打保守盤，不希望吃 penalty ，把IO處理完，看到LF好像沒事，趕快把 code 脫手給他XD，結果順利一次 AC 了！賽後有人表示N^2不會過需要KMP，其實我也忘了範圍，可以看公佈的題目來重新算一下。(莫非賽到算錯吧)</p><p>結果我和NJ分別把看完的題目和LF討論，隨著範圍的補充，歸納出了一些可以AC的題目，一切都還算順利，強者LF一連串AC好幾題，而且都是一次AC，結果中場LF卡了一題實作題，NJ就接手了一題實做題，很巧的是NJ比賽前兩天才和我在程式專題學習時認識了題序中的遊戲，結果也是一次AC。</p><p>我也接手了一題麻將題，大概是要判斷手牌胡不胡，乍看之下很困難，實際上不是防破台那種實做，經過討論之後，我決定寫保守一點，很確認答案對後，上傳也是一次過。</p><p>印象蠻深刻的一題是pC，當時範例測資只有一筆，卻有多筆測試資料，在上傳之前我看題目意外發現，結果回去看輸入，沒提到多筆測資，結果和隊友討論，決定打保守盤，假設它多筆測資。沒想到賽後才發現很多組都因為它沒說多筆測資，所以WA了很多次，也算是學了一次經驗，保守真好。</p><p>pB一開始看到題目，我想出了一個Greedy假解，不小心被強者LF識破了，沒想到是賽前LF教我們匹配後NJ找到的一題經典題目，賽中我有感覺到他們是同一題，不過也是被強者LF用某種其實沒仔細聽的方法一次AC了。</p><p>最後我們前7題都一次過，剩最後一題，我們只有N^2方法，N卻是50000。雖然當時LF剛打完pB很累，可是經過我們的鼓勵(?)，LF決定亂丟丟看N^2。我們突然閃過一個想法，第一個破台的那組可能是假解，如果N是5000，那N^2也很合理。第一次上傳後吃了WA，竟然是忘了初始化，也讓我們與第一名以19分擦身而過。</p><p>其實這次多半是LF凱瑞，這也是他第二年破台，上傳9次對了8題。學到了不少競賽經驗，賽後因為pC爭議，結果取消單一測資 penalty 結果有兩隊並列第一，我們單獨拿下第二名。雖然是抱大腿，但也是一場很美滿的競賽。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Facebook Hacker Cup 新手日記</title>
+      <link href="/2018/07/07/Facebook-Hacker-Cup-%E6%96%B0%E6%89%8B%E6%97%A5%E8%A8%98/"/>
+      <url>/2018/07/07/Facebook-Hacker-Cup-%E6%96%B0%E6%89%8B%E6%97%A5%E8%A8%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>今天凌晨，我的人工智慧老師跟我們講今天有Facebook Hacker Cup。剛好今天我要去泰國蘇梅島，凌晨四點就出發了，恰巧在登機門口下載好熱騰騰的題目，開始了 2018 Facebook Hacker Cup。</p><h2 id="Qualification-Round"><a href="#Qualification-Round" class="headerlink" title="Qualification Round"></a>Qualification Round</h2><p>這三天 7/7 ~ 7/9 是 Qualification Round。來簡介一下 Qualification Round 規則，這是類似 Hacker Cup 的入場賽，會有三題共三天的時間，解出任何一題就可以進入下一個階段。</p><p>大部分資訊都可以紀錄在<a href="https://www.facebook.com/notes/facebook-hacker-cup/hacker-cup-2018-faq/1029173677098533/?fref=mentions" target="_blank" rel="noopener">這裡</a></p><p>總之<a href="https://www.facebook.com/hackercup/register" target="_blank" rel="noopener">報名網站</a>、<a href="https://www.facebook.com/hackercup/contest" target="_blank" rel="noopener">競賽網站</a> 都可以看看。</p><p>不過加上這場比賽總共有 4 場，要贏得 500 件的 T-shirt 也蠻難的XD。</p><h2 id="簡單上傳教學"><a href="#簡單上傳教學" class="headerlink" title="簡單上傳教學"></a>簡單上傳教學</h2><p>這場比賽跟我平常打的線上賽不太一樣，紀錄一下上傳方法。比賽有三天，不過三題都是賽後 Judge ，每題都只能 submit 一次，一次可以有六分鐘的時間，它會給你 Input 檔案，你要想辦法用你的程式生出一份輸出檔，在時間內上傳，時間內可以不限次數的重傳，penalty就是你每題的時間合。</p><p>假設下載到的輸入檔是 input.txt，你的程式是 answer.cpp</p><blockquote><p>g++ answer.cpp -o a.out<br>./a.out &lt; input.txt &gt; output.txt</p></blockquote><p>這時你可以把 output.txt 連同 answer.cpp 上傳，你會得到一串 md5 密碼，保險起見，你可以和自己的 output.txt 核對，看上傳是否順利。</p><blockquote><p>md5sum output.txt</p></blockquote><h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>祝大家順利晉級XD</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux 每日指令 Day6</title>
+      <link href="/2018/06/17/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day6/"/>
+      <url>/2018/06/17/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day6/</url>
+      
+        <content type="html"><![CDATA[<h2 id="本日主題-神奇的字串匹配工具grep"><a href="#本日主題-神奇的字串匹配工具grep" class="headerlink" title="本日主題: 神奇的字串匹配工具grep"></a>本日主題: 神奇的字串匹配工具grep</h2><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近又blog又停滯了好久，主要是忙於上禮拜的INFAS，INFAS是一個我參加的中學生資訊社群，今年我擔任副召，也許之後會補上心得吧。再加上我有在練競賽，最近一直沒時間發blog，總之抱歉讓大家久等囉。</p><p>今天要介紹一個蠻方便的指令grep，仔細一看它就只是個字串匹配工具，不過它很實用喔，之後的指令可能會和它配合使用。</p><h2 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h2><p>我也不多說介紹了大家想深入研究就<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">man grep</span><br></pre></td></tr></table></figure></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">grep [OPTIONS] PATTERN [FILE...]</span><br><span class="line"></span><br><span class="line">#for example</span><br><span class="line">grep &quot;alias&quot; $home/.zshrc</span><br></pre></td></tr></table></figure><p>但我覺得這工具更強大的地方是它可以幫你遞迴遍歷資料夾中的所有檔案匹配</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grep -r &quot;Union&quot; $OJ #-r 代表遞迴搜尋資料夾</span><br></pre></td></tr></table></figure><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>這個指令大家之後可能會繼續看到喔!<br>我盡量有空多發文，希望對大家有用。<br><blockquote><p>A shell script a day keeps the Windows away</p></blockquote></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux 每日指令 Day5</title>
+      <link href="/2018/04/21/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day5/"/>
+      <url>/2018/04/21/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day5/</url>
+      
+        <content type="html"><![CDATA[<h2 id="本日主題-用export設個變數"><a href="#本日主題-用export設個變數" class="headerlink" title="本日主題: 用export設個變數"></a>本日主題: 用export設個變數</h2><p>今天又要來花大家五分鐘的時間，節省寶貴的一秒鐘。今天介紹的是export，它可以用來設定定變數，當然也可以設定一些常數。比如說我常常用$HOME/Documents/oneline-judge這個位置來放我競賽程式的檔案，每次CD一長串路徑也有點麻煩，所以不妨把長長的路徑設成一個變數吧！</p><h2 id="作法"><a href="#作法" class="headerlink" title="作法"></a>作法</h2><p>今天的作法也很簡單<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export OJ=&quot;$HOME/Documents/online-judge&quot;</span><br><span class="line">cd $OJ #equals cd $HOME/Documents/online-judge</span><br></pre></td></tr></table></figure></p><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>哎呀又是一篇簡單的教學，希望對大家有用。<br><blockquote><p>A shell script a day keeps the Windows away</p></blockquote></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux 每日指令 Day4</title>
+      <link href="/2018/04/19/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day4/"/>
+      <url>/2018/04/19/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>先說聲抱歉，好久沒發文章，突然發現最近其實沒有那個能力每天發一篇文章，所以這個系列可能要被迫拖延QQ目前計畫是把原本30天的計畫改成10天，然後有空就發一天，不要有太大的時間壓力，不好意思……</p><h2 id="本日主題-mkdir-amp-amp-cd-組合懶人妙計"><a href="#本日主題-mkdir-amp-amp-cd-組合懶人妙計" class="headerlink" title="本日主題: mkdir &amp;&amp; cd 組合懶人妙計"></a>本日主題: mkdir &amp;&amp; cd 組合懶人妙計</h2><p>如題，今天就來讓大家花五分鐘的時間，節省一秒鐘的時間吧，聽起來應該很有吸引力吧？其實我個人的經驗，mkdir和cd其實常常都是一起用的。所以可以想像一下，如果把他們綁成一個指令，應該會方便一些。（至少心情上）</p><h2 id="作法"><a href="#作法" class="headerlink" title="作法"></a>作法</h2><p>這邊用function就可以輕鬆解決啦<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkcd () &#123; mkdir &quot;$1&quot;; cd &quot;$1&quot;; &#125;</span><br></pre></td></tr></table></figure></p><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>這應該算是個概念，不只是這種簡單的東西，如果今天你有一連串要連續做的指令，都可以用這個技巧，綁成一個function。真的要使用的話，可以照之前所說的放入~/.bashrc，這樣開心的terminal才會繼續有用。</p><blockquote><p>A shell script a day keeps the Windows away</p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux 每日指令 Day3</title>
+      <link href="/2018/04/12/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day3/"/>
+      <url>/2018/04/12/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="本日主題-複製移動刪除"><a href="#本日主題-複製移動刪除" class="headerlink" title="本日主題: 複製移動刪除"></a>本日主題: 複製移動刪除</h2><p>哎呀這幾天我好忙阿，昨天又再打比賽，重點是還雷到了，今天就介紹點簡單的。常常用terminal操作檔案，會需要進行複製移動或刪除，因此今天就來介紹這些指令吧。</p><h2 id="刪除"><a href="#刪除" class="headerlink" title="刪除"></a>刪除</h2><p>刪除檔案的時候就用remove<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm FILE</span><br></pre></td></tr></table></figure><br>注意如果是資料夾要加-r (recursive)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -r FILE</span><br></pre></td></tr></table></figure></p><h2 id="複製"><a href="#複製" class="headerlink" title="複製"></a>複製</h2><p>前面是來源，後面是目標位置，剩下的就自己加–help看看摟<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cp SOURCE DEST     #檔案</span><br><span class="line">cp -r SOURCE DEST  #資料夾</span><br></pre></td></tr></table></figure></p><h2 id="移動"><a href="#移動" class="headerlink" title="移動"></a>移動</h2><p>大致上也差不多，但沒有-r的選項，也就是不用-r<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv SOURCE DEST #基本用法</span><br></pre></td></tr></table></figure></p><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>對我來說這些指令除了用起來比UI快之外，有一個優點是可以碰root的檔案，當你遇到Permission denied，加一個sudo就解決了。也希望大家覺得有用。<br><blockquote><p>A shell script a day keeps the Windows away</p></blockquote></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux 每日指令 Day2</title>
+      <link href="/2018/04/10/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day2/"/>
+      <url>/2018/04/10/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="本日主題-alias"><a href="#本日主題-alias" class="headerlink" title="本日主題:alias"></a>本日主題:alias</h2><p>在打競賽程式時最常要用的指令應該非編譯莫屬了，我是幾乎都用g++來編譯我的競賽程式。問題是編譯需要加上許多參數，每次打比賽都要打一長串，可不是個好方法。所以需要一個指令，把常常的指令變短，就是我們今天要介紹的指令喔。</p><h2 id="alias-用法"><a href="#alias-用法" class="headerlink" title="alias 用法"></a>alias 用法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">alias CMD=&quot;command&quot; #把引號內的文字取代為CMD</span><br><span class="line">alias CMD           #查詢CMD被alias成什麼</span><br><span class="line">alias -p            #列出所以alias設定</span><br><span class="line">unalias CMD         #取消alias CMD</span><br></pre></td></tr></table></figure><p>至於最重要的g++則是<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alias g++=&quot;g++ -O2 -std=c++11 -Werror -Wall -Wextra -Wshadow -Dtmd&quot;</span><br></pre></td></tr></table></figure><br>昨天交的也可以拿來偷懶～<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alias lh=&apos;ls -lha&apos;</span><br></pre></td></tr></table></figure></p><h2 id="忽略-alias"><a href="#忽略-alias" class="headerlink" title="忽略 alias"></a>忽略 alias</h2><p>有時候需要忽略alias，比如就算我g++幾乎只拿來競賽，免不了不想使用這些參數的場合。但unalias又有點麻煩，不如就暫時忽略alias吧！<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\g++</span><br></pre></td></tr></table></figure><br>方法其實超多的，我就找一個簡單的來用。</p><h2 id="疑！怎麼不見了？"><a href="#疑！怎麼不見了？" class="headerlink" title="疑！怎麼不見了？"></a>疑！怎麼不見了？</h2><p>當你剛alias後，開了一個新的terminal，你會發現你辛辛苦苦定義的alias都不見了。這是因為alias效果只存在目前的shell session，意思是你每開一個新的shell它都會不見。那怎麼辦，只能放棄了嗎？Linux有一個神奇的檔案是.bashrc(不是bash shell的就爬爬文吧)，它就是一個會在session開始前執行的shell程式。這個檔案好像到處都有，我自己是習慣編輯home directory的那一份，也不知道適不適合，再麻煩大大指點摟。總而言之，你的alias定義放在裡面，就會一直存在啦！<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">emacs -nw ~/.bashrc     #我不是來戰編輯軟體的，因為emacs不是</span><br></pre></td></tr></table></figure><br>打開了就找一個喜歡的角落貼上那些alias吧！</p><h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>今天介紹的我覺得蠻實用的，大家可以試試看！<br><blockquote><p>A shell script a day keeps the Windows away</p></blockquote></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux 每日指令 Day1</title>
+      <link href="/2018/04/09/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day1/"/>
+      <url>/2018/04/09/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Day1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="本日主題：是Dir船長！！"><a href="#本日主題：是Dir船長！！" class="headerlink" title="本日主題：是Dir船長！！"></a>本日主題：是Dir船長！！</h2><p>今天來從最基本的開始，Dir是Directory的縮寫，Google翻譯成目錄，也就是Windows中資料夾的概念，就來看看在Linux Shell中如何控制Dir吧!</p><h2 id="插播一條指令-ls"><a href="#插播一條指令-ls" class="headerlink" title="插播一條指令 ls"></a>插播一條指令 ls</h2><p>ls可以算是最常用的指令之一，他的功能是輸出位於目錄裡的檔案，選項有點多這邊就只介紹一些。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ls        #輸出目錄裡的檔案</span><br><span class="line">ls --help #輸出ls的使用手冊</span><br><span class="line">ls -a     #輸出包含.開頭的隱藏檔案</span><br><span class="line">ls -l     #以清單方式輸出</span><br><span class="line">ls -h     #以適合人類方式輸出</span><br></pre></td></tr></table></figure><br>其實我平常如果只是想要看個概況就會用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure><br>如果要詳細內容就會<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -lha</span><br></pre></td></tr></table></figure><br>還有些其他功能比如說排序，就請大家看看help吧</p><h2 id="建立資料夾-mkdir"><a href="#建立資料夾-mkdir" class="headerlink" title="建立資料夾 mkdir"></a>建立資料夾 mkdir</h2><blockquote><p>嘿嘿你有發現押韻了嗎XD</p></blockquote><p>其實不難理解，就是mkdir後面接上想要建立的目錄名稱，如果已經存在就會回傳錯誤訊息。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir DIRNAME #DIRNAME是你要建立的目錄名稱</span><br></pre></td></tr></table></figure></p><h2 id="你的位置-pwd"><a href="#你的位置-pwd" class="headerlink" title="你的位置 pwd"></a>你的位置 pwd</h2><p>可以發現在terminal輸入文字的左邊會顯示你現在位於什麼目錄，也就是所謂的working directory。這個資訊可以透過pwd指令輸出，實際上我是很少用啦ww</p><h2 id="切換目錄-cd"><a href="#切換目錄-cd" class="headerlink" title="切換目錄 cd"></a>切換目錄 cd</h2><p>當你要切換working directory時，就用cd吧，windows和linux都是用這個指令呢。Change Directory的簡寫，好記又方便。這邊提醒一下一些常用的方法。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd PATH   #PATH可以是用絕對路徑或相對路徑 而且記得用/而不是\喔</span><br><span class="line">cd ~      #~代表的是使用者的家目錄</span><br><span class="line">cd ..     #..代表祖先目錄</span><br><span class="line">cd -      #-代表上一個使用的目錄位置</span><br></pre></td></tr></table></figure></p><h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>今天介紹的…有一點又長又沒營養的感覺，不過算是為了之後埋梗，也希望可以幫到大家<br><blockquote><p>A shell script a day keeps the Windows away<br>雖然說今天是介紹了4個啦…</p></blockquote></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux 每日指令 Intro</title>
+      <link href="/2018/04/08/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Intro/"/>
+      <url>/2018/04/08/Linux-%E6%AF%8F%E6%97%A5%E6%8C%87%E4%BB%A4-Intro/</url>
+      
+        <content type="html"><![CDATA[<h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>我是Linux使用者，從真的開始每天使用到現在，大概經過了一年了。了解了許多基本的概念，開始覺得對於寫程式的人來說Linux使用起來非常的方便。昨天在幫朋友裝了Ubuntu後，突然想要在Blog上開始一系列的Linux Shell教學文章，編寫邊學邊推廣Linux（雖然目前網站瀏覽量是很小啦XD)</p><h2 id="計畫"><a href="#計畫" class="headerlink" title="計畫"></a>計畫</h2><p>目前的計畫是在未來的30天內，每天找一個好用的主題，來介紹跟那個主題相關的Shell指令。最近雖然是段考結束，沒有意外的話應該可以連續30天，不過如果事情沒處理完，還是會順延一天的喔！</p><h2 id="環境"><a href="#環境" class="headerlink" title="環境"></a>環境</h2><p>經過了一些比較，我還是比較喜歡Ubuntu，用的桌面環境是Gnome，加上偷偷弄的OS X UI。教學都會在這電腦上跑，但大部分指令應該會通用。如果大家遇到什麼問題就Google一下吧，是說也可以Email給我一起討論。</p><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><blockquote><p>A shell script a day keeps the Windows away</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>No.62 ITSA</title>
+      <link href="/2018/03/14/62-ITSA/"/>
+      <url>/2018/03/14/62-ITSA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h2><p>這次比賽是三人團體賽，我和同屆的Colder66一起參加。是說比賽用PC^2，要JDK才能跑，但最近JDK剛更新，所以我還沒看完Linux怎麼一次裝兩個JDK版本，比賽就開始了。再加上剛下課還沒吃晚餐，所以就邊打邊吃囉XD。一開始前三題是水題，一下就寫完了，不過隊友電腦在情急之下被拿來當作上傳的Client，又剛好他檔案路徑有個空格，讓我們吃了幾個CE，找了一陣子我才發現。</p><p>成功高中的人真的猛，似乎在十幾分鐘的時候就破台了，嚴重感受到實力差距阿，那時候我們才剛搞定前三題。於是Colder66就看了第4題，我是看到了第5題。第5題比較特別，是英文的題目，好像造成了我的一些困擾。首先我沒注意好他區間沒有重複，所以在處理區間修改單點詢問的問題，我用了線段樹，複雜度是還可以的，不過沒測機，一上傳就TLE。後來意識到後，把前面輸入的那段，改成了O(N)寫法，原本以為要AC了，卻WA了好幾下。最後才發現是我讀題目的誤解，我把endpoint解讀為終點，把區間當成合理的左閉右開，其實是左開右開（endpoint==端點)。後來colder66解了pD後沒多久我也解了pE。</p><p>對pE好奇的話，他給了一些障礙區間，求從0開始最少一次前進多少格，使的可以到終點，又不會經過障礙物。我想到的解法就是把有障礙的區間枚舉出來，在枚舉每個是障礙的座標，會使哪些距離遇到障礙，最後O(N)掃過所有距離，取最小值。</p><p>總體而言，其實題目並不難，雖然對我來說也不算水題。下次如果還要比，應該提早一天搞定連線問題。話說海洋大學和長榮大學，好多組都個人參加，破台，覺的可怕ww。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我還是放不下</title>
+      <link href="/2018/03/12/%E6%88%91%E9%82%84%E6%98%AF%E6%94%BE%E4%B8%8D%E4%B8%8B/"/>
+      <url>/2018/03/12/%E6%88%91%E9%82%84%E6%98%AF%E6%94%BE%E4%B8%8D%E4%B8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>原本覺的經過了兩天的沈澱，我可以放下這場比賽的傷痛。不過今天看到了TOI一階名單，慘了，我發現其實我一點都沒有放下。想到我這幾個月來，放棄了課業、放棄了球隊、放棄了娛樂、避開了旅遊、沒跟同學約打球、也不再偷偷喜歡女生（？）我曾擁有卻可以放棄的東西，我幾乎都放棄了。這半年來說真的也進步了不少，大概描述的話，就是從什麼都不會，進步到了什麼都會一些。說真的，我這半年真的很想進步，每天都不斷的努力，當然的，也非常想贏。不過現實就是如此殘忍，我就和進入選訓營的門票擦身而過。比賽中遇到了各種障礙，包括挑錯演算法寫，又因為不熟練而耽誤了大多數的時間，加上我判斷離門票的距離很遠，最後一個小時決定賭個一整題，而錯失了部份分數。看到了最後的結果，真的因為少了那一丁點的十分，把我推出了選訓營大門。想起了過程中的每個環節，都覺得很心寒，想要回到那天提醒自己修正自己，但成績已經公佈出來，名單也已經確定了，時間卻回不去。無法彌補過去的失誤，只能看著時間繼續往前走，比我強的人進了選訓營，繼續的進步，我只能留在原地傷心。</p><p>是說老爸總是告訴我不要只看結果，重點是過程的收穫。但聽起來很合理很容易，但今天真正面對到挫折的時候，我確確實實的無法做到。或許是因為我太軟弱，沒辦法承受這樣的挫折；又或者是我太喜歡規劃與預期結果，讓自己跌的更痛。真正到了痛苦的時候，卻無法表現出來，只能自己偷偷的很傷心，就把他留在這裡好了，等有一天我好了，還是我更糟了，再回來看看現在吧…</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 心情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TOI海選</title>
+      <link href="/2018/03/10/TOI%E6%B5%B7%E9%81%B8/"/>
+      <url>/2018/03/10/TOI%E6%B5%B7%E9%81%B8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="比賽日期-3-10-2018"><a href="#比賽日期-3-10-2018" class="headerlink" title="比賽日期: 3/10 2018"></a>比賽日期: 3/10 2018</h2><h2 id="題目"><a href="#題目" class="headerlink" title="題目:"></a>題目:</h2><ol><li>計算帶括號的化學式個原子總和</li><li>給你會重複的字串計算該字串在本身permutation中的rank</li><li>f(n) = f(n-1)×a+f(n-2)×b 計算f(n)矩陣快速密</li><li>給你一個l×w的矩形 求最多覆蓋多少平面上的點 雙指標題</li><li>很純的RMQ</li></ol><h2 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況:"></a>比賽狀況:</h2><p>先破梗我沒進選訓營，只拿了36名。一開始其實很正常，覺的pA,pB有點難，就喇了一些部份分。接著看到pC是矩陣快速冪，不會矩陣，很快的推導一下，結果卡了一陣子AC。後來在喇了一下pD 部份分，就去看了pE，沒看題目就知道他是RMQ問題，發現線段樹和Sparse Table都會過，於是我就想到Sparse Table好像code比較短，就用了。結果應該寫了40分鐘有，被迴圈卡到。結果兩個小時，我解了300分，在19名。於是我回去寫數學題pB，寫到後來很疲累，寫不出來。就回去pA，到比賽結束一兩分鐘才寫完，真的好雷。打不下去了，有點難過，掰掰TOI。</p><h2 id="檢討心得"><a href="#檢討心得" class="headerlink" title="檢討心得:"></a>檢討心得:</h2><p>難過了幾天，所以還沒把這篇發出去。後來聽說有高一保送這種好東西，又發現我剛好在名額外，差了十分。當初比賽實的策略是看有不少人破台離場了，估計可能要400分左右才能進，看到自己300分就覺的要拼一波大的。結果實在好可惜，差一點點就要打出來了。除了失望還是失望阿，檢討了一下，我花了太多時間再打水題了，原因顯然是對演算法實做不夠熟練，就算是選到了Sparse Table稍微比較難一點的寫法，也不應該打一個小時。為了避免重蹈覆轍，我覺得來建一個Online Judge，裡面生滿滿的純模板題，讓我可以在比賽前，正確的複習一次各種演算法，彌補我coding慢又記憶力不好的缺點。比賽輸了的感覺確實很難過，尤其是差了十分，曾經有想過放棄競賽，幸好打消了念頭，我不應該那麼快放棄。就算是沒辦法成為台灣國手，至少我也要好好的享受高中程式競賽，提升我的能力。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+            <tag> TOI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Codeforces Round #466 (div.2)</title>
+      <link href="/2018/02/25/Codeforces-Round-466-div-2/"/>
+      <url>/2018/02/25/Codeforces-Round-466-div-2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="題目："><a href="#題目：" class="headerlink" title="題目："></a>題目：</h2><ul><li>pA,pB兩題暴搜</li><li>pC 製造一個長度k且字典序最小的字串t，符合t&gt;s字串且t字元集屬於s字元集</li><li>pD 莫名其妙出現一題實做題害我一開始沒發現最後才寫</li><li>pE 一個陣列a拆成一些連續的區間，每個區間要刪除前floor(length/c)個元素，求所有區間的最大合。這題我用dp加sparse table其實可以用deque沒想到0.0</li><li>pF 來不及了<h2 id="後記："><a href="#後記：" class="headerlink" title="後記："></a>後記：</h2>這次比賽為了練習，我特別轉到了餐桌比賽，增加一點比賽的感覺，不過實際上並沒有造成緊張。一開始的pA我覺的想的有點久，後來除了吃了比較多WA外，都還蠻順利的，一開始看到pD沒有想清楚，再加上他的N看起來不是O(N)的複雜度（沒想到其實他真的是）於是我就跳到了pE，分析了一下題目，反應還算快，計算了複雜度之後就開始寫了。有點算是被N的大小影響，我又選了一個NlgN預處理的sparse_table，其實那時候想到可以用的結構好多…最後回頭看pD才發現水水的，話說原本看到要取長度5的區間最小值，竟然有把sparse table貼上去的衝動，真的ㄎㄧㄤ了XD。今天早上看到Rating +90好開心ww快上1800了。</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TOI@nehs</title>
+      <link href="/2018/02/22/TOI-nehs/"/>
+      <url>/2018/02/22/TOI-nehs/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="比賽日期-2-21-2018"><a href="#比賽日期-2-21-2018" class="headerlink" title="比賽日期: 2/21 2018"></a>比賽日期: 2/21 2018</h2><h2 id="題目："><a href="#題目：" class="headerlink" title="題目："></a>題目：</h2><ol><li>pA DP斜率優化 只拿11分</li><li>pB 樹壓平後動態加點線段數 0分</li><li>pC 雙指標再加排列組合 0分</li><li>pD 對答案二分搜再DAG DP 100分</li><li>pE 簡單實作題 72分 差一筆側資XD<br>總分183 第四名</li></ol><h2 id="比賽狀況："><a href="#比賽狀況：" class="headerlink" title="比賽狀況："></a>比賽狀況：</h2><p>一開始很緊張，看到第1題直覺是DP於是趕著列式結果列錯，花了半小時多，決定先解掉小側資繼續往下看（小側資是GREEDY）。接著看到第2題，算了算複雜度，沒想到滿分解，結果有點慌張就跳下一題。第3題是最沒想法的題目，結果原來是數學。這時候11分的我有點不知所措，幸好老師決定開Score Board，看到原來大家狀況都不優，心情平緩了些。注意到大家先寫了pD 100分決定也來試試，一看到題目，其實心裡有個底是對答案二分搜，算了一下複雜度，真的可以100%。不過實作上忘了開DP，我其實常犯著個錯，最後還是AC了，靠著我111分瞬間衝上了第2名，心裡蠻開心的XD。最後看到有人漸漸的只完成pE，我猜應該不會太難，題目看了好久，原來是實作水題XD。就決定動工慢慢解，把名次穩住。結果每個子題都蠻獨立的，就一步一步拿，最後時間到了只有72分，忘記留意N=0，不過其實差異不大。蠻興奮的，比上次校內賽掛蛋進步了不少，也得到了海選校隊資格，繼續努力中~</p><blockquote><p>PS：這是我最後一次用這台ASUS了，感謝你一路陪著我，從以前打電動，到現在寫程式，一直是我很好的朋友XD</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>資訊之芽 入芽考</title>
+      <link href="/2018/02/03/%E8%B3%87%E8%A8%8A%E4%B9%8B%E8%8A%BD-%E5%85%A5%E8%8A%BD%E8%80%83/"/>
+      <url>/2018/02/03/%E8%B3%87%E8%A8%8A%E4%B9%8B%E8%8A%BD-%E5%85%A5%E8%8A%BD%E8%80%83/</url>
+      
+        <content type="html"><![CDATA[<h2 id="日期-2-3-2018"><a href="#日期-2-3-2018" class="headerlink" title="日期: 2/3 2018"></a>日期: 2/3 2018</h2><h2 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h2><h3 id="測機"><a href="#測機" class="headerlink" title="測機"></a>測機</h3><p>這次比賽提供的系統原本是windows7不過開機發現他似乎沒裝g++只有gcc，好消息是過了不久他宣佈其實也可以用Linux，我平常就是用Linux 環境，所以我就立馬重開機，馬上C-M-T g++成功，加上有atom真是幸福XD。於是我就用了剩下的幾十分鐘，順便幫朋友設定一些環境。不過開賽後他們聽到大家抱怨，也提供了Dev C++ 給windows user XD。</p><h3 id="比賽狀況-1"><a href="#比賽狀況-1" class="headerlink" title="比賽狀況"></a>比賽狀況</h3><p>這場比賽總共五題，整體來說狀況不太理想。<br>這次比賽其實沒有很順利，pA沒有很難硬要歸類可能就分在 implement 或一點點dp，不過我看錯題目，以為是難題，寫完code才發現範測就WA，於是趕快改過submit過了五分鐘才評分完WA真的很緊張，又丟了兩次才AC……</p><p>接著馬上看了pB，是一題題目劇長不難想可是無敵難寫的題目，看了心涼涼的，也趕快寫出了code想當然爾還是WA了，大概又卡了快半小時想起來達睿書上的策略是先把各自題目拿一些基本分，於是就先去難剩下三題。</p><p>看到了pC好難，暴利解法連30分都拿不到，不過10分解是顯然的，不拿白不拿先拿再說XD。</p><p>接著是pD是填色問題，感覺可能是二維線段數？！其實我也不會二維線段數，於是只好先拿一些分數。原本預期多拿20分，但是牽扯到直線距離，我懷疑是浮點誤差，我吃了WA拿了50分。</p><p>最後一題pE是我國小思考過的問題的衍生問題，不過我其實不太記得了，也是先拿了40分特殊判斷。</p><p>經過一輪的強分作戰，我拿了一題+100分，也就是兩題的分數，過程中非常緊張。剩下三十分鐘，我抉擇到底要攻pB的100分還是pC的90分，最後我有莫名其妙的自信可以debug pB，於是我就壓在了pB上。<br>於是我看過了幾次，找到了三個bug（真的很多，題目真的很複雜），最後十分終submit，結果測資對了70%+，WA卻分散再每一組大測資，真的緊張又失望。結果到最後以200分收場。</p><h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><p>考試完後跟朋友討論，他們對了100和170分，好像狀況都差不多，100分的朋友悲慘的卡在了pB太久，策略上來說，先寫部份分是一個好的決定。Coding上，應該是突然出了這麼多狀況，過份緊張，需要檢討0.0<br>這次比賽原本以為考的人不多，題目不會卡太難，結果被電了一場</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>First Post</title>
+      <link href="/2018/02/01/test/"/>
+      <url>/2018/02/01/test/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Author-ToMmyDong"><a href="#Author-ToMmyDong" class="headerlink" title="Author-ToMmyDong"></a>Author-ToMmyDong</h3><p>I’m a senior high student in Taiwan. I like coding.</p><h3 id="Why-did-i-start-the-blog"><a href="#Why-did-i-start-the-blog" class="headerlink" title="Why did i start the blog"></a>Why did i start the blog</h3><ol><li>I found that google cloud platform provides free virtual machine</li><li>I’ve got a domain name which is tommydong.life</li><li>I want to record take notes of solution for some problems</li></ol><h3 id="Language"><a href="#Language" class="headerlink" title="Language"></a>Language</h3><p>我很努力在搞定中文輸入了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 其他 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>智慧鐵人 2019 複賽 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+    
+
+
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">智慧鐵人 2019 複賽</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">七月 12, 2019&nbsp;&nbsp;10:57:45</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="智慧鐵人介紹"><a href="#智慧鐵人介紹" class="headerlink" title="智慧鐵人介紹"></a>智慧鐵人介紹</h2><p>智鐵是一個高中生的團隊競賽，透過知識、推理、體能來解決問題。知識的部份範圍蠻廣的，文理時事都有。有一個大方向的規則就是，沒有說不行就是可以，希望我們可以發揮創意，合作解決問題。</p>
+<h3 id="初賽"><a href="#初賽" class="headerlink" title="初賽"></a>初賽</h3><p>初賽是8hr，有三題分別是實作、文本、體能，實作的部份就是要你實做出一個滿足題目條件的裝置，文本就是用一堆知識性題目加上一些推理，體能就是製作道具用一些奇怪的肢體動作完成任務。</p>
+<p>我們在初賽的時候，實作拿了全國最高分(100)，文本分數35 分，體能76 分。初賽有一張魔法卡，可以把單題 double，但要在作答開始之前使用。結果我們放在了文本，真的有夠慘，不過最後還是有進複賽ww</p>
+<h3 id="複賽"><a href="#複賽" class="headerlink" title="複賽"></a>複賽</h3><p>複賽是 24hr，有主軸任務和闖關個占一半成績，闖關總共有六關，各30～40 分鐘，剩下時間就是主軸任務，通常都是要透過有限虛擬貨幣購買材料，實作一個裝置，錄製影片和製作 ppt 來評分。</p>
+<h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><p>我們今年是第二次參加智鐵，我們其實總共有 12 個左右的人要參加最後分散到兩隊，不過今年剛好資優班的撞到成發，所以我們剩下的人就組了一對參加。我們隊比較算是業餘的，沒有什麼特別的準備，只是對這種活動有興趣就參加了。去年候補的我們，今年有稍微進(變)步(賽)一點，拿到順利晉級的門票。</p>
+<h3 id="主軸任務"><a href="#主軸任務" class="headerlink" title="主軸任務"></a>主軸任務</h3><p>複賽今年的主軸是要透過光影呈現漢字流變，從兩個現有文字重構出一個新的文字，並以故事串連，由光影效果呈現在宣紙上錄製成影片。我們每隊會被分配到一間教室，要用 (24hr - 闖關時間)來完成。一開始我們進教室，先檢查了材料，發現電腦有很多問題，第一個是電腦會漏電，我被電了三次QAQ，第二個是喇叭完全都是雜訊。於是我們請大會處理，雖然花上一些時間，不過最後問題有被解決。之後我們開始構想我們要呈現的主題，我們找了「類」和「國」作為素材，原因是他們的部件很多，比較好發揮。大概經過了三小時的討論，我們的故事有了一個模型，對劇本和特效有初步規劃，於是趕緊開始訂購材料進行實作。</p>
+<p>實作上因為這次是要用影子呈現，所以其實表面美觀並不是很重要(因為被打到宣紙上是平面又是黑白的)，所以實作上是以功能為主。進行了一陣子的實作，就到了我們的闖關時間，一回來就是半夜 2 點。隊員有些回來因為疲倦所以睡著了，剩我和隊長好像體力還行，就繼續施工不敢浪費任何時間。我趁著剛闖完關，有點混亂的時候列出了 TODO list。接著又是漫長的施工時間，一直到了日出的時間， TODO list 總算是勉強清空，大方向物件完成。</p>
+<p>之後我們把大家叫起來，完成剩下的細節，我也排好了最後表演的人力時間表。分配了表演的工作後，我終於安心的趴在桌子上睡著了。一趴下去，是很深層的睡著，對於時間好像沒什麼感覺，畢竟從第一天早上 6 點起床趕車到第二天的 9 點，是我最久的連續不睡眠紀錄，對於我這種平常沒熬夜的人，真是非常的挑戰。醒來之後疲倦雖然沒有完全消除，但有減少了許多，根據他們的說法我睡了 30 分鐘XD。</p>
+<p>最後是不斷的排練，我們一開始根本表演的非常凌亂，經過一次又一次的修改調整,我們終於有了順暢的表演。最後的錄製也還算成功，剩下的就是看評分囉。</p>
+<h3 id="闖關"><a href="#闖關" class="headerlink" title="闖關"></a>闖關</h3><p>闖關從 21:00 ~ 2:00，總共有 6 個關。每一關一開始都會有規則介紹，接著進行闖關。第一關我們有點太亢奮，在一個黑暗的關卡，規則一聽完，還不是非常清楚就直接開始了闖關。結果真的非常悽慘，只拿了 50 分，跟當時最高分 960 有非常懸殊的差距，當然也有部份是因為那關的問題都是歷史相關，而我們這隊是純理組本來就有劣勢。</p>
+<p>第二關我們有所調整，聽完規則說明後，在開始闖關前還是繼續理解題目，一起討論，才開始行動。雖然成績沒有特別高，但至少慢慢進入狀況。</p>
+<p>第三關開始，我們的狀況就起飛了，每關都有中上的成績，甚至有一兩關拿到當前前三的成績。趣事: 其中有一關是中藥題，要透過關卡提供的線索，了解病人需要的湯藥，閱讀對各藥材的介紹，解出數學問題，配出湯藥。結果在評分時需要核對我們放的藥材是不是湯藥的正確藥材，結果關主沒有拿任何資料，轉了一圈藥材，就判斷每個湯裡放的要是不是正確，超猛的。後來透過其他關主才了解，原來那個關主是陽明的中藥大神。</p>
+<p>每個關卡的佈置都非常的精美，聽說關主們場佈花了十天才完成。真的非常感謝那些關主設計出的關卡，每個都非常有趣用心。一開始很多關主有認出我們是第一次參加複賽，也都很熱心的指導我們如何改進。不過到後來可能是我們也有進步，所以就沒被認出來了XD</p>
+<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>智慧鐵人蠻好玩的，每個關卡或是活動都需要思考蠻有挑戰的。複賽是免費的，還有提供餐點。而複賽的工作人員也大多是志工，非常的熱情，關主的關卡非常巧妙，小天使也很有善，提供我們協助。</p>
+<p>參加智鐵對我來說，雖然我不在意獎金(因為很難得到)、也不一定會拿來當什麼特別經歷介紹，但對我來說蠻重要的。大家都說我很不一樣，光是在科學班就有點奇怪，而且在科學班又主要是在打競賽，更是怪中怪，隊友都說我的高中生活和他們是不同世界的。而我完全同意，不得不承認我平常關在的同溫層，跟平均高中生真的是完全不一樣的世界。參加智慧鐵人，讓我也有一點點的機會透透氣，學習和大家團隊合作，學習友善的溝通。</p>
+<h2 id="後記-對呼"><a href="#後記-對呼" class="headerlink" title="後記: 對呼"></a>後記: 對呼</h2><p>我們有對呼比賽，每隊在開場要表演對呼。其中會被評審評分占 5 分，另外會有對呼人氣票選，最高的可以獲得獎金 2000 元。結果智鐵結束看到 Sean 的訊息，說 google form 的回應可以直接發一個 request 完成。於是可以暴力的重發，直接刷起來，誰叫智鐵沒有限制用 email 提交表單。如果有拿到獎金來請 Sean 吃飯好了XD</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.life/2019/07/12/智慧鐵人-2019-複賽/">https://blog.tommydong.life/2019/07/12/智慧鐵人-2019-複賽/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/競賽/"># 競賽</a>
+                    
+                        <a href="/tags/智慧鐵人/"># 智慧鐵人</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2019/08/06/IONCamp-2019/">IONCamp 2019</a>
+            
+            
+            <a class="next" rel="next" href="/2019/06/15/APCS-JUNE19/">APCS JUNE19</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

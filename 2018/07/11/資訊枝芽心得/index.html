@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>資訊枝芽心得 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+    
+
+
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">資訊枝芽心得</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">七月 11, 2018&nbsp;&nbsp;22:13:52</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="資芽1"><a href="#資芽1" class="headerlink" title="資芽1!"></a>資芽1!</h2><p>在參加資芽1!前，我就曾經把2017講義和題目當作訓練教材練習，所以其實1!大部分的上機作業我都已經完成了，這也讓我在1!過得很輕鬆。每週就開心的聽課，到了上課前幾天把手寫作業完成，就把分數拿好拿滿了(事實上手寫最後成績沒拿滿)。原本有點擔心每週的上課內容會過於簡單，結果其實不會，印象中除了第一個禮拜大家沒有課前投影片，把投影片的內容移到上課教，其他的課程對我來說都是新知識。每次上課講師都有許多挑戰性的題目，讓我們討論，也有介紹一些我原本不會的演算法。</p>
+<p>一階的認證考其實打的不理想，除了水題pA以外，沒有完整的AC。那時後pB是併查集+DAG，其實賽中有想到正解，只是腦袋BUG了沒有AC。剩餘的分數都是亂打部份分，好像沒有什麼好的想法，題目難度我覺得算很高，NJ在賽後把除了最後一題都AC了，我望塵莫及XD。</p>
+<p>上機作業部份我記得我一階因為有充裕的時間，所以Rank第二，GPA 4.3</p>
+<h2 id="資芽2"><a href="#資芽2" class="headerlink" title="資芽2!"></a>資芽2!</h2><p>到了二階開始變得不容易，開始有些新的課程有我沒寫過得作業題目，加上我當時心情低落，其實寫作業的狀況不理想，慢慢的上機作業Rank掉到NJ後面。不過上課狀況感覺漸入佳境，上課內容我也越來越習慣，參與課堂討論也變多了些。雖然我最想聽的字串課狀到了INFAS籌備，請了假，不過其他的課我真的學到了非常多。也因為感受到課程難度增加，我開始和朋友們共筆筆記。也有許多次的放學，和講師一起吃飯，蠻開心的，也認識了一些同學。手寫作業除了最後一次 disjoint set 外，我剛好避開了幾個陷阱題，蠻高分的。</p>
+<p>二階認證考我打的不差，雖然只打了一題AC，不過班上總共也只有3個AC，而且都是不同人不同題。我打的這題其實是一題背包大小是一個區間的背包問題(物品總重要在區間內)，一看輸入又發現類似講師上課提過得超大背包問題，套了線段樹加均攤複雜度，我AC了，結果賽後講師的正解少了logN，不過我的Runtime竟然沒有比標程慢很多。其他題目其實我沒有多打部份分，比賽就結束了。</p>
+<p>2!我的作業都拿了GPA 4.3</p>
+<h2 id="畢業"><a href="#畢業" class="headerlink" title="畢業"></a>畢業</h2><p>結果我達到標準拿到了優良結業證書，而且我作業平均GPA、和兩次認證考成績合，都達到了班上第一，所以我獲得了Cyber Link的特殊獎項，獎品其實我也不知道XD。拿到這些獎項其實蠻開心的，不過我更高興在資訊資芽中學到了這麼多知識。</p>
+<h2 id="推薦"><a href="#推薦" class="headerlink" title="推薦"></a>推薦</h2><p>我想推薦所有想要學習程式解題的人參加資訊之芽，尤其是如果想打程式競賽，在高中參加資訊資芽可以學習到很大一部份程式競賽要用到的演算法。就算我住在新竹，需要每個禮拜上台北上課，都還是覺得到台北上課非常的值得。參加資芽除了可以學習演算法外，每週的上機測驗都可以練習到解題方法和實做能力。至於入芽考，就算沒有競賽經驗都可以嘗試，當時看那麼多人參加其實也很緊張，但只要掌握好基本分，過難的題目就可以跳過，等進了算法班慢慢磨練XD</p>
+<h2 id="致謝"><a href="#致謝" class="headerlink" title="致謝"></a>致謝</h2><p>感謝所有付出時間教我們的講師，每個講師都很厲害，而且上課的方式我很喜歡，幾乎能聽懂。也感謝讓我問問題的講師，雖然我比較害羞XD很少問問題，問出來的問題有時候又很雷，但感謝講師們願意花時間協助我解決問題。也感謝帶我們一起出去吃晚餐的講師，我發現其實科技大樓附近蠻好吃的。</p>
+<p>感謝NJ,CAT,HANWEN，陪我一起討論，一起共筆筆記。特別感謝NJ在2!常常凱瑞我，教我幾題比較難的上機。</p>
+<p>感謝Cyber Link LoL，是說我猜獎品是威力導演，是時候該裝Windows摟(其實裝windows不是因為威力導演)</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.life/2018/07/11/資訊枝芽心得/">https://blog.tommydong.life/2018/07/11/資訊枝芽心得/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2018/08/05/2018-暑假科學營志工/">2018 暑假科學營志工</a>
+            
+            
+            <a class="next" rel="next" href="/2018/07/11/2018成大賽/">2018成大賽</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>
