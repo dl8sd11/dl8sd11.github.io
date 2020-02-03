@@ -13,7 +13,7 @@
 
 
 
-<title>Hello 2020 | TMD Life</title>
+<title>January 線性基筆記 | TMD Life</title>
 
 
 
@@ -220,7 +220,7 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Hello 2020</h1>
+            <h1 class="post-title">January 線性基筆記</h1>
             
                 <div class="post-meta">
                     
@@ -229,7 +229,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">一月 4, 2020&nbsp;&nbsp;23:46:22</a>
+                        Date: <a href="#">一月 31, 2020&nbsp;&nbsp;20:16:13</a>
                         </span>
                     
                     
@@ -238,14 +238,39 @@
         </header>
 
         <div class="post-content">
-            <h2 id="new-year-resolution"><a href="#new-year-resolution" class="headerlink" title="new year resolution"></a>new year resolution</h2><p>聽說新年新希望總是無法堅持，沒有試過所以來試試 :)</p>
-<h2 id="立-flag"><a href="#立-flag" class="headerlink" title="立 flag"></a>立 flag</h2><ul>
-<li>每天: 運動</li>
-<li>每個禮拜: 參加一場演算法比賽</li>
-<li>每個月: 學一個新東西</li>
-<li>每季: 讀一本書</li>
-<li>2020: CF 上一次紅色</li>
+            <p>新年新希望是每個月學一個新東西，這個月初在 IOICamp，月底在過年加上小感冒。到了最後一天才想起來要學東西，就挑了一個之前看過只是不太熟的主題。之後應該會排一個表，記下想學的東西，不過其實我不太會找資料，所以如果有推薦的知識會技能有可以來跟我講喔!</p>
+<h2 id="學習材料"><a href="#學習材料" class="headerlink" title="學習材料"></a>學習材料</h2><p>這次查的資料是:</p>
+<ul>
+<li><a href="https://codeforces.com/blog/entry/68953" target="_blank" rel="noopener">A Beautiful Technique for Some XOR Related Problems</a></li>
+<li><a href="线性基学习笔记">https://blog.sengxian.com/algorithms/linear-basis</a></li>
 </ul>
+<p>中英對照確認對方沒有唬爛(x</p>
+<h2 id="唬爛聲明"><a href="#唬爛聲明" class="headerlink" title="唬爛聲明"></a>唬爛聲明</h2><p>本人沒有真的學過線性代數，所以內容極度可能有誤，不過程式的部份問題可能不大，還是可以參考看看XD (歡迎幫我更正內容)</p>
+<h2 id="應用"><a href="#應用" class="headerlink" title="應用"></a>應用</h2><p>有一個整數集合，求跟他們子集合 xor 值的集合相關的問題。</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>我覺得蠻有趣的，首先 ${a}$ 的子集合可以滿足向量空間定義。</p>
+<p>每個整數可以當作長度為 d 的二進位字串，也可以表示成 $\mathbb{Z_2^d}$。而 xor 就是這些向量的加法，子集合(選和不選) 意義就是向量乘上常數${0,1}$。</p>
+<p>所以子集合的 xor 就是這些向量的線性組合，集合其實就是這些向量的 span。</p>
+<p>因此根據線性代數的一點證明 (沒很複雜，只是看過一次)，這些向量的 basis 只會有最多 d 個。換句話說，可以找到小於 d 個向量，這些向量的 span 和 a 集合相同。</p>
+<p>因此我們只要找出這 d 個向量，就可以把原本跟 $O(N)$ 相關的複雜度變成 $O(logC)$，比如說枚舉本來是 $O(2^N)$ 就可以變成 $O(C)$。</p>
+<p>實際上作法不複雜，其實就是做高斯消去法，因為向量做行運算不影響獨立性。所以消完之後，對角線上是 on 的向量就是 basis。實做上簡體 blog 有消乾淨，CF 的 blog 只消到三角矩陣。實際上沒有太大的差別，只是早做晚做的問題。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXD = <span class="number">31</span>;</span><br><span class="line"><span class="keyword">int</span> basis[MAXD], sz;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">addVector</span> <span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=MAXD; i&gt;=<span class="number">0</span>; i--) &#123;</span><br><span class="line">        <span class="keyword">if</span> ((x &gt;&gt; i) &amp; <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> (basis[i] == <span class="number">0</span>) &#123;</span><br><span class="line">                basis[i] = x;</span><br><span class="line">                sz++;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                x ^= basis[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>理論上高斯消去法複雜度是 $O(Nd^2)$ 實際上因為是位元向量，所以可以用整數位元運算或 <code>bitset</code> 壓 64 倍左右的常數。假設題目的範圍是 int，上面的 code 就變成 O(Nd)。</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>子集 Xor 的集合 $S := span(a), Basis:= B$</p>
+<ol>
+<li>S 集合大小?<ul>
+<li>Ans: $O(2^{|B|})$</li>
+</ul>
+</li>
+<li>$max{S}$<ul>
+<li>Ans: greedy 從 basis 構造 high bit to low bit</li>
+</ul>
+</li>
+<li>S 裡值為 x 的有幾個<ul>
+<li>先檢查答案是不是 0</li>
+<li>否則就是 $O(2^{|S|-|B|})$</li>
+</ul>
+</li>
+</ol>
 
         </div>
 
@@ -260,7 +285,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="https://blog.tommydong.life/2020/01/04/Hello-2020/">https://blog.tommydong.life/2020/01/04/Hello-2020/</a></span>
+                        <span><a href="https://blog.tommydong.life/2020/01/31/January-線性基筆記/">https://blog.tommydong.life/2020/01/31/January-線性基筆記/</a></span>
                     </p>
                 
                 
@@ -273,6 +298,12 @@
                 <span>Tag(s):</span>
                 <span class="tag">
                     
+                    
+                        <a href="/tags/程式競賽/"># 程式競賽</a>
+                    
+                        <a href="/tags/學習/"># 學習</a>
+                    
+                        
                 </span>
             </div>
             <div>
@@ -283,10 +314,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/01/31/January-線性基筆記/">January 線性基筆記</a>
             
-            
-            <a class="next" rel="next" href="/2020/01/01/Goodbye-2019/">Goodbye 2019</a>
+            <a class="next" rel="next" href="/2020/01/04/Hello-2020/">Hello 2020</a>
             
         </section>
 

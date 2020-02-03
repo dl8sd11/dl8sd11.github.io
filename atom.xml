@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.tommydong.life/"/>
-  <updated>2020-01-04T15:54:37.080Z</updated>
+  <updated>2020-02-03T10:37:32.460Z</updated>
   <id>https://blog.tommydong.life/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>January 線性基筆記</title>
+    <link href="https://blog.tommydong.life/2020/01/31/January-%E7%B7%9A%E6%80%A7%E5%9F%BA%E7%AD%86%E8%A8%98/"/>
+    <id>https://blog.tommydong.life/2020/01/31/January-線性基筆記/</id>
+    <published>2020-01-31T12:16:13.000Z</published>
+    <updated>2020-02-03T10:37:32.460Z</updated>
+    
+    <content type="html"><![CDATA[<p>新年新希望是每個月學一個新東西，這個月初在 IOICamp，月底在過年加上小感冒。到了最後一天才想起來要學東西，就挑了一個之前看過只是不太熟的主題。之後應該會排一個表，記下想學的東西，不過其實我不太會找資料，所以如果有推薦的知識會技能有可以來跟我講喔!</p><h2 id="學習材料"><a href="#學習材料" class="headerlink" title="學習材料"></a>學習材料</h2><p>這次查的資料是:</p><ul><li><a href="https://codeforces.com/blog/entry/68953" target="_blank" rel="noopener">A Beautiful Technique for Some XOR Related Problems</a></li><li><a href="线性基学习笔记">https://blog.sengxian.com/algorithms/linear-basis</a></li></ul><p>中英對照確認對方沒有唬爛(x</p><h2 id="唬爛聲明"><a href="#唬爛聲明" class="headerlink" title="唬爛聲明"></a>唬爛聲明</h2><p>本人沒有真的學過線性代數，所以內容極度可能有誤，不過程式的部份問題可能不大，還是可以參考看看XD (歡迎幫我更正內容)</p><h2 id="應用"><a href="#應用" class="headerlink" title="應用"></a>應用</h2><p>有一個整數集合，求跟他們子集合 xor 值的集合相關的問題。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>我覺得蠻有趣的，首先 ${a}$ 的子集合可以滿足向量空間定義。</p><p>每個整數可以當作長度為 d 的二進位字串，也可以表示成 $\mathbb{Z_2^d}$。而 xor 就是這些向量的加法，子集合(選和不選) 意義就是向量乘上常數${0,1}$。</p><p>所以子集合的 xor 就是這些向量的線性組合，集合其實就是這些向量的 span。</p><p>因此根據線性代數的一點證明 (沒很複雜，只是看過一次)，這些向量的 basis 只會有最多 d 個。換句話說，可以找到小於 d 個向量，這些向量的 span 和 a 集合相同。</p><p>因此我們只要找出這 d 個向量，就可以把原本跟 $O(N)$ 相關的複雜度變成 $O(logC)$，比如說枚舉本來是 $O(2^N)$ 就可以變成 $O(C)$。</p><p>實際上作法不複雜，其實就是做高斯消去法，因為向量做行運算不影響獨立性。所以消完之後，對角線上是 on 的向量就是 basis。實做上簡體 blog 有消乾淨，CF 的 blog 只消到三角矩陣。實際上沒有太大的差別，只是早做晚做的問題。</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXD = <span class="number">31</span>;</span><br><span class="line"><span class="keyword">int</span> basis[MAXD], sz;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">addVector</span> <span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=MAXD; i&gt;=<span class="number">0</span>; i--) &#123;</span><br><span class="line">        <span class="keyword">if</span> ((x &gt;&gt; i) &amp; <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> (basis[i] == <span class="number">0</span>) &#123;</span><br><span class="line">                basis[i] = x;</span><br><span class="line">                sz++;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                x ^= basis[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>理論上高斯消去法複雜度是 $O(Nd^2)$ 實際上因為是位元向量，所以可以用整數位元運算或 <code>bitset</code> 壓 64 倍左右的常數。假設題目的範圍是 int，上面的 code 就變成 O(Nd)。</p><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>子集 Xor 的集合 $S := span(a), Basis:= B$</p><ol><li>S 集合大小?<ul><li>Ans: $O(2^{|B|})$</li></ul></li><li>$max{S}$<ul><li>Ans: greedy 從 basis 構造 high bit to low bit</li></ul></li><li>S 裡值為 x 的有幾個<ul><li>先檢查答案是不是 0</li><li>否則就是 $O(2^{|S|-|B|})$</li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;新年新希望是每個月學一個新東西，這個月初在 IOICamp，月底在過年加上小感冒。到了最後一天才想起來要學東西，就挑了一個之前看過只是不太熟的主題。之後應該會排一個表，記下想學的東西，不過其實我不太會找資料，所以如果有推薦的知識會技能有可以來跟我講喔!&lt;/p&gt;
+&lt;h2 id
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.life/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+      <category term="學習" scheme="https://blog.tommydong.life/tags/%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello 2020</title>
@@ -473,30 +499,6 @@
     
     
       <category term="程式競賽" scheme="https://blog.tommydong.life/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Goodbye 2018</title>
-    <link href="https://blog.tommydong.life/2019/01/17/Goodbye-2018/"/>
-    <id>https://blog.tommydong.life/2019/01/17/Goodbye-2018/</id>
-    <published>2019-01-17T11:27:15.000Z</published>
-    <updated>2019-12-01T00:35:45.729Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>我覺得 2018 是價值連成的一年，回想起來，在這一年發生了很多事，在這邊紀錄一下 :)</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>今年一開始，我就參加了 IEYI 青少年發明展，展示的是我和兩位夥伴設計的 IOT 智慧家庭。發明展現場看到了很多有趣的發明，也和幾個人聊上幾句，最後又拿了銅牌，蠻有意義的活動。</p><p>後來我順利通過校內初選，取得了參加全國海選的資格。當時自己是懷抱著相對大的信心參加，但是卻撲了空。抱著信心是有憑有據的，達睿書中曾寫到在 Codeforces 上 rating &gt; 1600 基本上就能過海選，而我那時有著 1800+ 的 rating。那次爆炸的比賽對我來說影響蠻大的，失望和對未來的擔憂停留了好久。最後我並沒有選擇放棄，我還是熱愛程式。</p><p>接著我除了打比賽之外的主線任務就變成 INFAS 全國資訊年會，我是 2018 年的副召。INFAS 邁向第三年，在一路參與的過程中，我學習與成長了很多。對我來說，這是一個社群參與，也是幫助更多學生接觸資訊的空間。我也在之中開始懂的和大家合作，規劃一場好的研討會和一些比較真實的工作經驗。寒假時在學校辦了兩天一夜的 INFAS 寒訓，邀請了一些在社群中有經驗的分享者來演講，凝聚了工人們對 INFAS 的共識。而今年年會在交大舉辦，也成功的吸引了眾多的與會者，也首次在年會當日辦了 workshop，順利落幕。INFAS 有很多故事，有組長什麼都沒交待就不見的，也有一些吵架的，也有學校讓我很失望的故事。</p><p>高二的上學期我每週六都去台大參加了資訊之芽，在裡面學到了許多演算法的技能，也認識了很多厲害的同學和講師 (其實就是台大學生)。也因為認證考考得不錯，所以我雖然作業成績沒有最高，也拿了訊連獎(就是成績第一名會拿到 Cyberlink 贊助的獎項)。在某次上課的客運上，NJ跟我說他的資訊老師(現在變我的資訊老師XD)擅長 AI ，可以教我們，預備之後的專題研究。這是一個天降的好事，老師人超好的0w0。我開始認識 AI，學了一些神經網路、和強化學習的知識，真的非常感謝老師的教導。</p><p>暑假的時候是科學營，我們到苗栗開礦國小做志工，我的工作是隊輔。整個活動籌備也花上我們班許多時間努力，但我覺得很值得。(詳細心得見「2018 暑假科學營志工」)剩下來的暑假就是滿滿的程式競賽練習，也參加了兩個團體賽，兩場都跟了高三學長，在成大賽拿了第二名、ISSC第三名，是我第一次在實體比賽中得獎。</p><p>開學之後就是黑豹旗，黑豹旗是中信辦的高中棒球賽，大概 200 所學校參賽，我們是其中一所。我是指定打擊，也是隊長，所以到了建中抽晉級賽的籤。我那時候人品爆發，抽中了有實況轉播的比賽，而且是比較有勝算的小組中的種子。結果…「媽！我上電視了」，我們在第一場對上永豐高中拿下了勝利，之後卻敗給高雄高工(64強)。打棒球很愉快，也謝謝教練從國中以來一直指導我們，比起其他學校兇猛的教練，我們的教練更適合我們學校、我們球隊的氣氛，跟我們一起開心的打球。</p><p>記得十一月多有一場團體賽，我和 BB 學長和 NJ 同隊。我們展現了很好的默契，BB 也展現了他的電力，拿到了我第一次第一名加一台很普通電腦LoL。</p><p>進入秋天，學科競賽賽季就開始了。首先是北二區區賽，今年北二區名額被 buff 了，可以派 8 位。不過賽前一直有著「北二區題目很水要全對才有機會」的恐懼，直到同學心靈雞湯後，才找回好的比賽狀態。又靠著讀計概的加持，在北二區拿了個第二。隔了大概一個月的準備，就到了全國賽了。全國賽是一個蠻大的比賽，跟北二區一樣考計概筆試 and 上機實做，不過分成了兩天在交大舉辦。上機比賽的前半輸的很慘，海選失敗的畫面不斷浮現，兩個小時就不見了。後來重新整理後，提醒自己活在當下，才回過神追趕，在最後好不容易擠進二十名(三等獎線上)。</p><p>比完賽後我就讓自己放假了www</p><p>2018 的最後連假，我和好朋友一起去台北跨年，這也是我第一次跟好朋友出去跨年。我們在路上遇到我們超愛的 youtuber 呱吉 (和他的老婆XD)，也聽了博恩的脫口秀，跑去了 101 看煙火，最後沒訂旅館在麥噹噹度過了一夜，一大早又跑去總統府升旗。超級瘋狂。</p><h1 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h1><p>回想起來才發現今年做了好多事情，大概是我目前經歷過最精彩的一年吧。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;我覺得 2018 是價值連成的一年，回想起來，在這一年發生了很多事，在這邊紀錄一下 :)&lt;/p&gt;
-&lt;h1 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="生活" scheme="https://blog.tommydong.life/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
