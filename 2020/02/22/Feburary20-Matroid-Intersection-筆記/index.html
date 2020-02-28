@@ -274,16 +274,17 @@
 <li>如果沒有 $Y_1$ 到 $Y_2$ 的路徑就 break</li>
 <li>否則把路徑上在左邊的元素增廣成右邊的元素</li>
 </ol>
-<p>大成工!!</p>
+<p>大成功!!</p>
 <h3 id="繼續推導"><a href="#繼續推導" class="headerlink" title="繼續推導"></a>繼續推導</h3><p>來稍微解釋一下發生什麼事</p>
 <ol>
 <li>存在路徑就存在最短路，最短路是要確保唯一性，讓他成為 basis exchange</li>
-<li>加入一個和全世界獨立的元素，可以讓剛剛的路徑變成環</li>
+<li>加入一個和全世界獨立的虛擬元素，可以讓剛剛的路徑變成環</li>
 <li>環的奇數是 $M_1$ 的匹配 偶數是 $M_2$ 的</li>
-<li>所以如果我們就可以透過這樣增廣</li>
+<li>$M_1, M_2$ 透過唯一匹配可以達成 basis exchange</li>
+<li>因為有一個點是虛擬的 所以實際上我們可以透過這樣增廣集合大小 1</li>
 </ol>
 <h3 id="最佳性"><a href="#最佳性" class="headerlink" title="最佳性"></a>最佳性</h3><p>證明增廣是最佳的有點複雜，還是看一下資料比較好。</p>
-<h2 id="實做"><a href="#實做" class="headerlink" title="實做"></a>實做</h2><p>因為 matroid 是抽象的，所以實做跟你應用在哪有關。一些實例上的優話也看一下資料吧。</p>
+<h2 id="實做"><a href="#實做" class="headerlink" title="實做"></a>實做</h2><p>因為 matroid 是抽象的，所以實做跟你應用在哪有關。一些實例上的優化也看一下資料吧。</p>
 <h2 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h2><p>幾個檢查的小問題</p>
 <ul>
 <li>為什麼要找最短路</li>
