@@ -13,7 +13,7 @@
 
 
 
-<title>TOI 2020 一階紀錄 | TMD Life</title>
+<title>March20 Top Tree 筆記 | TMD Life</title>
 
 
 
@@ -154,11 +154,73 @@
             <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">TOI 2020 一階紀錄</h1>
+            <h1 class="post-title">March20 Top Tree 筆記</h1>
             
                 <div class="post-meta">
                     
@@ -167,7 +229,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">三月 28, 2020&nbsp;&nbsp;22:27:07</a>
+                        Date: <a href="#">三月 30, 2020&nbsp;&nbsp;13:33:16</a>
                         </span>
                     
                     
@@ -176,13 +238,15 @@
         </header>
 
         <div class="post-content">
-            <p>選訓營是高中程式競賽最神聖的一場比賽，除了選拔國手之外，也是有利升學的重要考試。</p>
-<p>今年的 TOI 的故事大概要從全國賽開始說起，去年 12 月的全國賽拿了第八名，當時其實是有點沮喪。沒有花時間讀學測的我，看著大家的實力增進，決定寒假更努力練習。寒假參加了 IOICamp 後訂了一個有點辛苦的計畫，最後因為壓力太大，不但沒有達成，反而陷入了負面循環，不太能思考學習。因此我開始把心態調整當作重要的練習項目，練習發揮自己的能力。</p>
-<p>一下子時間就來到了一階選訓營，今年選訓因為疫情，住宿升級成一間旅館，上課改成線上。其他的部份跟去年的其實沒差很多，唯獨氣氛有稍微比較緊張一些。前國手也來講了不少課，放學偶爾也有來我們房間聊聊天，超讚的。</p>
-<p>一模前我訂的計畫是每題都先拿至少一個 subtask 再開賽，策略是有算執行成功，但結果是到最後沒有完整的解出任何一題。因為一模有點難， subtask 又算高分，所以我沒有 AC 任何一題就拿到了第四名。主要的時間還是花在 pC 的一題複雜 dp 上面，其中最多人解的題一開始被我 tag 成毒瘤演算法就被丟掉了。</p>
-<p>因為一模沒解出任何一題實在是很有風險的打法(依賴 subtask 豐盛程度)，所以二模我的目標改成以 AC 一題為目標。二模開賽我的狀況非常慘烈，一開始讀完題目後，估計 subtask 大概沒有 50 分就開始有點緊張。經過好幾次的廁所時間，我突然閃過 pA 的想法。透過一點點的驗證，我開始嘗試寫 pA。 pA 跟一模 pC 一樣，是我不太擅長的 DP。Code 實做的沒有很理想，加上一些奇怪的邊界條件需要判斷，不斷的 Wrong Answer。重新檢視了作法之後，找到了幾個 bug，從 Wrong Answer 變成了 TLE。這時候 Judge 開始停滯，壓了 TLE 的 code 上傳，卻拿不到結果。在沒有 Judge 的情況下，變得更加緊張，沒有辦法好好的抓 Subtask。不過最後幾分鐘看到之前傳的 pA 拿到了 AC，終於進二階了!</p>
-<p>今年的選訓營，我沒太刷太多的題目，主要是心態的調整。結果上來說，兩次的考試雖然狀況都蠻曲折的，但是最後都要辦法用不同的方法穩住。跟去年比起來，在高壓的條件上，成功的表現了實力，應該是今年最大的進步了吧。</p>
-<p><img src="https://i.imgur.com/tCMvDBz.jpg" alt="Imgur"></p>
+            <p>這個月的題目是被 ut 學長推坑的 Top Tree，他是一個處理樹問題的資料結構，之前大概看過概念，這次稍微學了一點點的實做。</p>
+<h2 id="應用"><a href="#應用" class="headerlink" title="應用"></a>應用</h2><p>分治處理點對之間的問題，例如動態改邊權，詢問樹直徑。</p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>Top Tree 的概念是把一棵樹 T 轉成由 Cluster 組成的二元樹。Cluster 就是一些由邊組成的連通塊，滿足與非 Cluster 內的邊接觸到的點最多兩個。Cluster 最小單位是每一條邊，兩個交集為一個點的 Clusters 可以透過 Rake or Compress 合併。</p>
+<p>可以透過不斷的兩兩合併，把一棵樹合併成一個 Cluster，每個 Cluster 紀錄關心的答案就可以了。</p>
+<h3 id="Rake"><a href="#Rake" class="headerlink" title="Rake"></a>Rake</h3><p>把一個葉子的邊合併到另一個邊上</p>
+<h3 id="Compress"><a href="#Compress" class="headerlink" title="Compress"></a>Compress</h3><p>把一個 degree = 2 的點旁邊的兩條邊合併</p>
+<h3 id="複雜度"><a href="#複雜度" class="headerlink" title="複雜度"></a>複雜度</h3><p>因為一顆樹 degree &gt; 2 的節點不超過一半，所以每一層合併，大概可以消掉一半的節點(不過會有常數個節點重複到)，因此複雜度是 O(logN) 層。</p>
+<h2 id="實做"><a href="#實做" class="headerlink" title="實做"></a>實做</h2><p>實做部份我是學 bb 學長的<a href="https://codeforces.com/contest/1192/submission/67652376" target="_blank" rel="noopener">方法</a>，寫法非常精湛，可以比 Centroid Decomposition 輕鬆。</p>
+<p>大概就是不斷的 greedy 選擇 maximal 的合併，持續掃整張圖，直到剩下一個 root cluster。</p>
 
         </div>
 
@@ -197,7 +261,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="https://blog.tommydong.life/2020/03/28/TOI-2020-一階紀錄/">https://blog.tommydong.life/2020/03/28/TOI-2020-一階紀錄/</a></span>
+                        <span><a href="https://blog.tommydong.life/2020/03/30/March20-Top-Tree-筆記/">https://blog.tommydong.life/2020/03/30/March20-Top-Tree-筆記/</a></span>
                     </p>
                 
                 
@@ -213,10 +277,6 @@
                     
                         <a href="/tags/程式競賽/"># 程式競賽</a>
                     
-                        <a href="/tags/TOI/"># TOI</a>
-                    
-                        <a href="/tags/選訓營/"># 選訓營</a>
-                    
                         
                 </span>
             </div>
@@ -228,10 +288,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/03/30/March20-Top-Tree-筆記/">March20 Top Tree 筆記</a>
             
-            
-            <a class="next" rel="next" href="/2020/02/22/Feburary20-Matroid-Intersection-筆記/">Feburary20 Matroid Intersection 筆記</a>
+            <a class="next" rel="next" href="/2020/03/28/TOI-2020-一階紀錄/">TOI 2020 一階紀錄</a>
             
         </section>
 

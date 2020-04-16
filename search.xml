@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>March20 Top Tree 筆記</title>
+      <link href="/2020/03/30/March20-Top-Tree-%E7%AD%86%E8%A8%98/"/>
+      <url>/2020/03/30/March20-Top-Tree-%E7%AD%86%E8%A8%98/</url>
+      
+        <content type="html"><![CDATA[<p>這個月的題目是被 ut 學長推坑的 Top Tree，他是一個處理樹問題的資料結構，之前大概看過概念，這次稍微學了一點點的實做。</p><h2 id="應用"><a href="#應用" class="headerlink" title="應用"></a>應用</h2><p>分治處理點對之間的問題，例如動態改邊權，詢問樹直徑。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>Top Tree 的概念是把一棵樹 T 轉成由 Cluster 組成的二元樹。Cluster 就是一些由邊組成的連通塊，滿足與非 Cluster 內的邊接觸到的點最多兩個。Cluster 最小單位是每一條邊，兩個交集為一個點的 Clusters 可以透過 Rake or Compress 合併。</p><p>可以透過不斷的兩兩合併，把一棵樹合併成一個 Cluster，每個 Cluster 紀錄關心的答案就可以了。</p><h3 id="Rake"><a href="#Rake" class="headerlink" title="Rake"></a>Rake</h3><p>把一個葉子的邊合併到另一個邊上</p><h3 id="Compress"><a href="#Compress" class="headerlink" title="Compress"></a>Compress</h3><p>把一個 degree = 2 的點旁邊的兩條邊合併</p><h3 id="複雜度"><a href="#複雜度" class="headerlink" title="複雜度"></a>複雜度</h3><p>因為一顆樹 degree &gt; 2 的節點不超過一半，所以每一層合併，大概可以消掉一半的節點(不過會有常數個節點重複到)，因此複雜度是 O(logN) 層。</p><h2 id="實做"><a href="#實做" class="headerlink" title="實做"></a>實做</h2><p>實做部份我是學 bb 學長的<a href="https://codeforces.com/contest/1192/submission/67652376" target="_blank" rel="noopener">方法</a>，寫法非常精湛，可以比 Centroid Decomposition 輕鬆。</p><p>大概就是不斷的 greedy 選擇 maximal 的合併，持續掃整張圖，直到剩下一個 root cluster。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 程式競賽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>TOI 2020 一階紀錄</title>
       <link href="/2020/03/28/TOI-2020-%E4%B8%80%E9%9A%8E%E7%B4%80%E9%8C%84/"/>
       <url>/2020/03/28/TOI-2020-%E4%B8%80%E9%9A%8E%E7%B4%80%E9%8C%84/</url>
