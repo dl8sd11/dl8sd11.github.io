@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.tommydong.life/"/>
-  <updated>2020-04-18T08:32:55.520Z</updated>
+  <updated>2020-04-30T14:38:04.197Z</updated>
   <id>https://blog.tommydong.life/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Apirl20 Vim 筆記</title>
+    <link href="https://blog.tommydong.life/2020/04/30/Apirl20-Vim-%E7%AD%86%E8%A8%98/"/>
+    <id>https://blog.tommydong.life/2020/04/30/Apirl20-Vim-筆記/</id>
+    <published>2020-04-30T14:18:38.000Z</published>
+    <updated>2020-04-30T14:38:04.197Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h2><p>其實我最早用 terminal editor 是 emacs (一個學長推坑的)，但是一直沒有摸熟 emacs 複雜的功能，再加上沒有特別喜歡把各種功能放在編輯器的感覺，所以一陣子就退坑了。在選訓營一階，看到有朋友用 vim，覺得有點好奇，就稍微入坑了一下，發現還蠻快上手，用起來很有手感。</p><h2 id="到底差再那？"><a href="#到底差再那？" class="headerlink" title="到底差再那？"></a>到底差再那？</h2><p>對我來說，vim 跟普通的編輯器差別就在於他把 “輸入” 跟 “編輯” 劃分得很清楚。普通的編輯器在循序輸入時沒什麼太大的問題，但是在做一些跳來跳去的移動或修改，往往會需要一點功夫，甚至要把手放到滑鼠上控制。而 vim 的作法大概是把這些編輯的動作，用一套有邏輯的語言描述，透過成千上萬的語法組合，就很容易有鍵盤去描述你想達到的操作，所以我認為在 “編輯” 上，vim 有一些優勢。</p><h2 id="入坑之路"><a href="#入坑之路" class="headerlink" title="入坑之路"></a>入坑之路</h2><p>一開始入坑，我大概刷了兩三次 vimtutor，認識一些語法。後來就在練習競程的時候使用 vim，過了一兩天發現我根本就幾乎停在 insert mode，變得比一般的編輯器更難使用。我大概在網路上查了一下，有人建議把 arrow keys 關掉。又試了一兩天，感覺稍微好了一些。又看到有人建議裝 HardMode 這個套件，ban 掉連續案兩次 ijkl。最後我開始習慣用一些比較精簡的方式控制 vim，速度大概有提昇不少，開始有覺得比平常編輯器好用一些。</p><h2 id="Vim-in-TOI"><a href="#Vim-in-TOI" class="headerlink" title="Vim in TOI"></a>Vim in TOI</h2><p>這個月我做了一個有點衝動的決定: 在 TOI 三四模使用 vim。雖然我知道比賽要盡可能保持穩定，千萬不要亂嘗試做死。不過因為二階有點戒不掉用 vim，所以最後決定就還是大膽給他用下去好了。結果沒想到效果還不差，賽中沒有因為 vim 而在 coding 上耍雷，頂多是開賽多了 1 分鐘把那我覺得很必要的 vimrc 打進去而已。</p><h2 id="黑特中文"><a href="#黑特中文" class="headerlink" title="黑特中文"></a>黑特中文</h2><p>雖然我覺得 vim 大多很美好，不過輸入中文真的還是得抱怨一下，用起來完全不友善，還沒查有什麼好的解法:P</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;動機&quot;&gt;&lt;a href=&quot;#動機&quot; class=&quot;headerlink&quot; title=&quot;動機&quot;&gt;&lt;/a&gt;動機&lt;/h2&gt;&lt;p&gt;其實我最早用 terminal editor 是 emacs (一個學長推坑的)，但是一直沒有摸熟 emacs 複雜的功能，再加上沒有特別喜
+      
+    
+    </summary>
+    
+    
+      <category term="程式" scheme="https://blog.tommydong.life/tags/%E7%A8%8B%E5%BC%8F/"/>
+    
+      <category term="學習" scheme="https://blog.tommydong.life/tags/%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
   
   <entry>
     <title>隱藏的幾篇文章</title>
@@ -471,32 +496,6 @@
       
       
         &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;TOI 是台灣的資訊奧林匹亞的選訓營，是為了培訓資訊競賽選手參加奧林匹亞比賽而設立的研習營。今年我透過海選取得了參加的資格，就踏入了師大體驗
-      
-    
-    </summary>
-    
-    
-      <category term="程式競賽" scheme="https://blog.tommydong.life/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
-    
-      <category term="TOI" scheme="https://blog.tommydong.life/tags/TOI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TOI 2019 入營考</title>
-    <link href="https://blog.tommydong.life/2019/03/09/TOI-2019-PRE/"/>
-    <id>https://blog.tommydong.life/2019/03/09/TOI-2019-PRE/</id>
-    <published>2019-03-09T15:21:24.000Z</published>
-    <updated>2020-04-16T01:13:39.858Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>TOI 是台灣高中資訊競賽的選訓營，入營考就是進入選訓贏得資格考。今年我有拿到學校代表，二度再戰。</p><h2 id="比賽過程"><a href="#比賽過程" class="headerlink" title="比賽過程"></a>比賽過程</h2><p>今天一早我和 NJ 搭著高鐵前往台北，中午午餐篩選了 30 分鐘終於在北車二樓吃了其實有點貴的親子丼之後前往師大分部。測機總共兩題，第一題印度測資，RE 了兩三次才開了 map 過關，回想起來去年也發生過這種事。</p><p>比賽在測機後沒多久就開始了，這次我的計畫是開賽先看完全部的題目。題目明顯比去年更難，因此我沒有抱著破台的期望打題目。前一個小時拿了兩百分，雖然沒有到很順利，可是是很合理的時間。接著我觀察剩下三題，其中兩題沒什麼頭緒，就嘗試解一題 <a href="https://en.wikipedia.org/wiki/Chinese_remainder_theorem" target="_blank" rel="noopener">中國剩餘定理</a> 題目。幾個禮拜前的自習課才推導過一次，不過當時寫錯了之後馬上就要上課了，之後就被我放著了。賽中重新推導，成功推導出擴展歐幾里德，卻在中國剩餘定理不互質的情況卡了很久。時間一轉眼就過了一個小時，我的分數還是沒有變化。剩下大概一個多小時，我嘗試解剩下的其中一題，結果想了一個假解，而且實作上有些複雜，湊出答案之後才發現被範測打臉。</p><p>剩下 40 分鐘，我意識到自己掉出了錄取線外，決定採取喇分模式。盡可能快速的解了剩下題目的部份分，一共拿了 118 分。最後覺的中國剩餘定理那題最值得繼續投資時間，有想到解決不互質的方式，可是丟上去後錯了一些，比賽就差不多結束了。</p><p>終於過了 TOI 選訓一階<br>也恭喜 NJ, IB學弟 都過了入營考</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>這次的入營考其實壓力很大，因為特殊選才許多學校會以進入選訓營當作重要指標。換句話說如果我想特殊選才申請大學，這場比賽就有點像學測。早在幾個月前我就有所心理建設，如果我進選訓營就要轉移重心，認真讀書。如果有幸進入選訓營，就繼續努力打競賽。也就是說如果這場比賽失利，我的高中程式競賽可能就要劃上句點。</p><p>然而在發現這場比賽的重要性之後，一切就快樂不起來了。</p><p>比賽前一個禮拜，我請了假參與學校訓練。每天浸泡在程式的環境中，有相當充分的時間準備。然而我漸漸意識到我的思考力的下降，在禮拜三晚上我承認我被壓力壓倒了。我發現我持續的練習，沒有把我的連假訓練的手感留住，而是因為體力的下降與壓力的上升，使我變得遲鈍，甚至沒辦法專注想題目。難道這就是跟神經網路一樣的 <a href="https://en.wikipedia.org/wiki/Overfitting" target="_blank" rel="noopener">overfitting</a>?</p><p>我也發現了這個問題的嚴重性，再持續下去我大概會完全無法解題，更不用說通過海選了。那個時間點距離比賽兩天半，我趕緊找了家人討論，我也複習了學長何達睿所寫的書，得到的結論是我該適度的放鬆，挽救這個局面。結果是好的，雖然只有兩天的時間調整，但跟星期三的狀況相比，我最後狀態還是有恢復許多。</p><h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><p>最近偶爾聊大未來的規劃，其實我並沒有對台大資工系的堅持。我只是認為如果能有機會離開新竹讀書，也是不錯的選擇。如果有交大、清大或成大資工系讀，我是很開心的。既然最後是進了選訓營，大學我目前是打算以程式競賽經歷與社群社團和球隊的經歷申請特殊選才。而剩下的高中生活，就盡量的參加資訊競賽和運動吧。</p><p>總之，我又可以快樂的寫程式了 :)</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;TOI 是台灣高中資訊競賽的選訓營，入營考就是進入選訓贏得資格考。今年我有拿到學校代表，二度再戰。&lt;/p&gt;
-&lt;h2 id=&quot;比賽過程&quot;&gt;&lt;a
       
     
     </summary>

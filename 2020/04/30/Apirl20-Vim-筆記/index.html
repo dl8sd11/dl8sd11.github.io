@@ -13,7 +13,7 @@
 
 
 
-<title>隱藏的幾篇文章 | TMD Life</title>
+<title>Apirl20 Vim 筆記 | TMD Life</title>
 
 
 
@@ -154,11 +154,73 @@
             <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">隱藏的幾篇文章</h1>
+            <h1 class="post-title">Apirl20 Vim 筆記</h1>
             
                 <div class="post-meta">
                     
@@ -167,7 +229,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">四月 18, 2020&nbsp;&nbsp;16:28:24</a>
+                        Date: <a href="#">四月 30, 2020&nbsp;&nbsp;22:18:38</a>
                         </span>
                     
                     
@@ -176,7 +238,11 @@
         </header>
 
         <div class="post-content">
-            <p>不太喜歡別人當面討論我的文章，尤其是比較負面的那些。所以前幾天我臨時把 blog 扯下來，現在把那些負面文章隱藏起來放上線了，如果真的想看的人再發 mail 到 tmd279936@gmail.com 我再考慮看看吧。</p>
+            <h2 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h2><p>其實我最早用 terminal editor 是 emacs (一個學長推坑的)，但是一直沒有摸熟 emacs 複雜的功能，再加上沒有特別喜歡把各種功能放在編輯器的感覺，所以一陣子就退坑了。在選訓營一階，看到有朋友用 vim，覺得有點好奇，就稍微入坑了一下，發現還蠻快上手，用起來很有手感。</p>
+<h2 id="到底差再那？"><a href="#到底差再那？" class="headerlink" title="到底差再那？"></a>到底差再那？</h2><p>對我來說，vim 跟普通的編輯器差別就在於他把 “輸入” 跟 “編輯” 劃分得很清楚。普通的編輯器在循序輸入時沒什麼太大的問題，但是在做一些跳來跳去的移動或修改，往往會需要一點功夫，甚至要把手放到滑鼠上控制。而 vim 的作法大概是把這些編輯的動作，用一套有邏輯的語言描述，透過成千上萬的語法組合，就很容易有鍵盤去描述你想達到的操作，所以我認為在 “編輯” 上，vim 有一些優勢。</p>
+<h2 id="入坑之路"><a href="#入坑之路" class="headerlink" title="入坑之路"></a>入坑之路</h2><p>一開始入坑，我大概刷了兩三次 vimtutor，認識一些語法。後來就在練習競程的時候使用 vim，過了一兩天發現我根本就幾乎停在 insert mode，變得比一般的編輯器更難使用。我大概在網路上查了一下，有人建議把 arrow keys 關掉。又試了一兩天，感覺稍微好了一些。又看到有人建議裝 HardMode 這個套件，ban 掉連續案兩次 ijkl。最後我開始習慣用一些比較精簡的方式控制 vim，速度大概有提昇不少，開始有覺得比平常編輯器好用一些。</p>
+<h2 id="Vim-in-TOI"><a href="#Vim-in-TOI" class="headerlink" title="Vim in TOI"></a>Vim in TOI</h2><p>這個月我做了一個有點衝動的決定: 在 TOI 三四模使用 vim。雖然我知道比賽要盡可能保持穩定，千萬不要亂嘗試做死。不過因為二階有點戒不掉用 vim，所以最後決定就還是大膽給他用下去好了。結果沒想到效果還不差，賽中沒有因為 vim 而在 coding 上耍雷，頂多是開賽多了 1 分鐘把那我覺得很必要的 vimrc 打進去而已。</p>
+<h2 id="黑特中文"><a href="#黑特中文" class="headerlink" title="黑特中文"></a>黑特中文</h2><p>雖然我覺得 vim 大多很美好，不過輸入中文真的還是得抱怨一下，用起來完全不友善，還沒查有什麼好的解法:P</p>
 
         </div>
 
@@ -191,7 +257,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="https://blog.tommydong.life/2020/04/18/隱藏的幾篇文章/">https://blog.tommydong.life/2020/04/18/隱藏的幾篇文章/</a></span>
+                        <span><a href="https://blog.tommydong.life/2020/04/30/Apirl20-Vim-筆記/">https://blog.tommydong.life/2020/04/30/Apirl20-Vim-筆記/</a></span>
                     </p>
                 
                 
@@ -205,7 +271,9 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/blog/"># blog</a>
+                        <a href="/tags/程式/"># 程式</a>
+                    
+                        <a href="/tags/學習/"># 學習</a>
                     
                         
                 </span>
@@ -218,10 +286,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/04/30/Apirl20-Vim-筆記/">Apirl20 Vim 筆記</a>
             
-            
-            <a class="next" rel="next" href="/2020/03/30/March20-Top-Tree-筆記/">March20 Top Tree 筆記</a>
+            <a class="next" rel="next" href="/2020/04/18/隱藏的幾篇文章/">隱藏的幾篇文章</a>
             
         </section>
 
