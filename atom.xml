@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TMD Life</title>
+  
+  <subtitle>TMD=ToMmyDong</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.tommydong.live/"/>
+  <updated>2021-02-09T15:22:38.947Z</updated>
+  <id>https://blog.tommydong.live/</id>
+  
+  <author>
+    <name>ToMmyDong</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>台大資工 大一上</title>
+    <link href="https://blog.tommydong.live/2021/02/09/%E5%8F%B0%E5%A4%A7%E8%B3%87%E5%B7%A5-%E5%A4%A7%E4%B8%80%E4%B8%8A/"/>
+    <id>https://blog.tommydong.live/2021/02/09/台大資工-大一上/</id>
+    <published>2021-02-09T20:03:43.000Z</published>
+    <updated>2021-02-09T15:22:38.947Z</updated>
+    
+    <content type="html"><![CDATA[<p>期待很久的大學生活，過了一個學期。一開始很期待，中間過得有點混亂，總之最後是習慣了。一個學期一下子就過了，或許是一上活動本來就比較多，感覺過得好充實。</p><h2 id="ACM-ICPC"><a href="#ACM-ICPC" class="headerlink" title="ACM ICPC"></a>ACM ICPC</h2><p>這學期的前半段，我和 Utaha 和 AY 組成一隊，參加了大學的程式競賽。兩個隊友都強得誇張，不管是練習或是比賽，常常感覺自己幫不上太多忙，甚至會擔心自己雷到。不過我們這隊本來就是休閒導向，所以雖然常常躺分，也躺著很安穩。偶爾解出有趣的題目，是很快樂的活動。</p><h2 id="壘球隊"><a href="#壘球隊" class="headerlink" title="壘球隊"></a>壘球隊</h2><p>學期初，我參加了壘球和棒球的新生盃。我們的球隊主要是打壘球，所以棒球新生盃一下就被淘汰了，值得一提的是對上建中 ob 的時候，打了一隻出場外的二安。壘球是完全不同的故事，我們這屆的新生好像特別多人喜歡棒壘，沒練過幾次球，打起來有模有樣。單淘汰的新生盃，我們誤打誤撞打到了冠軍戰，贏了一座冠軍。系壘的學長人也都很好，加入了壘球隊之後，平均一個月至少可以打個兩場比賽。我自己的表現起起伏伏，好的時候打擊率可以 9/9，爛的時候連續好幾個打席都打鳥球。守備上主要還是一壘，因為是左撇子，所以內野很多不能守，有點可惜。</p><h2 id="新生盃-ICPC"><a href="#新生盃-ICPC" class="headerlink" title="新生盃 ICPC"></a>新生盃 ICPC</h2><p>我們系上連程式競賽也有舉辦 ICPC，不過有一個有趣的規則是有競賽經驗的人不能碰鍵盤（可以碰滑鼠）。所以如果不想用螢幕小鍵盤打整場的話，就要找其他同學組隊。因為不想打螢幕鍵盤五個小時，再加上覺得看別人打 code 比較有趣，我找了壘球隊上的兩個好朋友一起組隊（隊名：明年從 0 開始的計程生活）。比賽過程滿搞笑的，如果解太多題電腦還會被封印。我的兩個隊友輪流 coding，我一邊幫忙看 code 一邊跟另一邊的隊友討論接下來的題目。最後蠻順利的，拿到了第二名，第一名是我真正 ICPC 的隊友那隊，第三名是我們這屆其他三個選訓營的朋友。（不過大家其實解題數一樣，所以我們兩隊也是靠鍵盤優勢）</p><h2 id="排球隊"><a href="#排球隊" class="headerlink" title="排球隊"></a>排球隊</h2><p>這學期下半，想要多運動一些，所以跑去加了排球隊。排球隊算是偏硬，一個禮拜練習兩次。不過下半學期因為一直下雨，所以實際上沒練到那麼多。排球學長也都很好，會教我們修正一些基本動作。有點可惜的是下半學期才加入，盃賽都沒有參加到，不過其實實力也還不太夠，所以能多一些練球機會，就很滿足了。</p><h2 id="課業"><a href="#課業" class="headerlink" title="課業"></a>課業</h2><p>一上選課的時候因為正在打 IOI，所以有點草率，選了正常的大一套餐。也因此吃的有點乏味，一個禮拜五天上課，實際上會出門只有兩天。實際上這學期沒有特別喜歡的課，簡單紀錄一下。</p><ul><li>體育課：我期待體育課多運動一些，可惜教授愛聊天</li><li>微積分：教授教的蠻清楚的，不過最後還是選擇自己讀比較有效率</li><li>普物：老實說上課有點無趣，也是自己看看課本</li><li>國文：涼苦（扎實甜相反），上課蠻有趣的，聽說成績給的很硬</li><li>英文：還算扎實，可是感覺要學好語言，多半還是要自己累積</li><li>計程：討論度最高的課，停修大概一半，老實說比起電機系，有點草率不夠深入</li><li>計概：用 nand2tetris 當教材，蠻有趣的，final project 自己蠻喜歡</li></ul><p>成績蠻普通的，如果是想衝 GPA，可能不能這麼混。不過我不太喜歡在沒興趣的科目上努力，所以歸咎原因，大概是選課的問題吧，下學期選了比較硬的課，希望可以讓自己多學一些東西。</p><h2 id="日文-and-西洋棋"><a href="#日文-and-西洋棋" class="headerlink" title="日文 and 西洋棋"></a>日文 and 西洋棋</h2><p>上了大學，覺得自己除了寫程式應該要找些其他興趣。一開始學日文是參加 IOI 的時候，被推坑多鄰國，後來發現很有趣，就買了文法書和開始背單字。一個學期背了 2000 個單字，看了三本文法書，雖然進度緩慢，但漸漸的能聽懂一些動漫的對話了，成就感滿點。西洋棋是期中的時候和朋友 BC 閒著沒事，找來的遊戲。每天下下棋，解解題目，以前很容易犯明顯失誤，漸漸的也比較穩重了。壓力的的時候，下一些瘋狂的棋還蠻有用的。</p><h2 id="夜衝"><a href="#夜衝" class="headerlink" title="夜衝"></a>夜衝</h2><p>1/8 寒流那天凌晨 12:30，看到 ptt 在討論山上下雪，我正和朋友吃著宵夜。突然想到自己沒看過雪，我們決定夜衝宇老。大半夜跑去士林和表姐借車，直接從尖石衝上了宇老觀景臺。雖然已經有不少開車經驗，但開著表姐的車摸黑上山真的是第一次，緊張、全神貫注。一開始只是滿滿冰霰，我們決定在山上待雪，直到清晨醒來，在我們即將回頭的時候，雪飄落了，突然間覺得溫暖又感動。在期末考前一天能和朋友一起衝上宇老看雪，超級幸福的。</p><h2 id="IOICamp"><a href="#IOICamp" class="headerlink" title="IOICamp"></a>IOICamp</h2><p>學期中，電仁請我接替他 DP 講師的工作。我覺得最近幾年，好像很少人教四邊形優化，而且網路上資源也偏少，決定把主軸放在四邊形優化。沒想到，這樣的決定出了兩個大問題，第一個是我自己本來也不熟四邊形優化，第二個是網路上教學不多，題目更是難找。覺得自己弄懂了四邊形之後，發現比較大的問題是教課。最初接到講師工作的時候，我很迷惘自己到底能不能讓各個程度的學生都有收穫。直到最後一個禮拜，我終於醒了，我把目標放在讓我教內容能真正被理解，於是我開始重新思考我在學習這些主題上，到底掌握了哪些重要的概念，和要怎麼強調和講解這些概念。檢討起來，我其實很多地方可以做的更好，比如在課程主題上，我一開始講的 DP 對大概 3/4 的人來說太簡單，四邊形優化雖然有趣，但既然連網路上例題都難找了，應該算不上實用。不過還是有值得開心的事，首先是我弄懂了以前覺得很模糊的四邊形優化，再來是聽到一些學員說覺得收穫很多很有趣，大概是最值得的回報了。</p><p>大一上其實還有許多有趣的事，沒辦法記下來，如果要許個下學期的願望，那就是要過得跟這學期一樣充實 XD</p><p>（發現自己文字越來越不順暢，不知道是學新語言的關係，還是太久沒寫文章了）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;期待很久的大學生活，過了一個學期。一開始很期待，中間過得有點混亂，總之最後是習慣了。一個學期一下子就過了，或許是一上活動本來就比較多，感覺過得好充實。&lt;/p&gt;
+&lt;h2 id=&quot;ACM-ICPC&quot;&gt;&lt;a href=&quot;#ACM-ICPC&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="NTU" scheme="https://blog.tommydong.live/tags/NTU/"/>
+    
+      <category term="CSIE" scheme="https://blog.tommydong.live/tags/CSIE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IOI 2020</title>
+    <link href="https://blog.tommydong.live/2020/09/21/IOI-2020/"/>
+    <id>https://blog.tommydong.live/2020/09/21/IOI-2020/</id>
+    <published>2020-09-21T09:59:33.000Z</published>
+    <updated>2020-09-29T15:30:41.310Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>今年的夏天，我參加了國際資奧，一場我期待了三年的比賽，在台南。</p></blockquote><p>一開始知道沒有出國比賽，其實有點自己在鬧脾氣，倚恃著自己覺得沒有實體賽，IOI 就失去了價值，擅自登出了競賽模式。開始過提早開始的暑假生活，參加各種活動、嘗試各種東西、有空就一直找朋友出去玩，一開始說真的頗快樂。直到國培越來越接近，才意識到自己正在逃避，既然比賽要繼續辦，我就逃不了為台灣負責，也為自己那想了三年的夢負責。</p><p>開始反省後也不過兩三天，那接近一個月的國培馬上就開始了。在國培的日子其實大部份都過得很快樂，除了生活安排的蠻舒適的，更重要的是可以整天跟另外三個國手混在一塊，一起聊天、講怪話、看動漫、旅行（？）、練習。不過大概也是因為比賽壓力很大，我們偶爾也有各自狀態低落的時候，但也都互相 cover，一下子一個月就過了。</p><p>也許是因為上一屆國手真的是強得離譜，今年培訓的時候，我偶爾也聽到教授酸我們欠缺實力。這些事其實我一直放在心上沒有拿出來討論，或許也是因為這是事實，所以我聽起來更感到無力。其實一路以來，我自己還算蠻常被檢討實力的，但聽到其他國手也一起被檢討，感覺就是特別不舒服。</p><p>國培之後一個禮拜，馬上就到了 IOI。在參加 IOI 前，我們也模擬了許多場比賽。除了有一場身體狀況不好打很慘，一兩場題目比較合胃口打的特別好，其他大致上都落在銀牌裡面。高三後的我算是一個相對穩定的選手，雖然沒什麼太大的爆發力，但是在「發揮實力」的課題上算是很有心得。所以比賽前，也沒有太多的緊張，反而是期待比賽到來，期待那些為了全世界的高中生設計的六道題目。</p><p>IOI Day1 比完，我們在金牌線上陣亡，拿了三銀一銅。之後的一兩天，我們的雖然還是照常的聊天、講怪話、看動漫、旅行、練習，但氣氛有一點淡淡的沈重感。我自己可能因為本來心裡就有一面銀牌，所以說不上失望，不過對於我們被教授說中了，無力掙扎倒是比較失望一些。Day2 算是比較精彩一些，我們的隊友打了 292 分接近滿分，差十幾分可以拿到金牌。可惜如果從結果來看，就算他第二天打 300 其實也無力回天。我自己這邊也打的很刺激，前段時間一發解掉了一道題，後面不停的在剩下兩題徘徊，有點可惜的是我沒有去嘗試一個蠻關鍵的猜測，錯過了和金牌一搏的機會。</p><p>有的人聽到我得了銀牌，會有點遲疑，不知道該恭喜我還是安慰我。對我來說，銀牌的象徵是美好中帶著不完美，作為高中競賽生活的結語，我覺得再適合不過。這三年，比起那些一二年級打了好成績，沒有升學壓力的選手，我在各個關卡跌跌撞撞。也因為有這些不完美，讓我繞了更多路，看了更多風景。最後的比賽，也帶著一點點的後悔和不完美，而我也開始接受、喜歡這些不完美。</p><p>最後來感謝學長們在知識和生活上的幫忙、捧油們的鼓勵、家長師長持續的支持、國家大量金錢支助、各個有趣的教授。特別感謝一下另外三位隊友，謝謝你們陪我一起耍怪，也在我耍低落的時候拉我一把，讓我度過了快樂的暑假 IOI。也祝兩個高二的學弟，明年可以打個更好的成績，連我們這屆的份一起雪恥。</p><p>為了感謝大家: 11 月前，第一次和我吃飯可以要求我請客哦XD</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;今年的夏天，我參加了國際資奧，一場我期待了三年的比賽，在台南。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一開始知道沒有出國比賽，其實有點自己在鬧脾氣，倚恃著自己覺得沒有實體賽，IOI 就失去了價值，擅自登出了競賽模式。開始過提早開始的暑假生活，參
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+      <category term="IOI" scheme="https://blog.tommydong.live/tags/IOI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TOI 國培日記 成大篇</title>
+    <link href="https://blog.tommydong.live/2020/08/22/TOI-%E5%9C%8B%E5%9F%B9%E6%97%A5%E8%A8%98-%E6%88%90%E5%A4%A7%E7%AF%87/"/>
+    <id>https://blog.tommydong.live/2020/08/22/TOI-國培日記-成大篇/</id>
+    <published>2020-08-22T23:11:15.000Z</published>
+    <updated>2020-08-22T15:51:05.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>8/17~8/22</p><p>這週是台南週，在成大待了四天多。TL;DR 台南食物有夠好吃。這次因為國手有一個台南人，所以每天幾乎都能固定吃到台南美食。為了不要被發現我很愛吃，先稍微講點跟程式有關的。</p><h2 id="Link-Cut-Tree"><a href="#Link-Cut-Tree" class="headerlink" title="Link Cut Tree"></a>Link Cut Tree</h2><p>第一天因為沒上課很無聊，我就挖了個坑，跟 AY 學 lct。之前稍微看過 splay，也問過 lct 的概念，所以我直接請 AY 實做一次，直接看 code。其實 lct 沒有想像中的那麼邪教，感覺如果 splay 熟悉的話，不會比 hld 差很多 (而且時間複雜度常常比較美)，甚至比重剖好寫。順便還學了一下用 lct 維護子樹資訊，總共大概寫了兩題吧。希望以後看到 djs 之類的簡單題目不要 lct 中毒 (對我就立 flag)。</p><h2 id="Python-in-One-Line"><a href="#Python-in-One-Line" class="headerlink" title="Python in One Line"></a>Python in One Line</h2><p>發現跟 AY 學東西很好玩，所以星期二我又找 AY 學毒瘤。起因大概是因為成大一直丟垃圾題給我們驗，為了達成練習的目標，我決定嘗試 python in one line。PIOL 大概就是滿滿的 lambda 和 list comprehension，比較大的問題是遞迴，結果 AY 大大示範了如何實用 lambda 單行遞迴。一開始覺得不直觀，結果他給出了一個證明，覺得 AY 似神仙。大概長這樣:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(lambda x: x(x))(lambda frac : (lambda x : 1 if x == 1 else frac(frac)(x-1)*x))</span><br></pre></td></tr></table></figure><p>後來我就用 python in one line 寫了 dfs, dijkstra 之類的題目，覺得很酷。</p><h2 id="大食記"><a href="#大食記" class="headerlink" title="大食記"></a>大食記</h2><p>台南東西我真的超愛，各種小吃和麵店都很讚，幾乎沒有踩到雷，又非常的荷包友善。其中一天 ubunone 教授請客帶我們去吃瓦城，在台南待了四天的我胃口好像不小心開了，一開始教授問我吃多吃少，我想了一下說偏少，後來吃完才發現自己食量豪可怕。這次的國培感覺一臉就是變胖，我猜大概 5 公斤啦，希望不要更多 &gt;w&lt;。</p><h2 id="Utahahaha-and-大學"><a href="#Utahahaha-and-大學" class="headerlink" title="Utahahaha and 大學"></a>Utahahaha and 大學</h2><p>快要開學了，慢慢接軌一些大學的事。首先我的大學隊友確定是 AY and Utaha，所以隊名叫 UTAhahaha 有我們三個名字的開頭。為了避免自己太邊，報名了新生書院，但是沒想到不小心錯過了宿舍抽籤。對於這麼嚴重的失誤，我非常的煩惱，不過都已經過了，能補救的也補了，只能看看運氣囉 :P</p><p>禮拜六回到師大，我們和 Utaha 連線了一場 virtual。Utaha 和 AY 實在是超級大凱瑞，我感覺貢獻偏少，實做又一直有蠢問題。希望之後可以比較習慣 ICPC 題 (或是習慣被 carry)。是說 BB 跟我說 tmux 可以兩個連線 attach 同一個 session 而且 cursor 會同步，經過實測幾乎沒有時差，下次可以試試看。</p><p><img src="https://i.imgur.com/vzm1yEF.jpg" alt="The復刻"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;8/17~8/22&lt;/p&gt;
+&lt;p&gt;這週是台南週，在成大待了四天多。TL;DR 台南食物有夠好吃。這次因為國手有一個台南人，所以每天幾乎都能固定吃到台南美食。為了不要被發現我很愛吃，先稍微講點跟程式有關的。&lt;/p&gt;
+&lt;h2 id=&quot;Link-Cut-Tree&quot;&gt;&lt;a href
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+      <category term="TOI" scheme="https://blog.tommydong.live/tags/TOI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TOI 國培日記 APIO 篇</title>
+    <link href="https://blog.tommydong.live/2020/08/16/TOI-%E5%9C%8B%E5%9F%B9%E6%97%A5%E8%A8%98-APIO-%E7%AF%87/"/>
+    <id>https://blog.tommydong.live/2020/08/16/TOI-國培日記-APIO-篇/</id>
+    <published>2020-08-16T23:02:47.000Z</published>
+    <updated>2020-08-16T15:34:05.400Z</updated>
+    
+    <content type="html"><![CDATA[<p>8/14~8/16 </p><p>前一天晚上和其他的非北市選手一起吃晚餐，回飯店買了副牌，玩了第一次拱豬，後來也打了好幾場橋牌，感覺運氣頗好，一直狂贏。後來玩又接著玩海龜湯，其實玩到頗晚，不過沒什麼差反正 APIO 比下午的，也算是有睡飽。</p><p>APIO 今年突然說要用選訓電腦，有點小難過，linux 沒有 sudo 權限又缺東缺西，所以只好用瘦瘦的 vimrc 打比賽。APIO 是我第一次打國際賽，其實有點小緊張。開場看完了三題，沒有明顯可作的題目，所以就開了 pA。部份分算甜，所以就先拿了除了第一筆和最後一筆的分數，對我莫名其妙第一筆拿不到，多花了大概半小時在拿第一筆分數。接著跑去想 pB，大概知道部份分的拿法，覺得滿分稍微有機會，所以決定先把 pC 拿完，再回來全心炸 B。pC 是一個有點噁心的互動題，小測資是明顯的 greedy，所以拿的很順利。有一筆完全二元樹的 case，一開始覺得可以用構造的，不過仔細想想有點複雜，所以就使用了一點暴力，花了些時間拿下。最後終於興奮的跑去做 pB，一開始拿了小測資驗想法，過了之後算了一下我完整解的複雜度，$N \sqrt(NlogN)$ 根據經驗會死得很難看，所以就努力想壓 log 的方法，可惜是失敗了，還花好多時間。最後半小時成功的放棄了，跑去找 pC 另一筆部份分，有點頭緒只是來不及解出來。</p><p>最後結果我一題也沒解出來，不過由於我舔分能力堅強，又髒到了一個不錯的分數。AY 解出了 pA，題目寫 $\sum{f(k)} \leq x$ 之類的限制，原來只需要知道 $f(k) \leq \sqrt(x)$，被耍的團團轉。蛋餅解出了 pB，他說他是過我的解，確實 TLE，他的解法是 $Nlog^3N$，一個我沒聽過得神奇技巧，長知識。至於 pC，台灣好像就沒人過了，可能真的比較難吧 sad。總之，我對於我一題都沒解出來卻拿了台灣最高感到有點小愧疚，或是說對真的有解出題目的人來講可能有點小可惜吧，不過沒差 APIO 本來也就只是個沒什麼實際價值的比賽 :P</p><p>比賽玩之後我們跑去 casperwang 家玩桌遊，玩了達文西密碼和一夜狼人殺，一夜狼人殺頗讚，我對於自己的唬爛能力感到驚訝。最後一天在師大上課，教 Linear Programming，主要在講他的 Daulity，比較偏向線性代數，對競賽幫助偏小，不過根據慣例我還是聽得很快樂。另外 AY 和蛋餅神仙打架的其中一題我蠻喜歡的，是一個費用流的好題目。下午跑到台南前吃了麵屋武臟，上一次吃招牌印象沒特別好，這次吃雞白湯又衝到了拉麵排名 rank 1，真心覺得雞白湯是拉麵真理。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;8/14~8/16 &lt;/p&gt;
+&lt;p&gt;前一天晚上和其他的非北市選手一起吃晚餐，回飯店買了副牌，玩了第一次拱豬，後來也打了好幾場橋牌，感覺運氣頗好，一直狂贏。後來玩又接著玩海龜湯，其實玩到頗晚，不過沒什麼差反正 APIO 比下午的，也算是有睡飽。&lt;/p&gt;
+&lt;p&gt;APIO 今年突
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>失敗</title>
+    <link href="https://blog.tommydong.live/2020/08/04/%E5%A4%B1%E6%95%97/"/>
+    <id>https://blog.tommydong.live/2020/08/04/失敗/</id>
+    <published>2020-08-04T20:53:48.000Z</published>
+    <updated>2020-08-16T15:03:26.116Z</updated>
+    
+    <content type="html"><![CDATA[<p>如題，我失敗了。我認真了，我盡力了，我失敗了。從一開始，朋友都一直給我信心和鼓勵。不過身為一個樂觀的悲觀主義者，我可是從第一天就開始做失敗的準備，準備好失敗隨時降臨的可能性。即便如此，事到如今雖然沒有說無法負荷，但也難免覺得悶悶的，可能是因為會想起那些過程努力的快樂吧？</p><p>不過生活就是這樣，用片段的苦襯托出甘甜的時光。<br>像極了愛情</p><blockquote><p>是說配合失敗主題，我來宣告 Hello 2020 flag -1 （快歸零了ZZ）。對，我的學習筆記斷更了 TAT，也不是說沒學東西，只是沒什麼有趣的想分享而已 :P</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;如題，我失敗了。我認真了，我盡力了，我失敗了。從一開始，朋友都一直給我信心和鼓勵。不過身為一個樂觀的悲觀主義者，我可是從第一天就開始做失敗的準備，準備好失敗隨時降臨的可能性。即便如此，事到如今雖然沒有說無法負荷，但也難免覺得悶悶的，可能是因為會想起那些過程努力的快樂吧？&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://blog.tommydong.live/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="心情" scheme="https://blog.tommydong.live/tags/%E5%BF%83%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高中團體賽</title>
+    <link href="https://blog.tommydong.live/2020/08/04/%E9%AB%98%E4%B8%AD%E5%9C%98%E9%AB%94%E8%B3%BD/"/>
+    <id>https://blog.tommydong.live/2020/08/04/高中團體賽/</id>
+    <published>2020-08-04T16:19:55.000Z</published>
+    <updated>2020-08-04T08:50:09.662Z</updated>
+    
+    <content type="html"><![CDATA[<p>高中三年過得好快，記得第一場比賽就是辦在開學前的 ISSC 團體賽，一下子三年過去了，總共打了十場比賽。比起個人賽，其實比較喜歡團體賽這樣可以有隊友一起合作解決問題的感覺。一開始不太會打團體賽，打起來像是需要搶電腦的個人賽。不過隨著經驗慢慢增加，體驗到了團體賽的魅力。三年來的十場比賽，八場都要感謝 NJ 的凱瑞，我們從一個連初賽都會被刷掉的隊伍，最後變成了有機會打贏的隊伍。最後一年找了強者學弟 balbit，第一場比賽合作起來感覺抖抖的。經過了一年的合作，從開始可以相信彼此，到最後甚至感覺到自己越來越躺分。也很開心能夠在高中最後一場團體賽 YTP 打贏，好消息是大學比賽都是團體賽哦，真快樂 :)</p><h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><table><thead><tr><th></th><th>名次</th><th>隊友</th></tr></thead><tbody><tr><td>ISSC_2017</td><td>??</td><td>好朋友XD</td></tr><tr><td>NPSC_2017</td><td>28</td><td>NJ, Ethan Chiou</td></tr><tr><td>成大賽</td><td>2</td><td>NJ, 楊子平</td></tr><tr><td>ISSC_2018</td><td>3</td><td>Jeffrey, Michael</td></tr><tr><td>NPSC_2018</td><td>7</td><td>NJ, Max</td></tr><tr><td>HPC_2018</td><td>1</td><td>NJ, BB</td></tr><tr><td>YTP_2019</td><td>4</td><td>NJ, YJU</td></tr><tr><td>ISSC_2019</td><td>??</td><td>NJ, HNO2</td></tr><tr><td>NPSC_2019</td><td>2</td><td>NJ, Balbit</td></tr><tr><td>HPC_2020</td><td>1</td><td>NJ, Balbit</td></tr><tr><td>YTP_2020</td><td>1</td><td>NJ, Balbit</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;高中三年過得好快，記得第一場比賽就是辦在開學前的 ISSC 團體賽，一下子三年過去了，總共打了十場比賽。比起個人賽，其實比較喜歡團體賽這樣可以有隊友一起合作解決問題的感覺。一開始不太會打團體賽，打起來像是需要搶電腦的個人賽。不過隨著經驗慢慢增加，體驗到了團體賽的魅力。三年來
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>May20 Binary Expliot 筆記 + 榮耀資戰初賽心得</title>
+    <link href="https://blog.tommydong.live/2020/05/31/May20-Binary-Expliot-%E7%AD%86%E8%A8%98-%E6%A6%AE%E8%80%80%E8%B3%87%E6%88%B0%E5%88%9D%E8%B3%BD%E5%BF%83%E5%BE%97/"/>
+    <id>https://blog.tommydong.live/2020/05/31/May20-Binary-Expliot-筆記-榮耀資戰初賽心得/</id>
+    <published>2020-05-31T13:33:07.000Z</published>
+    <updated>2020-06-02T13:58:52.113Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="引文"><a href="#引文" class="headerlink" title="引文"></a>引文</h2><p>這個月 Sean 邀請我參加榮耀資戰這個名字聽起來很中二的 CTF 競賽，因此花了一些時間認識了 CTF 的知識。CTF 有蠻多主題的: Web, Crypto, Binary, Misc，其中我對 Binary 比較有興趣，所以就從打 binary 入坑，感謝 lys 大大的支援，在比賽前的一個多禮拜，有不少的收穫。</p><h2 id="Binary"><a href="#Binary" class="headerlink" title="Binary?"></a>Binary?</h2><p>我的理解就是打執行擋，想辦法藉由改變程式流程，或洩漏資料區進而取得 shell 或是密文。其中就是利用一些程式的漏洞，來達成這些手段。稍微紀錄一下我點了哪些技能樹:</p><h3 id="Call-Convention"><a href="#Call-Convention" class="headerlink" title="Call Convention"></a>Call Convention</h3><p>其實打算法競賽，就稍微有概念 function 在實做的時候是用 stack 這種資料結構維護資料。但實際上參數、回傳值、local 變數順序如何決定，push pop 的流程，對於打 CTF 來說是重要的，因為你要了解 compiler 會把資料放在什麼確切的位置，才能精準的攻擊或洩漏資訊。</p><h3 id="Buffer-Overflow"><a href="#Buffer-Overflow" class="headerlink" title="Buffer Overflow"></a>Buffer Overflow</h3><p>Stack 是其中一個 buffer，有時候輸入沒有限制長度，或故意限制了一個過長的長度的話，就可以 overflow 到一些不應該被輸入的位置。例如說可以藉由 get 函數，寫到其他 stack 上的 local 變數，甚至控制 function 回傳位置來執行你想要的指令。</p><h3 id="Format-String-Attack"><a href="#Format-String-Attack" class="headerlink" title="Format String Attack"></a>Format String Attack</h3><p>printf 第一個參數是 format string，決定後面的參數數量。理論上這種東西應該要是靜態的，但是 format string 是可以控制的，比如說使用者輸入的變數。那就可以利用 Call Convention 洩漏任意位置的資訊，甚至有 %x 這個我從來不知道的邪惡參數可以寫入(對沒錯，printf 可以拿來寫變數!!!)</p><p>實際上在寫入有不少細節我還沒搞清楚，不過 pwntools 有一些好用的 function 可以直接用。</p><h3 id="Return-Orient-Programming"><a href="#Return-Orient-Programming" class="headerlink" title="Return Orient Programming"></a>Return Orient Programming</h3><p>其實 ret 這個 asm code 意義上只是 pop eip，如不要把邏輯侷限在 function call 的話。其實可以利用 ret 這個指令，把 instruction 串成一個 link list。也就是說假設你的靜態程式碼夠豐富，你有辦法從現有程式碼，利用這個技巧，像堆積目一樣，串出想要的程式碼。</p><p>這邊在蒐集指令可以使用 pwntools，但有個更好用的 ROPGadget 可以列出所有 ROP 片段。</p><p>以上就是我這個禮拜所學，算是可以入門打一些題目了，灑花!!</p><h2 id="榮耀資戰"><a href="#榮耀資戰" class="headerlink" title="榮耀資戰"></a>榮耀資戰</h2><p>這次隊友是 Sean64 和 Cycatz，大概在競賽前一天，我得知比賽命題範圍沒有包含 binary&lt;<br>真的是哭阿。所以賽前一天，我急忙惡補了一點點 forensic 的技術，想說盡量多貢獻一點團隊。</p><p>這場比賽開賽我有把 reverse 寫光光，</p><p>第一題 ghidra 開出來滿頭問號，執行起來就是重複問密碼。既然逆不出來，我就稍微觀察了一下，發現亂打的時候密碼常常會有連續重複。這時候猜想他密碼是一個對秒為單位的時間的函數，所以我塞了 pwntools 瞬間猜了很多組密碼，發現重複的長度變長。所以很明顯就是以時間作為密碼。因為執行擋會好心告訴你上一次正確的密碼，所以就簡單寫了一個把上次答案回傳的 payload 就過了。</p><p>第二題 ghidra 出來就是 random 一個 1~3 的數字當密碼，我一整個看傻眼，所以我猜了7 次猜中，出來一個亂碼，好險昨天有稍微看 forensic ，我發現那其實是 base64 所以就解開了。</p><p>剩下的題目完全就是我完全沒碰過得領域，而且感覺是偏 realword，所以我就亂摸索了一下。配合 Sean 聽說明會的時候截圖的幾個工具，不小心被我戳出了一題十分的 misc 3。其實那題就是發現他跑 easy file sharing server，稍微查了一下是有洞的，就拿了 metasploit 把他打穿了，拿到 shell。經過通靈優先搜索，順利的拿到 flag。</p><p>這場比賽我們一共拿到 50 分排名 22，順利晉級決賽，賽制是 KOTH 聽起來蠻酷的，就期待一下吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;引文&quot;&gt;&lt;a href=&quot;#引文&quot; class=&quot;headerlink&quot; title=&quot;引文&quot;&gt;&lt;/a&gt;引文&lt;/h2&gt;&lt;p&gt;這個月 Sean 邀請我參加榮耀資戰這個名字聽起來很中二的 CTF 競賽，因此花了一些時間認識了 CTF 的知識。CTF 有蠻多主題的: W
+      
+    
+    </summary>
+    
+    
+      <category term="學習" scheme="https://blog.tommydong.live/tags/%E5%AD%B8%E7%BF%92/"/>
+    
+      <category term="資訊安全" scheme="https://blog.tommydong.live/tags/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google Code Jam 2020 Round 2</title>
+    <link href="https://blog.tommydong.live/2020/05/17/Google-Code-Jam-2020-Round-2/"/>
+    <id>https://blog.tommydong.live/2020/05/17/Google-Code-Jam-2020-Round-2/</id>
+    <published>2020-05-17T12:59:38.000Z</published>
+    <updated>2020-05-17T05:23:48.157Z</updated>
+    
+    <content type="html"><![CDATA[<p>Google Code Jam 是 Google 一年一度的線上賽，Round 2 前 1000 名可以贏得 T-shirt。</p><p>這場 GCJ 一如往常的都是思考題，也許是因為早上練球很累的關係，開賽打的有點慢。</p><ul><li>pA 觀察一下發現過程可以分成兩個階段，分別可以二分搜求解</li><li>pB 一開始想法繞得很複雜，上個廁所才發現其實可以照直覺做，測資有點小，也不用什麼演算法，暴力開炸</li><li>pC 枚舉所有可能的向量，分奇偶算解</li></ul><p>時間分別花了 36:53, 54:17, 51:16</p><p>第二題是思考的時候花太多時間，不過第三題印象中幾乎沒花時間思考，但是還是花了很多時間。我猜要不就處理 case 花太多時間，不然就是太累睡著了(x</p><p>因為比賽的時候精神不太好，所以原本很擔心 fail system tests，沒想到開版那刻看到 6 個勾勾。Rank 飛上 223，順利拿到今年 T-shirt。(大概是很幸運的意思)</p><p>這是我第一件 Google Code Jam 衣服，是目前的第三件，依照比賽時間:</p><ol><li>Facebook Hacker Cup 2019</li><li>Codeforces Kotlin Heroes: Episode 3 (Pending)</li><li>Google Code Jam 2020 (Pending)</li></ol><p><img src="/image/GCJ2020-R2-draft.jpg" alt></p><blockquote><p>雜亂的計算紙</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Google Code Jam 是 Google 一年一度的線上賽，Round 2 前 1000 名可以贏得 T-shirt。&lt;/p&gt;
+&lt;p&gt;這場 GCJ 一如往常的都是思考題，也許是因為早上練球很累的關係，開賽打的有點慢。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pA 觀察一下發現過程
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+      <category term="Google Code Jam" scheme="https://blog.tommydong.live/tags/Google-Code-Jam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apirl20 Vim 筆記</title>
+    <link href="https://blog.tommydong.live/2020/04/30/Apirl20-Vim-%E7%AD%86%E8%A8%98/"/>
+    <id>https://blog.tommydong.live/2020/04/30/Apirl20-Vim-筆記/</id>
+    <published>2020-04-30T22:18:38.000Z</published>
+    <updated>2020-04-30T14:38:04.197Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h2><p>其實我最早用 terminal editor 是 emacs (一個學長推坑的)，但是一直沒有摸熟 emacs 複雜的功能，再加上沒有特別喜歡把各種功能放在編輯器的感覺，所以一陣子就退坑了。在選訓營一階，看到有朋友用 vim，覺得有點好奇，就稍微入坑了一下，發現還蠻快上手，用起來很有手感。</p><h2 id="到底差再那？"><a href="#到底差再那？" class="headerlink" title="到底差再那？"></a>到底差再那？</h2><p>對我來說，vim 跟普通的編輯器差別就在於他把 “輸入” 跟 “編輯” 劃分得很清楚。普通的編輯器在循序輸入時沒什麼太大的問題，但是在做一些跳來跳去的移動或修改，往往會需要一點功夫，甚至要把手放到滑鼠上控制。而 vim 的作法大概是把這些編輯的動作，用一套有邏輯的語言描述，透過成千上萬的語法組合，就很容易有鍵盤去描述你想達到的操作，所以我認為在 “編輯” 上，vim 有一些優勢。</p><h2 id="入坑之路"><a href="#入坑之路" class="headerlink" title="入坑之路"></a>入坑之路</h2><p>一開始入坑，我大概刷了兩三次 vimtutor，認識一些語法。後來就在練習競程的時候使用 vim，過了一兩天發現我根本就幾乎停在 insert mode，變得比一般的編輯器更難使用。我大概在網路上查了一下，有人建議把 arrow keys 關掉。又試了一兩天，感覺稍微好了一些。又看到有人建議裝 HardMode 這個套件，ban 掉連續案兩次 ijkl。最後我開始習慣用一些比較精簡的方式控制 vim，速度大概有提昇不少，開始有覺得比平常編輯器好用一些。</p><h2 id="Vim-in-TOI"><a href="#Vim-in-TOI" class="headerlink" title="Vim in TOI"></a>Vim in TOI</h2><p>這個月我做了一個有點衝動的決定: 在 TOI 三四模使用 vim。雖然我知道比賽要盡可能保持穩定，千萬不要亂嘗試做死。不過因為二階有點戒不掉用 vim，所以最後決定就還是大膽給他用下去好了。結果沒想到效果還不差，賽中沒有因為 vim 而在 coding 上耍雷，頂多是開賽多了 1 分鐘把那我覺得很必要的 vimrc 打進去而已。</p><h2 id="黑特中文"><a href="#黑特中文" class="headerlink" title="黑特中文"></a>黑特中文</h2><p>雖然我覺得 vim 大多很美好，不過輸入中文真的還是得抱怨一下，用起來完全不友善，還沒查有什麼好的解法:P</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;動機&quot;&gt;&lt;a href=&quot;#動機&quot; class=&quot;headerlink&quot; title=&quot;動機&quot;&gt;&lt;/a&gt;動機&lt;/h2&gt;&lt;p&gt;其實我最早用 terminal editor 是 emacs (一個學長推坑的)，但是一直沒有摸熟 emacs 複雜的功能，再加上沒有特別喜
+      
+    
+    </summary>
+    
+    
+      <category term="程式" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F/"/>
+    
+      <category term="學習" scheme="https://blog.tommydong.live/tags/%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>隱藏的幾篇文章</title>
+    <link href="https://blog.tommydong.live/2020/04/18/%E9%9A%B1%E8%97%8F%E7%9A%84%E5%B9%BE%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://blog.tommydong.live/2020/04/18/隱藏的幾篇文章/</id>
+    <published>2020-04-18T16:28:24.000Z</published>
+    <updated>2020-04-18T08:32:55.520Z</updated>
+    
+    <content type="html"><![CDATA[<p>不太喜歡別人當面討論我的文章，尤其是比較負面的那些。所以前幾天我臨時把 blog 扯下來，現在把那些負面文章隱藏起來放上線了，如果真的想看的人再發 mail 到 tmd279936@gmail.com 我再考慮看看吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;不太喜歡別人當面討論我的文章，尤其是比較負面的那些。所以前幾天我臨時把 blog 扯下來，現在把那些負面文章隱藏起來放上線了，如果真的想看的人再發 mail 到 tmd279936@gmail.com 我再考慮看看吧。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="https://blog.tommydong.live/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>March20 Top Tree 筆記</title>
+    <link href="https://blog.tommydong.live/2020/03/30/March20-Top-Tree-%E7%AD%86%E8%A8%98/"/>
+    <id>https://blog.tommydong.live/2020/03/30/March20-Top-Tree-筆記/</id>
+    <published>2020-03-30T13:33:16.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<p>這個月的題目是被 ut 學長推坑的 Top Tree，他是一個處理樹問題的資料結構，之前大概看過概念，這次稍微學了一點點的實做。</p><h2 id="應用"><a href="#應用" class="headerlink" title="應用"></a>應用</h2><p>分治處理點對之間的問題，例如動態改邊權，詢問樹直徑。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>Top Tree 的概念是把一棵樹 T 轉成由 Cluster 組成的二元樹。Cluster 就是一些由邊組成的連通塊，滿足與非 Cluster 內的邊接觸到的點最多兩個。Cluster 最小單位是每一條邊，兩個交集為一個點的 Clusters 可以透過 Rake or Compress 合併。</p><p>可以透過不斷的兩兩合併，把一棵樹合併成一個 Cluster，每個 Cluster 紀錄關心的答案就可以了。</p><h3 id="Rake"><a href="#Rake" class="headerlink" title="Rake"></a>Rake</h3><p>把一個葉子的邊合併到另一個邊上</p><h3 id="Compress"><a href="#Compress" class="headerlink" title="Compress"></a>Compress</h3><p>把一個 degree = 2 的點旁邊的兩條邊合併</p><h3 id="複雜度"><a href="#複雜度" class="headerlink" title="複雜度"></a>複雜度</h3><p>因為一顆樹 degree &gt; 2 的節點不超過一半，所以每一層合併，大概可以消掉一半的節點(不過會有常數個節點重複到)，因此複雜度是 O(logN) 層。</p><h2 id="實做"><a href="#實做" class="headerlink" title="實做"></a>實做</h2><p>實做部份我是學 bb 學長的<a href="https://codeforces.com/contest/1192/submission/67652376" target="_blank" rel="noopener">方法</a>，寫法非常精湛，可以比 Centroid Decomposition 輕鬆。</p><p>大概就是不斷的 greedy 選擇 maximal 的合併，持續掃整張圖，直到剩下一個 root cluster。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;這個月的題目是被 ut 學長推坑的 Top Tree，他是一個處理樹問題的資料結構，之前大概看過概念，這次稍微學了一點點的實做。&lt;/p&gt;
+&lt;h2 id=&quot;應用&quot;&gt;&lt;a href=&quot;#應用&quot; class=&quot;headerlink&quot; title=&quot;應用&quot;&gt;&lt;/a&gt;應用&lt;/h2&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TOI 2020 一階紀錄</title>
+    <link href="https://blog.tommydong.live/2020/03/28/TOI-2020-%E4%B8%80%E9%9A%8E%E7%B4%80%E9%8C%84/"/>
+    <id>https://blog.tommydong.live/2020/03/28/TOI-2020-一階紀錄/</id>
+    <published>2020-03-28T22:27:07.000Z</published>
+    <updated>2020-08-22T15:47:24.327Z</updated>
+    
+    <content type="html"><![CDATA[<p>選訓營是高中程式競賽最神聖的一場比賽，除了選拔國手之外，也是有利升學的重要考試。</p><p>今年的 TOI 的故事大概要從全國賽開始說起，去年 12 月的全國賽拿了第八名，當時其實是有點沮喪。沒有花時間讀學測的我，看著大家的實力增進，決定寒假更努力練習。寒假參加了 IOICamp 後訂了一個有點辛苦的計畫，最後因為壓力太大，不但沒有達成，反而陷入了負面循環，不太能思考學習。因此我開始把心態調整當作重要的練習項目，練習發揮自己的能力。</p><p>一下子時間就來到了一階選訓營，今年選訓因為疫情，住宿升級成一間旅館，上課改成線上。其他的部份跟去年的其實沒差很多，唯獨氣氛有稍微比較緊張一些。前國手也來講了不少課，放學偶爾也有來我們房間聊聊天，超讚的。</p><p>一模前我訂的計畫是每題都先拿至少一個 subtask 再開賽，策略是有算執行成功，但結果是到最後沒有完整的解出任何一題。因為一模有點難， subtask 又算高分，所以我沒有 AC 任何一題就拿到了第四名。主要的時間還是花在 pC 的一題複雜 dp 上面，其中最多人解的題一開始被我 tag 成毒瘤演算法就被丟掉了。</p><p>因為一模沒解出任何一題實在是很有風險的打法(依賴 subtask 豐盛程度)，所以二模我的目標改成以 AC 一題為目標。二模開賽我的狀況非常慘烈，一開始讀完題目後，估計 subtask 大概沒有 50 分就開始有點緊張。經過好幾次的廁所時間，我突然閃過 pA 的想法。透過一點點的驗證，我開始嘗試寫 pA。 pA 跟一模 pC 一樣，是我不太擅長的 DP。Code 實做的沒有很理想，加上一些奇怪的邊界條件需要判斷，不斷的 Wrong Answer。重新檢視了作法之後，找到了幾個 bug，從 Wrong Answer 變成了 TLE。這時候 Judge 開始停滯，壓了 TLE 的 code 上傳，卻拿不到結果。在沒有 Judge 的情況下，變得更加緊張，沒有辦法好好的抓 Subtask。不過最後幾分鐘看到之前傳的 pA 拿到了 AC，終於進二階了!</p><p>今年的選訓營，我沒太刷太多的題目，主要是心態的調整。結果上來說，兩次的考試雖然狀況都蠻曲折的，但是最後都要辦法用不同的方法穩住。跟去年比起來，在高壓的條件上，成功的表現了實力，應該是今年最大的進步了吧。</p><p><img src="https://i.imgur.com/tCMvDBz.jpg" alt="Imgur"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;選訓營是高中程式競賽最神聖的一場比賽，除了選拔國手之外，也是有利升學的重要考試。&lt;/p&gt;
+&lt;p&gt;今年的 TOI 的故事大概要從全國賽開始說起，去年 12 月的全國賽拿了第八名，當時其實是有點沮喪。沒有花時間讀學測的我，看著大家的實力增進，決定寒假更努力練習。寒假參加了 IO
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+      <category term="TOI" scheme="https://blog.tommydong.live/tags/TOI/"/>
+    
+      <category term="選訓營" scheme="https://blog.tommydong.live/tags/%E9%81%B8%E8%A8%93%E7%87%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Feburary20 Matroid Intersection 筆記</title>
+    <link href="https://blog.tommydong.live/2020/02/22/Feburary20-Matroid-Intersection-%E7%AD%86%E8%A8%98/"/>
+    <id>https://blog.tommydong.live/2020/02/22/Feburary20-Matroid-Intersection-筆記/</id>
+    <published>2020-02-22T16:27:55.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<p>這個月學的東西算是延伸上個月的東西，學了 Matroid Intersection。雖然在競賽中遇到的機率大概是 0，不過這個主題我覺得很有趣，可以抽象化很多問題。</p><h2 id="學習材料"><a href="#學習材料" class="headerlink" title="學習材料"></a>學習材料</h2><p>這次查的資料是:<br><a href="https://codeforces.com/blog/entry/69287" target="_blank" rel="noopener">Matroid intersection in simple words</a></p><p>資料有點長，加上理解總共花了三個小時。</p><h2 id="唬爛聲明"><a href="#唬爛聲明" class="headerlink" title="唬爛聲明"></a>唬爛聲明</h2><p>這次的數學我也是沒有背景的，所以非常可能寫錯，歡迎更正。</p><h2 id="Matroid"><a href="#Matroid" class="headerlink" title="Matroid"></a>Matroid</h2><h3 id="定義"><a href="#定義" class="headerlink" title="定義"></a>定義</h3><p>中文好像叫擬陣，是一種比較抽象的獨立概念。從獨立性的角度來看， matroid 就是 (E,I)，E 是一個有限的集合，I 是 E 所有獨立的 subset。這邊的獨立性要滿足三個條件。</p><ol><li>空集合獨立</li><li>獨立集合的子集合獨立</li><li>兩個獨立集合 A, B，若 A 比 B 大，在 A\B 中必可找到一個元素滿足加入 B 依舊獨立</li></ol><h4 id="Bases"><a href="#Bases" class="headerlink" title="Bases"></a>Bases</h4><p>大小最大的獨立子集合”們” (其實就是 basis 的複數啦)</p><h4 id="Circuites"><a href="#Circuites" class="headerlink" title="Circuites"></a>Circuites</h4><p>除了本身以外，所有子集合都獨立的集合</p><h4 id="Ranking-function"><a href="#Ranking-function" class="headerlink" title="Ranking function"></a>Ranking function</h4><p>R(S) 表示 S bases 的大小</p><h4 id="Independence-oracle"><a href="#Independence-oracle" class="headerlink" title="Independence oracle"></a>Independence oracle</h4><p>一個可以判斷是否獨立的函數</p><h3 id="生活中的-Matroid"><a href="#生活中的-Matroid" class="headerlink" title="生活中的 Matroid"></a>生活中的 Matroid</h3><p>有了這樣的定義生活中會出現很多 matroid，matroid 的發源地 vector 本身就是一個例子。又比如說無相圖如果定義沒有環代表獨立的話，可以視為一個 Matroid，那麼他的 Bases 就是 spanning forests。</p><h3 id="Rado-Edmonds-algorithm"><a href="#Rado-Edmonds-algorithm" class="headerlink" title="Rado-Edmonds algorithm"></a>Rado-Edmonds algorithm</h3><p>Kruskal’s algorithm 的 general case，證明照著 weight 排序，不斷加入元素判斷獨立性可以夠出 minimum basis。</p><h2 id="Matroid-Intersection"><a href="#Matroid-Intersection" class="headerlink" title="Matroid Intersection"></a>Matroid Intersection</h2><p>給你兩個 matroid $m_1 = (X,I_1), m_2 = (X, I_2)，$求 $I_1 \cap I_2$ 中最大集合。</p><p>這其實是不好解的問題，不過有些特例我們可能很熟悉，比如說二分圖最大匹配。</p><h3 id="推導過程"><a href="#推導過程" class="headerlink" title="推導過程"></a>推導過程</h3><p>有點太複雜，我就簡單寫個流程就好，細節要看 blog。</p><ol><li>我們可以透過替換元素，把獨立集合變換成另一個獨立集合</li><li>任兩個同大小 bases 可以透過上面的方法變換 “strong basis exchange”</li><li>我們構造一張圖二分圖 $D_M(S)$ S 是一個獨立集合，左集合是 S, 右集合是 X\S。兩點存在邊 iff 可以替換這兩個元素並保持獨立性</li><li>basis exchange 其實就是二分圖匹配，每個 basis exchange 都有對應的匹配。但不是匹配都可以對應 exchange，因為有些匹配順序可能構出 circuit。</li><li>basis -&gt; circuit 的轉換一定有兩種以上順序，反言之只有唯一交換順序的都是 basis exchange。</li><li>matroid intersection 其實就是在兩張共用點集的 $D_M(S)$ 圖上面找一組匹配，做 basis exchange。</li></ol><h3 id="演算法"><a href="#演算法" class="headerlink" title="演算法"></a>演算法</h3><p>先跳出來講算法一下，考慮增廣方法從空集合開始找獨立集合。</p><ol><li>while (true)</li><li>X\S 可以加入 S 滿足 $M_1$ 的叫 $Y_1$，滿足 $M_2$ 的叫 $Y_2$。</li><li>如果 $Y_1, Y_2$ 有交集那就增廣 S, continue</li><li>建立 $D_M(S)$，對於每個 $M_1$ 的邊建左到右，$M_2$ 建反方向。</li><li>如果沒有 $Y_1$ 到 $Y_2$ 的路徑就 break</li><li>否則把路徑上在左邊的元素增廣成右邊的元素</li></ol><p>大成功!!</p><h3 id="繼續推導"><a href="#繼續推導" class="headerlink" title="繼續推導"></a>繼續推導</h3><p>來稍微解釋一下發生什麼事</p><ol><li>存在路徑就存在最短路，最短路是要確保唯一性，讓他成為 basis exchange</li><li>加入一個和全世界獨立的虛擬元素，可以讓剛剛的路徑變成環</li><li>環的奇數是 $M_1$ 的匹配 偶數是 $M_2$ 的</li><li>$M_1, M_2$ 透過唯一匹配可以達成 basis exchange</li><li>因為有一個點是虛擬的 所以實際上我們可以透過這樣增廣集合大小 1</li></ol><h3 id="最佳性"><a href="#最佳性" class="headerlink" title="最佳性"></a>最佳性</h3><p>證明增廣是最佳的有點複雜，還是看一下資料比較好。</p><h2 id="實做"><a href="#實做" class="headerlink" title="實做"></a>實做</h2><p>因為 matroid 是抽象的，所以實做跟你應用在哪有關。一些實例上的優化也看一下資料吧。</p><h2 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h2><p>幾個檢查的小問題</p><ul><li>為什麼要找最短路</li><li>TSP 跟 matroid intersection 有何關係</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;這個月學的東西算是延伸上個月的東西，學了 Matroid Intersection。雖然在競賽中遇到的機率大概是 0，不過這個主題我覺得很有趣，可以抽象化很多問題。&lt;/p&gt;
+&lt;h2 id=&quot;學習材料&quot;&gt;&lt;a href=&quot;#學習材料&quot; class=&quot;headerlink&quot; t
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>January20 線性基筆記</title>
+    <link href="https://blog.tommydong.live/2020/01/31/January20-%E7%B7%9A%E6%80%A7%E5%9F%BA%E7%AD%86%E8%A8%98/"/>
+    <id>https://blog.tommydong.live/2020/01/31/January20-線性基筆記/</id>
+    <published>2020-01-31T20:16:13.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<p>新年新希望是每個月學一個新東西，這個月初在 IOICamp，月底在過年加上小感冒。到了最後一天才想起來要學東西，就挑了一個之前看過只是不太熟的主題。之後應該會排一個表，記下想學的東西，不過其實我不太會找資料，所以如果有推薦的知識會技能有可以來跟我講喔!</p><ul><li><a href="https://codeforces.com/blog/entry/68953" target="_blank" rel="noopener">A Beautiful Technique for Some XOR Related Problems</a></li><li><a href="线性基学习笔记">https://blog.sengxian.com/algorithms/linear-basis</a></li></ul><p>中英對照確認對方沒有唬爛(x</p><h2 id="唬爛聲明"><a href="#唬爛聲明" class="headerlink" title="唬爛聲明"></a>唬爛聲明</h2><p>本人沒有真的學過線性代數，所以內容極度可能有誤，不過程式的部份問題可能不大，還是可以參考看看XD (歡迎幫我更正內容)</p><h2 id="應用"><a href="#應用" class="headerlink" title="應用"></a>應用</h2><p>有一個整數集合，求跟他們子集合 xor 值的集合相關的問題。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>我覺得蠻有趣的，首先 ${a}$ 的子集合可以滿足向量空間定義。</p><p>每個整數可以當作長度為 d 的二進位字串，也可以表示成 $\mathbb{Z_2^d}$。而 xor 就是這些向量的加法，子集合(選和不選) 意義就是向量乘上常數${0,1}$。</p><p>所以子集合的 xor 就是這些向量的線性組合，集合其實就是這些向量的 span。</p><p>因此根據線性代數的一點證明 (沒很複雜，只是看過一次)，這些向量的 basis 只會有最多 d 個。換句話說，可以找到小於 d 個向量，這些向量的 span 和 a 集合相同。</p><p>因此我們只要找出這 d 個向量，就可以把原本跟 $O(N)$ 相關的複雜度變成 $O(logC)$，比如說枚舉本來是 $O(2^N)$ 就可以變成 $O(C)$。</p><p>實際上作法不複雜，其實就是做高斯消去法，因為向量做行運算不影響獨立性。所以消完之後，對角線上是 on 的向量就是 basis。實做上簡體 blog 有消乾淨，CF 的 blog 只消到三角矩陣。實際上沒有太大的差別，只是早做晚做的問題。</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXD = <span class="number">31</span>;</span><br><span class="line"><span class="keyword">int</span> basis[MAXD], sz;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">addVector</span> <span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=MAXD; i&gt;=<span class="number">0</span>; i--) &#123;</span><br><span class="line">        <span class="keyword">if</span> ((x &gt;&gt; i) &amp; <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> (basis[i] == <span class="number">0</span>) &#123;</span><br><span class="line">                basis[i] = x;</span><br><span class="line">                sz++;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                x ^= basis[i];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>理論上高斯消去法複雜度是 $O(Nd^2)$ 實際上因為是位元向量，所以可以用整數位元運算或 <code>bitset</code> 壓 64 倍左右的常數。假設題目的範圍是 int，上面的 code 就變成 O(Nd)。</p><h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>子集 Xor 的集合 $S := span(a), Basis:= B$</p><ol><li>S 集合大小?<ul><li>Ans: $O(2^{|B|})$</li></ul></li><li>$max{S}$<ul><li>Ans: greedy 從 basis 構造 high bit to low bit</li></ul></li><li>S 裡值為 x 的有幾個<ul><li>先檢查答案是不是 0</li><li>否則就是 $O(2^{|S|-|B|})$</li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;新年新希望是每個月學一個新東西，這個月初在 IOICamp，月底在過年加上小感冒。到了最後一天才想起來要學東西，就挑了一個之前看過只是不太熟的主題。之後應該會排一個表，記下想學的東西，不過其實我不太會找資料，所以如果有推薦的知識會技能有可以來跟我講喔!&lt;/p&gt;
+&lt;ul&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+      <category term="學習" scheme="https://blog.tommydong.live/tags/%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello 2020</title>
+    <link href="https://blog.tommydong.live/2020/01/04/Hello-2020/"/>
+    <id>https://blog.tommydong.live/2020/01/04/Hello-2020/</id>
+    <published>2020-01-04T23:46:22.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="new-year-resolution"><a href="#new-year-resolution" class="headerlink" title="new year resolution"></a>new year resolution</h2><p>聽說新年新希望總是無法堅持，沒有試過所以來試試 :)</p><h2 id="立-flag"><a href="#立-flag" class="headerlink" title="立 flag"></a>立 flag</h2><ul><li>每天: 運動</li><li>每個禮拜: 參加一場演算法比賽</li><li>每個月: 學一個新東西</li><li>每季: 讀一本書</li><li>2020: CF 上一次紅色</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;new-year-resolution&quot;&gt;&lt;a href=&quot;#new-year-resolution&quot; class=&quot;headerlink&quot; title=&quot;new year resolution&quot;&gt;&lt;/a&gt;new year resolution&lt;/h2&gt;&lt;p&gt;聽說
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Goodbye 2019</title>
+    <link href="https://blog.tommydong.live/2020/01/01/Goodbye-2019/"/>
+    <id>https://blog.tommydong.live/2020/01/01/Goodbye-2019/</id>
+    <published>2020-01-01T22:37:32.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>改變</p><h1 id="改變的一年"><a href="#改變的一年" class="headerlink" title="改變的一年"></a>改變的一年</h1><p>年初印象中大多在練習程式競賽，參加了 <a href="http://blog.tommydong.life/2019/02/03/IOICamp-2019/" target="_blank" rel="noopener">IOICamp</a>。</p><h2 id="春"><a href="#春" class="headerlink" title="春"></a>春</h2><p>開學過後，迎接我的是選訓營和科學班成果發表。科學班在高二要到清大進行專題研究，在下學期辦一場成果發表會。我選擇做人工智慧的專題，不過因為一直沒有找到主題，所以拖到了開學後才動工。開學後，生活開始變得很繁忙。成發我意外的同時兼任公關和影片組，加上自己的專題進度有點落後，每天都有許多任務要完成。</p><p>而今年的<a href="http://blog.tommydong.life/2019/03/09/TOI-2019-PRE/" target="_blank" rel="noopener">入營考</a>，對我來說也很重要，入營考某種程度上等同清大資工的特殊選才。雖然搞的壓力很大，狀況沒有很好，還是勉強進了我的第一次選訓營。因為要參加<a href="http://blog.tommydong.life/2019/03/31/TOI2019-%E9%81%B8%E8%A8%93%E7%87%9F%E5%BF%83%E5%BE%97/" target="_blank" rel="noopener">選訓營</a>，所以成發的是也就暫時擱置。選訓營雖然一階就被刷下去，不過也是累積了一些經驗，發覺一些進步空間。</p><p>選訓結束後，馬上跳上成發的崗位。因為可以全心的投入，工作上也比較從容。有好好負責我的工作，專題也順利的完成。成發順利落幕，進入了六月，我又回到程式競賽的生活。</p><h2 id="夏"><a href="#夏" class="headerlink" title="夏"></a>夏</h2><p>剛回到競賽，Codeforces 就送我了負兩百多分，<a href="http://blog.tommydong.life/2019/06/12/%E6%8E%89%E5%88%86%E6%9C%89%E6%84%9F/" target="_blank" rel="noopener">掉分有感</a>有稍微寫到。不過當時也是因為爺爺病情逐漸加劇，所以才寫了那篇文章。掉分之後，印象中有稍微調整，加上運氣好，就上到了橘人。</p><p>進到了暑假。</p><p>今年暑假，我準備了科學班資格考、參加暑期輔導、參加棒球隊訓練、參加 <a href="http://blog.tommydong.life/2019/08/06/IONCamp-2019/" target="_blank" rel="noopener">IONCamp</a>、參加智慧鐵人。資格考雖然讀的沒有很熟，但最後還是壓線過了。<a href="http://blog.tommydong.life/2019/08/06/%E6%99%BA%E6%85%A7%E9%90%B5%E4%BA%BA-2019-%E6%B1%BA%E8%B3%BD/" target="_blank" rel="noopener">智慧鐵人</a>不小心過關斬將，參加了全國賽。參加智慧鐵人也讓我經歷了許多，值得我跑屏東兩次，不過明年大概不會再參加了(雖然獎金真的很吸引人)。</p><p>八月大概是滿滿的自主練習，加上一些出去玩。那時候訓練方法大概就是時間全部拿來砸題目，一天可以寫上許多題，持續了兩個月，也順便把一些我沒學過得演算法補上。可能因為刷了很多題，實做技巧變得還不錯。反而思考能力進步沒有很多。</p><h2 id="秋"><a href="#秋" class="headerlink" title="秋"></a>秋</h2><p>秋天大概是各種支線比賽。爺爺病危。心情很複雜，每次比賽都希望能拿好成績讓爺爺開心一點能夠好起來。也因為我打比賽已經第三年了，成績真的進步不少，不過爺爺雖卻沒有好起來，在運動會那天過世。</p><h2 id="冬"><a href="#冬" class="headerlink" title="冬"></a>冬</h2><h1 id="2020"><a href="#2020" class="headerlink" title="2020"></a>2020</h1><p>今年是緊湊的一年，在急促的步調中，緩慢的改變自己。改變自己的想法，修正自己的作法，調整自己準備迎接 2020, 18歲, OI的最後一年。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;改變&lt;/p&gt;
+&lt;h1 id=&quot;改變的一年&quot;&gt;&lt;a href=&quot;#改變的一年&quot; class=&quot;headerlink&quot; title=&quot;改變的一年&quot;&gt;&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://blog.tommydong.live/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>全國賽 sop</title>
+    <link href="https://blog.tommydong.live/2019/12/13/%E5%85%A8%E5%9C%8B%E8%B3%BD-sop/"/>
+    <id>https://blog.tommydong.live/2019/12/13/全國賽-sop/</id>
+    <published>2019-12-13T21:56:22.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><p>明天就是全國賽了，看到隊友 balbit 寫了 SOP，我也跟一波。<br>(跟他的應該不會差很多)</p><h2 id="測機"><a href="#測機" class="headerlink" title="測機"></a>測機</h2><ul><li>library: pb_ds,__int128,rope (順便熟悉一下用法)</li><li>pragma: O3, Ofast, unroll-loops</li><li>speedtest: 1e8 of rand(), client/server speed</li><li>subtask union</li><li>standard output</li></ul><h2 id="正賽"><a href="#正賽" class="headerlink" title="正賽"></a>正賽</h2><h3 id="目標"><a href="#目標" class="headerlink" title="目標"></a>目標</h3><p>整體盡量穩定，前 2.5hr 積極解題，後 2.5hr 保守拿分。</p><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><blockquote><p>12:00 吃午餐</p></blockquote><ol><li>輸出模板</li><li>讀<strong>所有</strong>題目，標示類型</li><li>解比較簡單的題目</li><li>解分數差距大的題目</li><li>按照 (分數/難度) 解決 subtask</li></ol><h3 id="狀況處理"><a href="#狀況處理" class="headerlink" title="狀況處理"></a>狀況處理</h3><ul><li>想題目時限: 30 min</li><li>看完題目覺得都很難<ul><li>常見狀況，挑前面的題目想稍微久一點</li></ul></li><li>80% 分數<ul><li>花 &lt; 10 min 想解法，沒辦法就先留著</li></ul></li><li>覺得解題不順利<ul><li>專注剩下來的時間，享受比賽</li></ul></li><li>Judge queue 很長<ul><li>少見，減少對 judge 依賴，增加本機測試</li></ul></li></ul><h3 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h3><p>開心打比賽，動態調整狀況，祝大家順利 :)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h2&gt;&lt;p&gt;明天就是全國賽了，看到隊友 balbit 寫了 SOP，我也跟一波。&lt;br&gt;(跟他的應該不會差很多)&lt;/p&gt;
+&lt;h2 id=&quot;測機&quot;&gt;&lt;a href
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>109 清大資工特殊選才</title>
+    <link href="https://blog.tommydong.live/2019/11/30/109-%E6%B8%85%E5%A4%A7%E8%B3%87%E5%B7%A5%E7%89%B9%E6%AE%8A%E9%81%B8%E6%89%8D/"/>
+    <id>https://blog.tommydong.live/2019/11/30/109-清大資工特殊選才/</id>
+    <published>2019-11-30T10:44:03.000Z</published>
+    <updated>2020-04-16T01:13:39.855Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="資料審查"><a href="#資料審查" class="headerlink" title="資料審查"></a>資料審查</h2><p>備審資料我總共做了大五頁，拿到了滿分，據我的了解進過選訊營 1! 都有滿分。</p><h2 id="面試紀錄"><a href="#面試紀錄" class="headerlink" title="面試紀錄"></a>面試紀錄</h2><p>面試跟以往一樣分兩個階段，第一個階段是口頭報告，第二個階段是演算法口試。</p><h3 id="口頭報告"><a href="#口頭報告" class="headerlink" title="口頭報告"></a>口頭報告</h3><p>我因為是新竹人，所以排在第一個面試。其實時間有點抓太緊，一到現場沒過多久就開始面試了。一開始有一點緊張，不過看評審好像都邊聽邊點頭，就變得比較輕鬆、開心的講。</p><p>問題:</p><h4 id="高三有參加黑豹旗嗎"><a href="#高三有參加黑豹旗嗎" class="headerlink" title="高三有參加黑豹旗嗎"></a>高三有參加黑豹旗嗎</h4><p>有，成績沒有高二那麼好XD</p><h4 id="你好像有社團也有競賽，大學如何分配"><a href="#你好像有社團也有競賽，大學如何分配" class="headerlink" title="你好像有社團也有競賽，大學如何分配"></a>你好像有社團也有競賽，大學如何分配</h4><p>競賽我認為高中有很多收穫了，大學競賽想要當興趣，時間可以有其他安排。</p><h4 id="競賽有除了成績以外有趣的故事嗎"><a href="#競賽有除了成績以外有趣的故事嗎" class="headerlink" title="競賽有除了成績以外有趣的故事嗎"></a>競賽有除了成績以外有趣的故事嗎</h4><p>… 大概是參加很多有趣的團體賽吧</p><h4 id="團體賽隊友都找誰"><a href="#團體賽隊友都找誰" class="headerlink" title="團體賽隊友都找誰"></a>團體賽隊友都找誰</h4><p>固定隊友是同屆的朋友，第三個人有時候找學長有時候找學弟。</p><h3 id="你說你當時的五子棋程式是使用IDDFS方法，現在有沒有加入人工智慧的方法"><a href="#你說你當時的五子棋程式是使用IDDFS方法，現在有沒有加入人工智慧的方法" class="headerlink" title="你說你當時的五子棋程式是使用IDDFS方法，現在有沒有加入人工智慧的方法"></a>你說你當時的五子棋程式是使用IDDFS方法，現在有沒有加入人工智慧的方法</h3><p>有，在一開始大盤面使用神經網路決定，再用 IDDFS 搜尋確定解。</p><h3 id="演算法轟炸時間"><a href="#演算法轟炸時間" class="headerlink" title="演算法轟炸時間"></a>演算法轟炸時間</h3><p>演算法有分兩個難度的題目，{A,C}，我抽到的應該是比較簡單的 A。題目是問小括號字串判斷合法。</p><h4 id="所以你會嗎"><a href="#所以你會嗎" class="headerlink" title="所以你會嗎"></a>所以你會嗎</h4><p>我稍微想了一下，預測了一下他之後的問題。最後決定回答用 stack 解決。</p><h4 id="如果括號有很多種"><a href="#如果括號有很多種" class="headerlink" title="如果括號有很多種"></a>如果括號有很多種</h4><p>啊哈，被我猜中了&gt;&lt;。我就跟教授說其實我的方法可以延伸，直接解決，如果只是小括號其實開一個變數就好。</p><h4 id="stack-如何實做"><a href="#stack-如何實做" class="headerlink" title="stack 如何實做"></a>stack 如何實做</h4><p>有兩種: C++ STL stack, Array with pointer</p><h4 id="Array-想隨著需求增加怎麼辦"><a href="#Array-想隨著需求增加怎麼辦" class="headerlink" title="Array 想隨著需求增加怎麼辦"></a>Array 想隨著需求增加怎麼辦</h4><p>用完的時候，allocate 兩倍複製過去。</p><h4 id="記憶體怎麼釋放"><a href="#記憶體怎麼釋放" class="headerlink" title="記憶體怎麼釋放"></a>記憶體怎麼釋放</h4><p>演算法跑完之後把他 delete</p><h4 id="如果過程中不想要多出那麼多沒用到的記憶體怎麼辦"><a href="#如果過程中不想要多出那麼多沒用到的記憶體怎麼辦" class="headerlink" title="如果過程中不想要多出那麼多沒用到的記憶體怎麼辦"></a>如果過程中不想要多出那麼多沒用到的記憶體怎麼辦</h4><p>那不要複製兩倍，把常數改小一點。</p><h4 id="有沒有其他方法"><a href="#有沒有其他方法" class="headerlink" title="有沒有其他方法"></a>有沒有其他方法</h4><p>OS: 慘! 我不知道他想要我講什麼</p><p>我: 讓我想看看…………..</p><p>經過了一陣子，教授也自己聊起來XD</p><p>我: 開一個常數倍的 buffer</p><p>教授覺得滿意(?) 結束這回合</p><h4 id="長度-n-括號匹配有幾種"><a href="#長度-n-括號匹配有幾種" class="headerlink" title="長度 n 括號匹配有幾種"></a>長度 n 括號匹配有幾種</h4><p>OS: 不敢回答卡特蘭數，因為我沒學過</p><p>我: dp!!</p><p>時間到!!!</p><h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>之後再說</p><p><strong>UPD1</strong>: 12/13 口頭報告多想起一題<br><strong>UPD2</strong>: 12/13 正取</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;資料審查&quot;&gt;&lt;a href=&quot;#資料審查&quot; class=&quot;headerlink&quot; title=&quot;資料審查&quot;&gt;&lt;/a&gt;資料審查&lt;/h2&gt;&lt;p&gt;備審資料我總共做了大五頁，拿到了滿分，據我的了解進過選訊營 1! 都有滿分。&lt;/p&gt;
+&lt;h2 id=&quot;面試紀錄&quot;&gt;&lt;a hr
+      
+    
+    </summary>
+    
+    
+      <category term="高中" scheme="https://blog.tommydong.live/tags/%E9%AB%98%E4%B8%AD/"/>
+    
+      <category term="大學" scheme="https://blog.tommydong.live/tags/%E5%A4%A7%E5%AD%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TIOJ 1921 吐鈔機2 CDQ 分治</title>
+    <link href="https://blog.tommydong.live/2019/11/28/TIOJ-1921-%E5%90%90%E9%88%94%E6%A9%9F2-CDQ%E5%88%86%E6%B2%BB/"/>
+    <id>https://blog.tommydong.live/2019/11/28/TIOJ-1921-吐鈔機2-CDQ分治/</id>
+    <published>2019-11-28T23:23:02.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="問題"><a href="#問題" class="headerlink" title="問題"></a>問題</h2><p>原題就在 TIOJ 偷懶只打 dp 轉移式</p><p>$dp[i]$ 代表第 i 台機器購買日之前最多持有金額<br>$$dp[i] = \max_{dp[j]\geq P[j]}(dp[j]-P[j]+R[j]+G[j]\cdot(D[i]-D[j]))$$</p><h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>可以看出這是一題 dp 斜率優化，G[j] 是斜率，查詢點單調。</p><p>對於斜率不單調的問題，我平常的作法是動態凸包，不過這題 Memory Limit 有點緊，所以我就突然想到了一個 CDQ 分治的作法。</p><p>概念就是凸包可以拆成子集合再取極值，細節有點不好說明，我就用 pseudocode 表示好了:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">void main () &#123;</span><br><span class="line">    sortMachinesByTime();</span><br><span class="line">    solve(0, n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void solve (l, r) &#123; </span><br><span class="line">    m = (l + r) / 2;</span><br><span class="line">    solve(l, m);</span><br><span class="line"></span><br><span class="line">    buildConvexHull(l, m);</span><br><span class="line">    updateDp(m, r);</span><br><span class="line"></span><br><span class="line">    solve(m, r);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>至於 <code>buildConvexHull</code> 因為是一次建一個區間，所以可以先把斜率排序，用單調隊列維護，<code>updateDp</code>本來就遞增所以也可以均攤O(1) 更新 dp。</p><h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>利用離線，可以把直線照斜率排序好在維護凸包，雖然有犧牲一些時間複雜度，不過實做上比起動態凸包簡單的多。時間複雜度是 $O(Nlog^2N)$ 一個 log 是 CDQ，另一個是做凸包的排序，不過我也不太會估，可能有高估也說不定。空間就是好好的$O(N)$。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;問題&quot;&gt;&lt;a href=&quot;#問題&quot; class=&quot;headerlink&quot; title=&quot;問題&quot;&gt;&lt;/a&gt;問題&lt;/h2&gt;&lt;p&gt;原題就在 TIOJ 偷懶只打 dp 轉移式&lt;/p&gt;
+&lt;p&gt;$dp[i]$ 代表第 i 台機器購買日之前最多持有金額&lt;br&gt;$$dp[i] =
+      
+    
+    </summary>
+    
+    
+      <category term="程式競賽" scheme="https://blog.tommydong.live/tags/%E7%A8%8B%E5%BC%8F%E7%AB%B6%E8%B3%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HP 2019</title>
+    <link href="https://blog.tommydong.live/2019/11/06/HP-2019/"/>
+    <id>https://blog.tommydong.live/2019/11/06/HP-2019/</id>
+    <published>2019-11-06T21:06:46.000Z</published>
+    <updated>2020-04-16T01:13:39.858Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><p>這次比賽策略是一開始我單開水題，由隊友餵題目。進度還算順利，除了 pE 複雜度估錯所以 TLE 停滯以外都有 AC，也沒有 debug 超時的題目。不過最後一小時效率有下降，首先是 string 由 balbit 寫 hasing 方法，遇到了型態轉換的 bug。後來他接著解 pD 的時候，好像是題目敘述不清楚和 Floyd 寫錯，花了比較多的時間。</p><p>但事實上，我們最後一小時解出來的題目幾乎沒有。pF 礙於語法和輸入，沒有辦法在最後十幾分鐘搞定，pO 聽說可作，但是因為分數不多就沒有開了。</p><h2 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h2><table><thead><tr><th>prob</th><th>type</th><th>writer</th><th>solver</th></tr></thead><tbody><tr><td>pA</td><td>graph</td><td>TMD</td><td>TMD</td></tr><tr><td>pB</td><td>dp</td><td>TMD</td><td>BAL</td></tr><tr><td>pC</td><td>math</td><td>TMD</td><td>C66</td></tr><tr><td>pD</td><td>graph</td><td>BAL</td><td>?</td></tr><tr><td>pE</td><td>string</td><td>BAL</td><td>C66</td></tr><tr><td>pF</td><td>math</td><td>X</td><td>X</td></tr><tr><td>pG</td><td>implemnt</td><td>TMD</td><td>C66</td></tr><tr><td>pH</td><td>implement</td><td>TMD</td><td>BAL</td></tr><tr><td>pI</td><td>implement</td><td>X</td><td>X</td></tr><tr><td>pJ</td><td>geometry</td><td>TMD</td><td>TMD</td></tr><tr><td>pK</td><td>flow</td><td>X</td><td>X</td></tr><tr><td>pL</td><td>graph</td><td>TMD</td><td>C66</td></tr><tr><td>pM</td><td>?</td><td>X</td><td>X</td></tr><tr><td>pN</td><td>?</td><td>X</td><td>X</td></tr><tr><td>pO</td><td>graph</td><td>X</td><td>X</td></tr></tbody></table><h2 id="Not-Accepted"><a href="#Not-Accepted" class="headerlink" title="Not Accepted"></a>Not Accepted</h2><ul><li>pF $a/(b+c)+b/(a+c)+c/(a+b)=6$ minimize $a+b+c$<ul><li>看起來很數學</li></ul></li><li>pI string matching<ul><li>處理跳脫有點頭痛，有精神解</li></ul></li><li>pK minumum path cover on dag<ul><li>看過題目，但之前就不會了</li></ul></li><li>pM waiting for solution<ul><li>範圍很小，但不夠暴力</li></ul></li><li>pN encoding<ul><li>我沒讀題目，分數很少</li></ul></li><li>pO graph searching<ul><li>我沒讀題目，分數很少</li></ul></li></ul><h2 id="學習"><a href="#學習" class="headerlink" title="學習"></a>學習</h2><p>這次比賽學到的知識:</p><h3 id="raw-string"><a href="#raw-string" class="headerlink" title="raw string"></a>raw string</h3><p>跳脫免煩惱-&gt;pI</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> str1 = <span class="string">R"(\"'"</span>^&amp;*()))<span class="string">";</span></span><br></pre></td></tr></table></figure><h3 id="DAG-最小不重複路徑覆蓋"><a href="#DAG-最小不重複路徑覆蓋" class="headerlink" title="DAG 最小不重複路徑覆蓋"></a>DAG 最小不重複路徑覆蓋</h3><p>算是經典題，知識以前看了題目沒有解出來。</p><p>可以理解成每個點原先都是一條獨立路徑，我們要盡可能合併路徑。每個節點只能與自己連到的一個點合併，每個節點都只能被一個連到自己的點合併。所以就是二分圖批配，每個點的拆成進出兩個點集合，做最大匹配。</p><h3 id="split-string-by-comma"><a href="#split-string-by-comma" class="headerlink" title="split string by comma"></a>split string by comma</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> str = <span class="string">"asdf,a,asdf"</span>, sub;</span><br><span class="line"><span class="function"><span class="built_in">stringstream</span> <span class="title">ss</span><span class="params">(str)</span></span>;</span><br><span class="line"><span class="keyword">while</span> (getline(ss, sub, <span class="string">','</span>)) &#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; sub &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="比賽建議"><a href="#比賽建議" class="headerlink" title="比賽建議"></a>比賽建議</h2><p>整體來說，今年的題目精準度比去年好很多。大部分的測資範圍都有標示，也沒有出現題目有誤的狀況。難度有提昇，也讓我在比賽後學習新的程式技巧。對於競賽系統，我提供一個建議:</p><p>評測結果可以更精確一些，評測系統應該要在答案錯誤的情況下給出更精確的結果。提供我們的答案是 答案錯誤、超過時限、超過記憶體或Runtime Error2的資訊。並且提供比賽每筆測資能使用的時間與空間，讓參賽者可以更正確的分析方法。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;紀錄&quot;&gt;&lt;a href=&quot;#紀錄&quot; class=&quot;headerlink&quot; title=&quot;紀錄&quot;&gt;&lt;/a&gt;紀錄&lt;/h2&gt;&lt;p&gt;這次比賽策略是一開始我單開水題，由隊友餵題目。進度還算順利，除了 pE 複雜度估錯所以 TLE 停滯以外都有 AC，也沒有 debug 超時
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

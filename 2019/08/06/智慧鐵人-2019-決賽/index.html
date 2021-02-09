@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>智慧鐵人-2019-決賽 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113767988-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113767988-1');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">智慧鐵人-2019-決賽</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">八月 6, 2019&nbsp;&nbsp;21:27:27</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="門票"><a href="#門票" class="headerlink" title="門票"></a>門票</h2><p>對，我們進決賽了。雖然闖關分數普通，但是主軸任務第二名 (是說第一名有5000$)，所以順利晉級決賽。<br>關於背景規則什麼的，請見 「智慧鐵人-2019-複賽」</p>
+<h2 id="diff-決賽規則-複賽規則"><a href="#diff-決賽規則-複賽規則" class="headerlink" title="diff 決賽規則 複賽規則"></a>diff 決賽規則 複賽規則</h2><p>決賽規則和複賽規則差異簡單來說就是只有主軸任務列入評分，但闖關依然存在，闖關的目的除了拿特殊獎項($$)之外，就是賺取能購買主軸任務材料用的虛擬貨幣。評分有分成國內賽和國際賽，國內賽是台灣隊伍互相競爭，前三名晉級國際賽和國際邀請隊伍競爭。</p>
+<h2 id="歷程"><a href="#歷程" class="headerlink" title="歷程"></a>歷程</h2><p>用歷程這個詞不知道恰不恰當，不過 72hr 真的經歷了好多過程。一開始拿到題目的時候，大致上的方向和我想的沒有差太多，不過剛從 IONCamp 回來的我，沒有花功夫預先處理構想，真的是用比賽中的時間去構想。題目是以「仿生科技，解決永續發展問題」，經過了大概三小時的構想，我們有了一個明確的方向: 林木保育系統。我們訂的方向是用多種仿生策略，解決一個林木保育問題，這種訂題方向我當時判斷是蠻適合的，也就準備開始動工了。</p>
+<p>動工沒多久，我們就開始了闖關循環播放。 72hr 初期，我們的闖關策略算是稍微積極，結束闖關就會預約下一個關卡。不過剛好卡到一關當機，所以間隔了一餐的時間都沒有闖到關卡。因為可以借貸又加上我們有初始金額，所以對我們影響不算太大，可能某種程度上也削弱了後續打關卡的興趣。整體來說，我們的背景開始動工了，好像問題不大。而我是負責機械系統整合，但一切災難才剛開始。</p>
+<blockquote>
+<p>接下來這篇文章視角會比較靠近我，其他的細節可能來不及好好敘述了0w0</p>
+</blockquote>
+<p>首先介紹一下比賽的小規則，決賽比賽這幾年會要求自動化，劉老師對於自動化的敘述是不用手直接控制。因此大會會提供 Arduino * 2，一片是 Client 可以接馬達(伺服、步進)、LED，另一片是 Server 可以用 Bluetooth 控制 Client。 不過考慮到很多參賽者沒有程式設計能力，大會提供的 Server and Client 都有預先設計好的罐頭程式。內容是用 Serial 界面控制 Server，可以輸入每個腳位的參數 (比如說馬達轉幾度、LED 亮那幾顆之類的)，Client 則是有設計好的電路圖可以接。不過我自己使用上是有些問題的，那個程式界面操作上複雜 (因為指令太一般化，需要輸入很多參數)，而且操作只有單數次會有效(這我不確定是不是大家都有發生)。因此我一開始的決定是「修改」程式，維持電路。</p>
+<p>修改程式這個方案原本是覺得有可行性的，畢竟我也不熟悉(甚至沒玩過幾次) Arduino，修改總是比較方便一些。結果我點開程式一看，原來是義大利麵阿(很醜的程式碼)，我複製了一份 code，想辦法讀懂了程式碼。開始改了幾行，就放棄了，原本程式亂的太離譜了無法忍受(我 coding 有點潔癖)。結果回頭一看， duck 我改到的是原本的程式碼阿。完了沒有回頭路了，我只好砍掉重練。我從 Arduino 的 sample code 中，學會了一些基本語法和技巧。寫了一兩行測試的程式碼，接了簡單的電路，為了保險起見，先測試看看。X! 還沒接上伺服馬達訊號線，馬達自己動了起來，喔原來是因為晚上了阿…才怪(X Ooooops 完全笑不出來，這下程式碼不見了，我們的機器也壞了，我可以回家了。我請了大會協助檢查，大會回覆是:「接觸不良，公平起見，不予補發」。</p>
+<p>謝囉:) 我很好。</p>
+<p>這下子好了，原本覺得 72hr 寫點程式 so 簡單，突然開始覺得壓力山大，無力更大。剛好其他關主在我們大本營喇賽XD，所以我也不好意思直接砸鍵盤(x，於是就排了關卡解解瘀(跟比賽一定要尿尿概念差不多吧)。其實不只解解淤，在我們闖關的路上我們遇到了 救世主A(其實也沒有B) 找我們宣傳關卡，順便跟我們喇賽，我隨口說了我們 Arduino 的狀況(原本只是抱怨一下)，沒想到關主是技職體系電神，也隨口回說「接地問題」吧。當時沒想太多，跟他說了謝謝之類的吧，也沒想太多，闖了一個關卡，當時有點無心闖關，懸著問題沒解決。</p>
+<p>回到大本營繼續測試電路，一下子就暢通了，第一個觀察是電源直接 Arduino 上而不是電源供應器是好的，第二個觀察是vcc 接在電供也是好的，又想到的關主說的「接地」，突然想通了，原來是電供的接地好像沒有真的很穩，於是把 Arduino 和電供接地接在一起就解決了。woooooo~~~~，豁然開朗，不過已經是三點還四點了，就把這份喜悅先放在自己這XD 我順勢研究了 BT 的程式語法，也順勢的寫了自己的控制界面和程式。兩塊大石頭突然變成兩塊蛋糕，我終於解決了 Arduino 本身的問題，也安心的睡著了。</p>
+<blockquote>
+<p>puzzle 小心得: 如果 puzzle I 是敘述不清楚、 puzzle II 就是顏色不清楚 &gt;&lt;<br>隔天一早起床吃早餐，順便解了 puzzle II，就開始繼續想主軸。進入了新的主軸階段: 設計機械結構，機構是為了解決問題、提供功能。我們主要有四個機構要解決的問題:</p>
+<ol>
+<li>小蜘蛛要在線上滑動</li>
+<li>大蜘蛛要在旋轉台上旋轉</li>
+<li>大蜘蛛要可以噴水</li>
+<li>控制水從存水罐流出</li>
+</ol>
+</blockquote>
+<p>於是我開始玩起馬達，沒過多久我就發現「玩」馬達這個動詞是問題本身，大會提供的都是玩具馬達，特色是高轉速低扭力，根本沒辦法做稍微有點負擔的工作。仔細看一下我們要解決的問題 1, 2, 4 感覺都需要不少力量。所以我把問題轉化到「輸出更大力量」。首先第一個想到的解，就是問問看可不可以拿魔法卡買大扭力馬達，得到了一個拒絕，大概是劉老老發動魔法卡無效化吧(其實他是回覆馬達非單一材料，只能購買線圈之類的)。於是我想到的第二個解是齒輪組。當然我有考慮過直接魔法卡買齒輪組，但仔細想想我好像沒真的看過那種東西，擔心買到的不合用所以也放棄了。順著第二個解，我想要構造第三個解:「手做齒輪組」。不過我們可購買材料中沒有齒輪，所以我就想到了滑輪加橡皮筋。</p>
+<p>有了想法之後開始實作，第一個重點是根據經驗齒輪組類的東西支架非常重要，所以我選擇用木工支架，雖然製作成本變高也變麻煩，但是卻提供穩定的支撐，也方便固定在最後作品上<del>外加私心覺得木工很美</del>，於是我就找了 N 一起幫我做木工。第二個重點是滑輪本身，要高速旋轉的東西對稱是重點，要平衡才會真的穩定，所以我花了不少時間調整，也請手比較穩定的 S 幫我固定用兩個瓶蓋組合成的滑輪。經過了半個下午，「超大扭力馬達 v1.0」終於完成。滑輪半徑比估計有1:10 ~ 1:20 左右，一個是直接用馬達軸，另一個是用奶茶大杯蓋，輸出的力量明顯強了好幾倍，經過測試足夠捲起蜘蛛的線，讓他在線上滑動。</p>
+<p>離主軸完成更進一步，但還是有一段路要走。這時候時間大概是最後 30hr，前兩個問題透過大扭力馬達解決，但一直想不出控制水的方式。這時候剛好輪到我們洗澡時間，感覺時間排的恰到好處，剛好遇到需要思考的問題，就有了一個適合的時間(也是比賽尿尿概念)。30min 的洗澡時間，我大概用了 10min，剩下的時間自己坐在門口長椅，不擅長搭話的我也沒有跟帶隊天使聊天，閉上眼睛開始思考… 然後… 就… 睡著了(x 不是啦!!! 我很認真的在想(? 而且是真的有想出個結論，而且我覺得蓋棒蓋簡潔的(自己說)。噴水的部份是用類似在寶特瓶戳洞靠壓力噴水，加上用連通管原理控制開關組合成的，雖然合起來像是垃圾，但其實我還蠻喜歡這個垃圾的&gt;&lt; 實作上用了一個寶貴的伺服馬達，簡潔的解了這個問題。(伺服馬達珍貴是因為買不到，而步進馬達可以蠻便宜的取得)</p>
+<p>最後一塊…吧 的拼圖是水罐流水，這我也是想很久。思考過程沒什麼特別，首先是看到商店有 BB 彈，感覺可以用他代表水。接著想怎麼把他倒出罐子，一開始想到是在罐子開洞。可是要設計開關，放出 BB 彈實作複雜，再加上沒有動力的話 BB 彈會卡在洞口。最後解法是用甩的，透過強力的旋轉，洞口的 BB 彈因為沒有支撐力所以會飛出，這時只要在停止的時候洞口對著擋板，啟動時讓他瘋狂亂轉就成功了。最後的成品穩定性和表演性大概都是我心目中的 top1， 光是自己看就覺得格外抒壓。</p>
+<blockquote>
+<p>這之中我製造了一個假議題，浪費了一些時間用焊接省去杜邦線，最後才發現不需要，過程先不講了QAQ</p>
+</blockquote>
+<p>原本其實到這邊結束，是倒數 15 小時，是時候把設計好的東西組裝到作品上。沒想到發生了悲劇，這個悲劇我是很有經驗的，就是凡是跟現實世界扯上關係的，「曾經是好的」都是假的。3, 4 裝到作品上是好的， 但 1, 2 重新測試後不能運作了。我當下做出取捨，我覺得 1 是我比較期待的 feature，因此決定剩下的時間投資 1， 2 請 I and S 幫忙看看可不可以解決。2 最後的結論是選轉的起始角度，有特定的範圍可以增加成功率，失敗主要是摩擦力太大，我也沒辦法解決。 1 根據我的觀察，捲線時有點隨機，如果捲的不夠整齊，線會纏到最後越纏越緊直到馬達力量不夠。我大概花了 6 個小時，沒有解決。花越多時間，付出越都努力的東西，越是放不下。給自己的 dealine 一直踩一直延，過程中解決了一些其他的事(上面說的假議題)，最後在6 點最後下單時間的前十分鐘，我們有了新作法，「用重力拉動繩子」，又是一個奇妙的解，簡潔的在半小時內解決了問題(雖然效果沒有本來好)。</p>
+<p>等等剛剛說 6 點(?， 對時間被小偷偷走了，剩下兩小時，還沒練習表演，還沒統一測試。要說遺憾，大概也是這兩小時吧。不是遺憾兩小時裡做的事，而是兩小時裡來不急做的事。我們的作品好像還沒有設計好精細的行銷策略，隨著推車推上了舞台。</p>
+<h2 id="表演-與-結果"><a href="#表演-與-結果" class="headerlink" title="表演 與 結果"></a>表演 與 結果</h2><p>表演是評分的主要依據，要在台上實際示範我們的作品。一大清早 8:00 我們結束了製作，搬運作品到了舞台準備區。東西有點多，我們分了兩趟搬運，不過第二趟好像不需要我，我就留在準備區睡覺。轉眼間，輪到我們的表演時間。一上了台看起來一切都準備好了，作品上的電線，硬體都是在初始狀態。直到要連線搖桿的時候，我突然發現，server 放在大本營。搞笑了，一個遙控汽車沒有遙控器的概念。那時候剩五分鐘，規則不允許我們殺回大本營拿。有點慌張，整個當機了兩三秒，好不容易做好了，卻什麼都沒有，真想逃回新竹。不過冷靜下來後，還是決定不要放棄，硬著頭皮上舞台。雖然沒有控制用的 server，但因為已經跟電路板和繼電器相處了 72hr，簡單的手動控制馬達好像是我支援的操作。於是我們的表演進行著，只是在後台遙控的我，變成要在舞台上躲在邊邊不停接線控制。經過了混亂之後，彷彿一切結束了。評審 Q&amp;A 丟給我們了一個水題，大概是想讓我們發揮爭取分數。我們也隨便畫了大餅，說下次他會自己動起來。誰知道還有沒有下次阿，表演結束之後我們沈重的走回待了 72hr 的大本營。行李都打包好了，包了被我遺忘的 server 當作紀念。當時我完全對前三名晉級國際賽不抱希望，心裡只有後悔。</p>
+<p>我們回到會場睡覺，補回三天不足的睡眠。突然，我們被隊輔搖醒:「晉級了！晉級了！晉級了！」。從睡夢中起來的我，黑人問號，誰晉級了？完全預料之外的好消息，又補充了我們的精神。把塞進書包的 server 拿了出來，我們馬上開始準備英文報告。國際賽有了 server， 大家也沒那麼慌亂，算不上一個完美的演出，但解開了我們的遺憾。</p>
+<p>最後我們得了國內的第三名，國內賽表演驚慌失措的我們竟然拿了第三名，真是不幸中的大幸。</p>
+<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>/<em> 有點打太多幹話了，今天來不及寫完 </em>/<br>/<em> 可以先看歷程喔 </em>/</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.live/2019/08/06/智慧鐵人-2019-決賽/">https://blog.tommydong.live/2019/08/06/智慧鐵人-2019-決賽/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/競賽/"># 競賽</a>
+                    
+                        <a href="/tags/智慧鐵人/"># 智慧鐵人</a>
+                    
+                        <a href="/tags/成長/"># 成長</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2019/09/03/智慧鐵人-2019-決賽-Ducky/">智慧鐵人-2019-決賽 Ducky</a>
+            
+            
+            <a class="next" rel="next" href="/2019/08/06/IONCamp-2019/">IONCamp 2019</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

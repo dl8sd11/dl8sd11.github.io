@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>Goodbye 2018 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113767988-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113767988-1');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Goodbye 2018</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">一月 17, 2019&nbsp;&nbsp;19:27:15</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>我覺得 2018 是價值連成的一年，回想起來，在這一年發生了很多事，在這邊紀錄一下 :)</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>今年一開始，我就參加了 IEYI 青少年發明展，展示的是我和兩位夥伴設計的 IOT 智慧家庭。發明展現場看到了很多有趣的發明，也和幾個人聊上幾句，最後又拿了銅牌，蠻有意義的活動。</p>
+<p>後來我順利通過校內初選，取得了參加全國海選的資格。當時自己是懷抱著相對大的信心參加，但是卻撲了空。抱著信心是有憑有據的，達睿書中曾寫到在 Codeforces 上 rating &gt; 1600 基本上就能過海選，而我那時有著 1800+ 的 rating。那次爆炸的比賽對我來說影響蠻大的，失望和對未來的擔憂停留了好久。最後我並沒有選擇放棄，我還是熱愛程式。</p>
+<p>接著我除了打比賽之外的主線任務就變成 INFAS 全國資訊年會，我是 2018 年的副召。INFAS 邁向第三年，在一路參與的過程中，我學習與成長了很多。對我來說，這是一個社群參與，也是幫助更多學生接觸資訊的空間。我也在之中開始懂的和大家合作，規劃一場好的研討會和一些比較真實的工作經驗。寒假時在學校辦了兩天一夜的 INFAS 寒訓，邀請了一些在社群中有經驗的分享者來演講，凝聚了工人們對 INFAS 的共識。而今年年會在交大舉辦，也成功的吸引了眾多的與會者，也首次在年會當日辦了 workshop，順利落幕。INFAS 有很多故事，有組長什麼都沒交待就不見的，也有一些吵架的，也有學校讓我很失望的故事。</p>
+<p>高二的上學期我每週六都去台大參加了資訊之芽，在裡面學到了許多演算法的技能，也認識了很多厲害的同學和講師 (其實就是台大學生)。也因為認證考考得不錯，所以我雖然作業成績沒有最高，也拿了訊連獎(就是成績第一名會拿到 Cyberlink 贊助的獎項)。在某次上課的客運上，NJ跟我說他的資訊老師(現在變我的資訊老師XD)擅長 AI ，可以教我們，預備之後的專題研究。這是一個天降的好事，老師人超好的0w0。我開始認識 AI，學了一些神經網路、和強化學習的知識，真的非常感謝老師的教導。</p>
+<p>暑假的時候是科學營，我們到苗栗開礦國小做志工，我的工作是隊輔。整個活動籌備也花上我們班許多時間努力，但我覺得很值得。(詳細心得見「2018 暑假科學營志工」)剩下來的暑假就是滿滿的程式競賽練習，也參加了兩個團體賽，兩場都跟了高三學長，在成大賽拿了第二名、ISSC第三名，是我第一次在實體比賽中得獎。</p>
+<p>開學之後就是黑豹旗，黑豹旗是中信辦的高中棒球賽，大概 200 所學校參賽，我們是其中一所。我是指定打擊，也是隊長，所以到了建中抽晉級賽的籤。我那時候人品爆發，抽中了有實況轉播的比賽，而且是比較有勝算的小組中的種子。結果…「媽！我上電視了」，我們在第一場對上永豐高中拿下了勝利，之後卻敗給高雄高工(64強)。打棒球很愉快，也謝謝教練從國中以來一直指導我們，比起其他學校兇猛的教練，我們的教練更適合我們學校、我們球隊的氣氛，跟我們一起開心的打球。</p>
+<p>記得十一月多有一場團體賽，我和 BB 學長和 NJ 同隊。我們展現了很好的默契，BB 也展現了他的電力，拿到了我第一次第一名加一台很普通電腦LoL。</p>
+<p>進入秋天，學科競賽賽季就開始了。首先是北二區區賽，今年北二區名額被 buff 了，可以派 8 位。不過賽前一直有著「北二區題目很水要全對才有機會」的恐懼，直到同學心靈雞湯後，才找回好的比賽狀態。又靠著讀計概的加持，在北二區拿了個第二。隔了大概一個月的準備，就到了全國賽了。全國賽是一個蠻大的比賽，跟北二區一樣考計概筆試 and 上機實做，不過分成了兩天在交大舉辦。上機比賽的前半輸的很慘，海選失敗的畫面不斷浮現，兩個小時就不見了。後來重新整理後，提醒自己活在當下，才回過神追趕，在最後好不容易擠進二十名(三等獎線上)。</p>
+<p>比完賽後我就讓自己放假了www</p>
+<p>2018 的最後連假，我和好朋友一起去台北跨年，這也是我第一次跟好朋友出去跨年。我們在路上遇到我們超愛的 youtuber 呱吉 (和他的老婆XD)，也聽了博恩的脫口秀，跑去了 101 看煙火，最後沒訂旅館在麥噹噹度過了一夜，一大早又跑去總統府升旗。超級瘋狂。</p>
+<h1 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h1><p>回想起來才發現今年做了好多事情，大概是我目前經歷過最精彩的一年吧。</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.live/2019/01/17/Goodbye-2018/">https://blog.tommydong.live/2019/01/17/Goodbye-2018/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/生活/"># 生活</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2019/02/03/IOICamp-2019/">IOICamp 2019</a>
+            
+            
+            <a class="next" rel="next" href="/2018/12/05/整體二分與CDQ/">整體二分與CDQ</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

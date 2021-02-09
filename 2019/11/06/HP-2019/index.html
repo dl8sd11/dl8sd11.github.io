@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>HP 2019 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113767988-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113767988-1');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">HP 2019</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">十一月 6, 2019&nbsp;&nbsp;21:06:46</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="紀錄"><a href="#紀錄" class="headerlink" title="紀錄"></a>紀錄</h2><p>這次比賽策略是一開始我單開水題，由隊友餵題目。進度還算順利，除了 pE 複雜度估錯所以 TLE 停滯以外都有 AC，也沒有 debug 超時的題目。不過最後一小時效率有下降，首先是 string 由 balbit 寫 hasing 方法，遇到了型態轉換的 bug。後來他接著解 pD 的時候，好像是題目敘述不清楚和 Floyd 寫錯，花了比較多的時間。</p>
+<p>但事實上，我們最後一小時解出來的題目幾乎沒有。pF 礙於語法和輸入，沒有辦法在最後十幾分鐘搞定，pO 聽說可作，但是因為分數不多就沒有開了。</p>
+<h2 id="題目"><a href="#題目" class="headerlink" title="題目"></a>題目</h2><table>
+<thead>
+<tr>
+<th>prob</th>
+<th>type</th>
+<th>writer</th>
+<th>solver</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pA</td>
+<td>graph</td>
+<td>TMD</td>
+<td>TMD</td>
+</tr>
+<tr>
+<td>pB</td>
+<td>dp</td>
+<td>TMD</td>
+<td>BAL</td>
+</tr>
+<tr>
+<td>pC</td>
+<td>math</td>
+<td>TMD</td>
+<td>C66</td>
+</tr>
+<tr>
+<td>pD</td>
+<td>graph</td>
+<td>BAL</td>
+<td>?</td>
+</tr>
+<tr>
+<td>pE</td>
+<td>string</td>
+<td>BAL</td>
+<td>C66</td>
+</tr>
+<tr>
+<td>pF</td>
+<td>math</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>pG</td>
+<td>implemnt</td>
+<td>TMD</td>
+<td>C66</td>
+</tr>
+<tr>
+<td>pH</td>
+<td>implement</td>
+<td>TMD</td>
+<td>BAL</td>
+</tr>
+<tr>
+<td>pI</td>
+<td>implement</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>pJ</td>
+<td>geometry</td>
+<td>TMD</td>
+<td>TMD</td>
+</tr>
+<tr>
+<td>pK</td>
+<td>flow</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>pL</td>
+<td>graph</td>
+<td>TMD</td>
+<td>C66</td>
+</tr>
+<tr>
+<td>pM</td>
+<td>?</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>pN</td>
+<td>?</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>pO</td>
+<td>graph</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Not-Accepted"><a href="#Not-Accepted" class="headerlink" title="Not Accepted"></a>Not Accepted</h2><ul>
+<li>pF $a/(b+c)+b/(a+c)+c/(a+b)=6$ minimize $a+b+c$<ul>
+<li>看起來很數學</li>
+</ul>
+</li>
+<li>pI string matching<ul>
+<li>處理跳脫有點頭痛，有精神解</li>
+</ul>
+</li>
+<li>pK minumum path cover on dag<ul>
+<li>看過題目，但之前就不會了</li>
+</ul>
+</li>
+<li>pM waiting for solution<ul>
+<li>範圍很小，但不夠暴力</li>
+</ul>
+</li>
+<li>pN encoding<ul>
+<li>我沒讀題目，分數很少</li>
+</ul>
+</li>
+<li>pO graph searching<ul>
+<li>我沒讀題目，分數很少</li>
+</ul>
+</li>
+</ul>
+<h2 id="學習"><a href="#學習" class="headerlink" title="學習"></a>學習</h2><p>這次比賽學到的知識:</p>
+<h3 id="raw-string"><a href="#raw-string" class="headerlink" title="raw string"></a>raw string</h3><p>跳脫免煩惱-&gt;pI</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> str1 = <span class="string">R"(\"'"</span>^&amp;*()))<span class="string">";</span></span><br></pre></td></tr></table></figure>
+<h3 id="DAG-最小不重複路徑覆蓋"><a href="#DAG-最小不重複路徑覆蓋" class="headerlink" title="DAG 最小不重複路徑覆蓋"></a>DAG 最小不重複路徑覆蓋</h3><p>算是經典題，知識以前看了題目沒有解出來。</p>
+<p>可以理解成每個點原先都是一條獨立路徑，我們要盡可能合併路徑。每個節點只能與自己連到的一個點合併，每個節點都只能被一個連到自己的點合併。所以就是二分圖批配，每個點的拆成進出兩個點集合，做最大匹配。</p>
+<h3 id="split-string-by-comma"><a href="#split-string-by-comma" class="headerlink" title="split string by comma"></a>split string by comma</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">string</span> str = <span class="string">"asdf,a,asdf"</span>, sub;</span><br><span class="line"><span class="function"><span class="built_in">stringstream</span> <span class="title">ss</span><span class="params">(str)</span></span>;</span><br><span class="line"><span class="keyword">while</span> (getline(ss, sub, <span class="string">','</span>)) &#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; sub &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="比賽建議"><a href="#比賽建議" class="headerlink" title="比賽建議"></a>比賽建議</h2><p>整體來說，今年的題目精準度比去年好很多。大部分的測資範圍都有標示，也沒有出現題目有誤的狀況。難度有提昇，也讓我在比賽後學習新的程式技巧。對於競賽系統，我提供一個建議:</p>
+<p>評測結果可以更精確一些，評測系統應該要在答案錯誤的情況下給出更精確的結果。提供我們的答案是 答案錯誤、超過時限、超過記憶體或Runtime Error2的資訊。並且提供比賽每筆測資能使用的時間與空間，讓參賽者可以更正確的分析方法。</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.live/2019/11/06/HP-2019/">https://blog.tommydong.live/2019/11/06/HP-2019/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2019/11/28/TIOJ-1921-吐鈔機2-CDQ分治/">TIOJ 1921 吐鈔機2 CDQ 分治</a>
+            
+            
+            <a class="next" rel="next" href="/2019/11/06/HCHSPC-2019/">108北二區資訊學科能力競賽</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

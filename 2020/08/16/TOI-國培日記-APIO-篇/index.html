@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>TOI 國培日記 APIO 篇 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113767988-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113767988-1');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">TOI 國培日記 APIO 篇</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">八月 16, 2020&nbsp;&nbsp;23:02:47</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>8/14~8/16 </p>
+<p>前一天晚上和其他的非北市選手一起吃晚餐，回飯店買了副牌，玩了第一次拱豬，後來也打了好幾場橋牌，感覺運氣頗好，一直狂贏。後來玩又接著玩海龜湯，其實玩到頗晚，不過沒什麼差反正 APIO 比下午的，也算是有睡飽。</p>
+<p>APIO 今年突然說要用選訓電腦，有點小難過，linux 沒有 sudo 權限又缺東缺西，所以只好用瘦瘦的 vimrc 打比賽。APIO 是我第一次打國際賽，其實有點小緊張。開場看完了三題，沒有明顯可作的題目，所以就開了 pA。部份分算甜，所以就先拿了除了第一筆和最後一筆的分數，對我莫名其妙第一筆拿不到，多花了大概半小時在拿第一筆分數。接著跑去想 pB，大概知道部份分的拿法，覺得滿分稍微有機會，所以決定先把 pC 拿完，再回來全心炸 B。pC 是一個有點噁心的互動題，小測資是明顯的 greedy，所以拿的很順利。有一筆完全二元樹的 case，一開始覺得可以用構造的，不過仔細想想有點複雜，所以就使用了一點暴力，花了些時間拿下。最後終於興奮的跑去做 pB，一開始拿了小測資驗想法，過了之後算了一下我完整解的複雜度，$N \sqrt(NlogN)$ 根據經驗會死得很難看，所以就努力想壓 log 的方法，可惜是失敗了，還花好多時間。最後半小時成功的放棄了，跑去找 pC 另一筆部份分，有點頭緒只是來不及解出來。</p>
+<p>最後結果我一題也沒解出來，不過由於我舔分能力堅強，又髒到了一個不錯的分數。AY 解出了 pA，題目寫 $\sum{f(k)} \leq x$ 之類的限制，原來只需要知道 $f(k) \leq \sqrt(x)$，被耍的團團轉。蛋餅解出了 pB，他說他是過我的解，確實 TLE，他的解法是 $Nlog^3N$，一個我沒聽過得神奇技巧，長知識。至於 pC，台灣好像就沒人過了，可能真的比較難吧 sad。總之，我對於我一題都沒解出來卻拿了台灣最高感到有點小愧疚，或是說對真的有解出題目的人來講可能有點小可惜吧，不過沒差 APIO 本來也就只是個沒什麼實際價值的比賽 :P</p>
+<p>比賽玩之後我們跑去 casperwang 家玩桌遊，玩了達文西密碼和一夜狼人殺，一夜狼人殺頗讚，我對於自己的唬爛能力感到驚訝。最後一天在師大上課，教 Linear Programming，主要在講他的 Daulity，比較偏向線性代數，對競賽幫助偏小，不過根據慣例我還是聽得很快樂。另外 AY 和蛋餅神仙打架的其中一題我蠻喜歡的，是一個費用流的好題目。下午跑到台南前吃了麵屋武臟，上一次吃招牌印象沒特別好，這次吃雞白湯又衝到了拉麵排名 rank 1，真心覺得雞白湯是拉麵真理。</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.live/2020/08/16/TOI-國培日記-APIO-篇/">https://blog.tommydong.live/2020/08/16/TOI-國培日記-APIO-篇/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/程式競賽/"># 程式競賽</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2020/08/22/TOI-國培日記-成大篇/">TOI 國培日記 成大篇</a>
+            
+            
+            <a class="next" rel="next" href="/2020/08/04/失敗/">失敗</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

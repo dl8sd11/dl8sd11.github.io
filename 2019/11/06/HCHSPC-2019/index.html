@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>108北二區資訊學科能力競賽 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113767988-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113767988-1');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">108北二區資訊學科能力競賽</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">十一月 6, 2019&nbsp;&nbsp;21:03:59</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h2 id="題目和解"><a href="#題目和解" class="headerlink" title="題目和解"></a>題目和解</h2><p>大家期待的東西擺前面好了，解的部份不一定是對的大家看看就好，也可以跟我討論XD</p>
+<h3 id="上午"><a href="#上午" class="headerlink" title="上午"></a>上午</h3><ul>
+<li>pA 給你一個陣列 A[i] 構造 B[i] $\forall i$滿足 B[i] &gt; A[i]，並且B[i] 每個不連續位置不能 &lt; C 求最小B 總和<ul>
+<li>$n &lt; 10^4 (10^6), c&lt;=n$ 值域忘了</li>
+<li>$O(N^2)$ 就是一維 dp 把他想成是  B[i] 切成很多段，每段長度 &gt;= C 且值是 $max(A[l..r])$</li>
+<li>O(NlgN) 感覺可以D&amp;C優化不確定</li>
+</ul>
+</li>
+<li>pB N 位數 1A2B 猜數字，給定已知條件，剩餘可能總數<ul>
+<li>條件 $\leq 10^6$ 個位數 $&lt;11$ </li>
+<li>作法是考慮到可能解，隨著條件會遞減很快。所以就把條件 unique，再暴力實做 (有正解或會估複雜度可以教我)</li>
+</ul>
+</li>
+<li>pC N 個點問有幾個點對曼哈頓距離 &lt; D<ul>
+<li>$N \leq 10^5$ 值域 5e6(我提問問到的)</li>
+<li>保證測資隨機，每個點答案不 &gt; 10 </li>
+<li>我作法是對直域每 D*D 切一塊，每個人詢問鄰近九塊，沒有證明但我覺的隨機狀況複雜度應該不差。</li>
+</ul>
+</li>
+<li>pD 給 M 個點，選取 N 個使的w*h 格子點中，距離任意一個被選取的位置曼哈頓距離 &lt; R 的數量最大。<ul>
+<li>$h, w \leq 10^4, N\leq10, M\leq 20$</li>
+<li>首先只考慮恰選10 點</li>
+<li>枚舉所有選法，做曼哈頓版本矩形覆蓋面積</li>
+<li>複雜度 $O(C(20,10)*10logC)$</li>
+</ul>
+</li>
+<li>pE 給一張圖，每個邊定義W 最短距離必須經過此邊的點對數量，求最大的W。<ul>
+<li>$N \leq 10^3, M \leq 2*10^5$</li>
+<li>橋的答案才會 &gt; 0，枚舉所有橋</li>
+<li>對於橋的兩邊 dfs 求大小，相乘即為 W</li>
+</ul>
+</li>
+<li>pB-&gt;pC-&gt;pE-&gt;pA-&gt;pD</li>
+</ul>
+<h2 id="下午"><a href="#下午" class="headerlink" title="下午"></a>下午</h2><ul>
+<li>pA 求經過最多點的直線<ul>
+<li>$N \leq 10^3$</li>
+<li>題目其他細節有點煩</li>
+<li>對於每個點，枚舉所有經過他的直線，按照斜率排序找相同斜率的數量。</li>
+</ul>
+</li>
+<li>pB 有 N 個物品價值為 V[i], 拿走價值 W，就不能拿 W-1, W+1，求能拿走得最大價值和<ul>
+<li>$V[i] \leq 500$, $N \leq 10000$</li>
+<li>dp bj4</li>
+</ul>
+</li>
+<li>pC 一個N多項式f給你 N+1 個點值組，求f(t) mod prime<ul>
+<li>$N \leq 1000$ 值 32bits</li>
+<li>牛頓插值可以$N^3$，Lagrange Interpolation 可以 $N^2$</li>
+</ul>
+</li>
+<li>pB-&gt;pA-&gt;pC</li>
+</ul>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今年是最後一年的學科能力競賽，北二區可以派出 9 個，相對起來其實要晉級的壓力不是說很大。賽前我們實驗共同請了兩次假，沒有特別為北二區做準備。比賽前一天，睡前索性看一下比賽規則，原來可以帶參考資料。於是我趕快提醒群組和隔壁校朋友，也被迫準備了一下工具和資料晚了一些睡覺。今年比賽比較特別，取消了原有的筆試，變成上午下午各一場 (3+2)hr 上機考試。</p>
+<h2 id="比賽狀況"><a href="#比賽狀況" class="headerlink" title="比賽狀況"></a>比賽狀況</h2><p>一進考場，教授說可以使用 USB 裡的程式碼，因為剛好有準備所以就用上了。 USB 內容如下:</p>
+<ul>
+<li>VSCode (雖然沒打算用)</li>
+<li>Cpp-reference offline</li>
+<li>Codes<ul>
+<li>BiTCoin template</li>
+<li><a href="https://github.com/spaghetti-source/algorithm" target="_blank" rel="noopener">spaghetti-source/algorithm</a></li>
+<li><a href="https://github.com/dl8sd11/online-judge" target="_blank" rel="noopener">code_archive</a><br>只本是帶了 IONC 講義和 LYB template(之前跟BB同隊時印的)</li>
+</ul>
+</li>
+</ul>
+<p>早上的比賽，開題目的時候感覺一股涼意。pA 難度頗高，為了確認是不是每題都這樣，我決定先看完題目再開始想。結果意外的題目比去年平均難上不少，去年分配是四題水題、一題沒人會解，今年大概是 2 題中等，3 題需要思考。這次比賽有部份給分，但是沒有公佈子測資範圍，所以我開賽先對我覺的比較有挑戰的兩題 assert 測資。意外的是，其中一題 N 給 $10^6$ 結果 $10^4$ 包含 100%，另一題 $10^8$ 的 $10^3$ 也是 100% (後者最後半小時有公佈&lt;20)。結果我覺的有挑戰的其中一題，就順利的變成可解的題目。長度三個小時的比賽進行的還算順利，最後拿到 4+ 0.5。</p>
+<p>下午的比賽，一開始很睏。題目一共三題，兩題覺得可以拿下，一題需要努力。原本分配是 10 pB, 20 pA, 70 pC，但狀況不太好，我原本排 20min 的 pA 花了我一個半小時。新竹中學今天在舉辦活動，播放吵鬧不優美的音樂，也多少有影響。最後剩下 15 分鐘，馬上想出最後一題的部份解。最後 6 分鐘，終於要上傳了，冷卻時間 180s。計畫是測試一次，修改一下，在最後的三分鐘上傳最後一次。沒想到送上去 CE，原本要送 pC.cpp 送成 pC.c (之前留的毒)。吃了 CE 只好摸摸鼻子，努力檢查，傳上去 15/20，加上兩題滿分收工。<br>(原本以為pA寫那麼久要8888，結果好像只有我過XD)</p>
+<p>Rank1</p>
+<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>先不要(x</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.live/2019/11/06/HCHSPC-2019/">https://blog.tommydong.live/2019/11/06/HCHSPC-2019/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/程式競賽/"># 程式競賽</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2019/11/06/HP-2019/">HP 2019</a>
+            
+            
+            <a class="next" rel="next" href="/2019/09/03/智慧鐵人-2019-決賽-Ducky/">智慧鐵人-2019-決賽 Ducky</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>

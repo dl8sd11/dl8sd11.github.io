@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="ToMmyDong">
+
+
+    <meta name="subtitle" content="TMD=ToMmyDong">
+
+
+
+
+<title>台大資工 大一上 | TMD Life</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113767988-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113767988-1');
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+<body>
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">ToMmyDong Life</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">ToMmyDong Life</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/categories">Categories</a>
+                
+                    <a class="menu-item" href="/tags">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">台大資工 大一上</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">ToMmyDong</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">二月 9, 2021&nbsp;&nbsp;20:03:43</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>期待很久的大學生活，過了一個學期。一開始很期待，中間過得有點混亂，總之最後是習慣了。一個學期一下子就過了，或許是一上活動本來就比較多，感覺過得好充實。</p>
+<h2 id="ACM-ICPC"><a href="#ACM-ICPC" class="headerlink" title="ACM ICPC"></a>ACM ICPC</h2><p>這學期的前半段，我和 Utaha 和 AY 組成一隊，參加了大學的程式競賽。兩個隊友都強得誇張，不管是練習或是比賽，常常感覺自己幫不上太多忙，甚至會擔心自己雷到。不過我們這隊本來就是休閒導向，所以雖然常常躺分，也躺著很安穩。偶爾解出有趣的題目，是很快樂的活動。</p>
+<h2 id="壘球隊"><a href="#壘球隊" class="headerlink" title="壘球隊"></a>壘球隊</h2><p>學期初，我參加了壘球和棒球的新生盃。我們的球隊主要是打壘球，所以棒球新生盃一下就被淘汰了，值得一提的是對上建中 ob 的時候，打了一隻出場外的二安。壘球是完全不同的故事，我們這屆的新生好像特別多人喜歡棒壘，沒練過幾次球，打起來有模有樣。單淘汰的新生盃，我們誤打誤撞打到了冠軍戰，贏了一座冠軍。系壘的學長人也都很好，加入了壘球隊之後，平均一個月至少可以打個兩場比賽。我自己的表現起起伏伏，好的時候打擊率可以 9/9，爛的時候連續好幾個打席都打鳥球。守備上主要還是一壘，因為是左撇子，所以內野很多不能守，有點可惜。</p>
+<h2 id="新生盃-ICPC"><a href="#新生盃-ICPC" class="headerlink" title="新生盃 ICPC"></a>新生盃 ICPC</h2><p>我們系上連程式競賽也有舉辦 ICPC，不過有一個有趣的規則是有競賽經驗的人不能碰鍵盤（可以碰滑鼠）。所以如果不想用螢幕小鍵盤打整場的話，就要找其他同學組隊。因為不想打螢幕鍵盤五個小時，再加上覺得看別人打 code 比較有趣，我找了壘球隊上的兩個好朋友一起組隊（隊名：明年從 0 開始的計程生活）。比賽過程滿搞笑的，如果解太多題電腦還會被封印。我的兩個隊友輪流 coding，我一邊幫忙看 code 一邊跟另一邊的隊友討論接下來的題目。最後蠻順利的，拿到了第二名，第一名是我真正 ICPC 的隊友那隊，第三名是我們這屆其他三個選訓營的朋友。（不過大家其實解題數一樣，所以我們兩隊也是靠鍵盤優勢）</p>
+<h2 id="排球隊"><a href="#排球隊" class="headerlink" title="排球隊"></a>排球隊</h2><p>這學期下半，想要多運動一些，所以跑去加了排球隊。排球隊算是偏硬，一個禮拜練習兩次。不過下半學期因為一直下雨，所以實際上沒練到那麼多。排球學長也都很好，會教我們修正一些基本動作。有點可惜的是下半學期才加入，盃賽都沒有參加到，不過其實實力也還不太夠，所以能多一些練球機會，就很滿足了。</p>
+<h2 id="課業"><a href="#課業" class="headerlink" title="課業"></a>課業</h2><p>一上選課的時候因為正在打 IOI，所以有點草率，選了正常的大一套餐。也因此吃的有點乏味，一個禮拜五天上課，實際上會出門只有兩天。實際上這學期沒有特別喜歡的課，簡單紀錄一下。</p>
+<ul>
+<li>體育課：我期待體育課多運動一些，可惜教授愛聊天</li>
+<li>微積分：教授教的蠻清楚的，不過最後還是選擇自己讀比較有效率</li>
+<li>普物：老實說上課有點無趣，也是自己看看課本</li>
+<li>國文：涼苦（扎實甜相反），上課蠻有趣的，聽說成績給的很硬</li>
+<li>英文：還算扎實，可是感覺要學好語言，多半還是要自己累積</li>
+<li>計程：討論度最高的課，停修大概一半，老實說比起電機系，有點草率不夠深入</li>
+<li>計概：用 nand2tetris 當教材，蠻有趣的，final project 自己蠻喜歡</li>
+</ul>
+<p>成績蠻普通的，如果是想衝 GPA，可能不能這麼混。不過我不太喜歡在沒興趣的科目上努力，所以歸咎原因，大概是選課的問題吧，下學期選了比較硬的課，希望可以讓自己多學一些東西。</p>
+<h2 id="日文-and-西洋棋"><a href="#日文-and-西洋棋" class="headerlink" title="日文 and 西洋棋"></a>日文 and 西洋棋</h2><p>上了大學，覺得自己除了寫程式應該要找些其他興趣。一開始學日文是參加 IOI 的時候，被推坑多鄰國，後來發現很有趣，就買了文法書和開始背單字。一個學期背了 2000 個單字，看了三本文法書，雖然進度緩慢，但漸漸的能聽懂一些動漫的對話了，成就感滿點。西洋棋是期中的時候和朋友 BC 閒著沒事，找來的遊戲。每天下下棋，解解題目，以前很容易犯明顯失誤，漸漸的也比較穩重了。壓力的的時候，下一些瘋狂的棋還蠻有用的。</p>
+<h2 id="夜衝"><a href="#夜衝" class="headerlink" title="夜衝"></a>夜衝</h2><p>1/8 寒流那天凌晨 12:30，看到 ptt 在討論山上下雪，我正和朋友吃著宵夜。突然想到自己沒看過雪，我們決定夜衝宇老。大半夜跑去士林和表姐借車，直接從尖石衝上了宇老觀景臺。雖然已經有不少開車經驗，但開著表姐的車摸黑上山真的是第一次，緊張、全神貫注。一開始只是滿滿冰霰，我們決定在山上待雪，直到清晨醒來，在我們即將回頭的時候，雪飄落了，突然間覺得溫暖又感動。在期末考前一天能和朋友一起衝上宇老看雪，超級幸福的。</p>
+<h2 id="IOICamp"><a href="#IOICamp" class="headerlink" title="IOICamp"></a>IOICamp</h2><p>學期中，電仁請我接替他 DP 講師的工作。我覺得最近幾年，好像很少人教四邊形優化，而且網路上資源也偏少，決定把主軸放在四邊形優化。沒想到，這樣的決定出了兩個大問題，第一個是我自己本來也不熟四邊形優化，第二個是網路上教學不多，題目更是難找。覺得自己弄懂了四邊形之後，發現比較大的問題是教課。最初接到講師工作的時候，我很迷惘自己到底能不能讓各個程度的學生都有收穫。直到最後一個禮拜，我終於醒了，我把目標放在讓我教內容能真正被理解，於是我開始重新思考我在學習這些主題上，到底掌握了哪些重要的概念，和要怎麼強調和講解這些概念。檢討起來，我其實很多地方可以做的更好，比如在課程主題上，我一開始講的 DP 對大概 3/4 的人來說太簡單，四邊形優化雖然有趣，但既然連網路上例題都難找了，應該算不上實用。不過還是有值得開心的事，首先是我弄懂了以前覺得很模糊的四邊形優化，再來是聽到一些學員說覺得收穫很多很有趣，大概是最值得的回報了。</p>
+<p>大一上其實還有許多有趣的事，沒辦法記下來，如果要許個下學期的願望，那就是要過得跟這學期一樣充實 XD</p>
+<p>（發現自己文字越來越不順暢，不知道是學新語言的關係，還是太久沒寫文章了）</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>ToMmyDong</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://blog.tommydong.live/2021/02/09/台大資工-大一上/">https://blog.tommydong.live/2021/02/09/台大資工-大一上/</a></span>
+                    </p>
+                
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/NTU/"># NTU</a>
+                    
+                        <a href="/tags/CSIE/"># CSIE</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/2020/09/21/IOI-2020/">IOI 2020</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© ToMmyDong | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
+</html>
